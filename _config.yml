@@ -1,0 +1,31 @@
+# Site settings
+title: "Carlos Moreno"
+email: carlosandresmorenovelez@gmail.com
+description: "A dark blog theme for Jekyll."
+baseurl: ""
+url: ""
+title_description: "Un espacio dedicado para hablar acerca del maravilloso mundo de la programación. ¿Offtopics?, claro que sí. "
+title_image: "images/avatar.jpg"
+google_analytics: "UA-20365477-4"
+disqus_account: httpwwwcarmorenogithubio
+github_repository: https://github.com/jacobtomlinson/carte-noire
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: IngenieroReal
+github_username:  CarMoreno
+# linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
+google_plus_link: https://plus.google.com/u/0/+CarlosMorenoV/about
+stackoverflow_link: http://stackoverflow.com/users/4508767/carlos-moreno?tab=profile
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+exclude: [vendor]
