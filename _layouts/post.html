@@ -27,7 +27,7 @@ layout: default
 
       <div class="author">
         <small><i>
-          by
+          por
           <span itemprop="author">
             {% if site.google_plus_link %}
               <a rel="author" href="{{ site.google_plus_link }}">
@@ -48,7 +48,7 @@ layout: default
 
       <div class="read-time">
         <small>
-          {{ minutes }} minuto de lectura
+          {{ minutes }} minuto(s) de lectura
         </small>
       </div>
 
@@ -96,7 +96,7 @@ layout: default
              {% else %}
               {{ post.excerpt | strip_html | truncatewords:30 }}
              {% endif %}
-            <a href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">Continuar Leyendo</a>
           </div>
         {% endfor %}
         <hr />
