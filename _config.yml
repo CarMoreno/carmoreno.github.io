@@ -20,9 +20,10 @@ google_plus_link: https://plus.google.com/u/0/+CarlosMorenoV/about
 stackoverflow_link: http://stackoverflow.com/users/4508767/carlos-moreno?tab=profile
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
-
+# footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+#footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left: "Blog personal de  <i class=\"fa fa-coffee\"></i> Carlos Andrés Moreno</a>"
+footer_right: "'La belleza sin inteligencia es solamente geometría' <i class=\"fa fa-heart\"></i>"
 # Build settings
 markdown: redcarpet
 redcarpet:

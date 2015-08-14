@@ -19,7 +19,7 @@ a esta comunidad, pero cualquier granito de arena es importante. Por eso he deci
 
 ¿De que hablaré?, soy fan número 1 de la programación web, y me encanta Python, es un lenguaje muy cool, aunque me gusta tambien Java y hace poco PHP. Este blog tratará de abordar temas referentes a la programación en general, patrones de diseño, buenas practicas de programación, algunos tips para ser mas productivo en Python (y en otros lenguajes) y uno que otro offtopic, porque ¿somos programadores pero también somos personas no?. Los post no tendrán una secuencia predefinida, iré subiendo conforme lo pueda hacer, quizá seguido, otras veces no tanto, aunque ahora que empecé a escribir estoy algo emocionado.
 
-En el siguiete post hablaré acerca de como cree este sitio, aunque por adelantado doy mis agradecimientos a [Jacob Tomilson][1], el creador de este theme dark que elegí para mi blog.
+En el siguiete post hablaré acerca de como cree este sitio, aunque por adelantado doy mis agradecimientos a [Jacob Tomlinson][1], el creador de este theme dark que elegí para mi blog.
 print("Hasta pronto");
 
 
