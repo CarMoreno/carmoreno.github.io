@@ -23,4 +23,4 @@ En el siguiete post hablaré acerca de como cree este sitio, aunque por adelanta
 print("Hasta pronto");
 
 
-[1]: [https://github.com/jacobtomlinson]
+[1]: https://github.com/jacobtomlinson
