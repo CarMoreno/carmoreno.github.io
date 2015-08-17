@@ -53,12 +53,12 @@ body {
 }
 
 a, a:active {
-	color: $light-blue;
+	color: $light-red;
 	text-decoration: none;
 }
 
 a:hover {
-	color: $dark-blue;
+	color: $dark-red;
 	text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ ul {
 }
 
 .navbar, .nav {
-	background-color: $dark-blue;
+	background-color: $dark-red;
 
 	.navbar-toggle {
 		margin-top: 10px;
@@ -82,7 +82,7 @@ ul {
 		}
 
 		a:hover {
-			color: $dark-blue;
+			color: $dark-red;
 			text-decoration: none;
 		}
 	}
@@ -134,7 +134,7 @@ ul {
 	padding-right: 30px;
 	margin-top: 20px;
 	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
-	border-bottom: 5px solid $light-blue;
+	border-bottom: 5px solid $light-red;
 }
 
 #my-menu {
@@ -148,7 +148,7 @@ ul {
 	}
 
 	a:hover {
-		color: $light-blue;
+		color: $light-red;
 	}
 
 	.pages {
@@ -231,12 +231,12 @@ ul {
 	}
 
 	.content-panel:nth-of-type(1) {
-		border-bottom: 10px solid $light-blue;
+		border-bottom: 10px solid $light-red;
 	}
 
 	.author-header {
 		font-family: 'Montserrat', sans-serif;
-		color: $light-blue;
+		color: $light-red;
 		margin-top: 0px;
 		padding-top: 15px;
 		font-size: 30px;
@@ -281,7 +281,7 @@ ul {
 
 		h2 {
 			margin-bottom: 30px;
-			color: $light-blue;
+			color: $light-red;
 			font-size: 26px;
 		}
 
@@ -320,7 +320,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $light-red;
 		}
 	}
 
@@ -347,7 +347,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $light-red;
 		}
 
 		ul {
@@ -432,14 +432,14 @@ ul {
 
 	.menu {
 
-		background-color: $dark-blue;
+		background-color: $dark-red;
 
 		a, a:active {
 			color: $white;
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $light-red;
 		}
 
 		h4 {
@@ -654,7 +654,7 @@ ul {
 				}
 
 				a:hover {
-					color: $light-blue;
+					color: $light-red;
 				}
 
 			}
@@ -698,7 +698,7 @@ ul {
 				}
 
 				a:hover {
-					color: $dark-blue;
+					color: $dark-red;
 				}
 			}
 
