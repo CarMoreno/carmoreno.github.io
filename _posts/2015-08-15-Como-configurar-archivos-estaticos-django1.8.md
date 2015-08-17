@@ -40,7 +40,7 @@ Listo, hemos acabado de configurar nuestros archivos estáticos. Ahora por ejemp
 
 Cuando usamos el tag `load staticfiles` cargamos la ruta de nuestro directorio de archivos estáticos, es decir `<name_project>/media`, luego cada vez que escribamos una etiqueta `static` estaremos haciendo referencia a esa ruta.
 
-Bueno, eso es todo por ahora. Si tienen alguna duda, comentario o inquietud, o simplemente quieren aportar algo pueden dejar su comentario mas abajo. En el siguiente post les enseñaré a configurar Django 1.8 en Windows.
+Bueno, eso es todo por ahora. Si tienen alguna duda, comentario o inquietud, o simplemente quieren aportar algo pueden dejar su comentario mas abajo. En el siguiente post les enseñaré a configurar Django 1.8 en Windows, print("Hasta pronto").
 
 [1]: ../../../../../../images/2015-08-15/template.png
 [2]: ../../../../../../images/2015-08-15/estilo.png
