@@ -30,7 +30,7 @@ Debemos de ir pues a la **raíz de nuestro proyecto** y creamos la carpeta `medi
 
 > ... Explícito es mejor que implícito.
 
-Listo, hemos acabado de configurar nuestros archivos estáticos. Ahora por ejemplo cuando queramos hacer uso de ellos en las templates basta con hacer, por ejemplo:
+Listo, hemos acabado de configurar nuestros archivos estáticos. Ahora por ejemplo cuando queramos hacer uso de ellos en las templates basta con hacer:
 
 * **Archivo de template** : _dentro de la carpeta_ `media` hice otra carpeta llamada `css`, fíjate como usé el tag `static`
 ![template][1]
