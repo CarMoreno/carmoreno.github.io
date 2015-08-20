@@ -32,7 +32,7 @@ Espera unos diez minutos y entra a tu dominio de Github Pages, ese dominio será
 8. Editar tu plantilla: los colores, tipo de fuente, dale tu toque personal (estoy en este paso aun ;)).
 
 En cada commit que hagas a tu repositorio se verán los cambios reflejados al instante. Bueno creo que es todo, espero no haber dejado nada sin tratar. Si tienen alguna duda me lo dejan saber mas abajo en la caja de comentarios. 
-¡ En el próximo post empezaremos con algunos tópicos de programacion web !. print("Hasta pronto").
+¡ En el próximo post empezaremos con algunos tópicos de programacion web !. {% highlight python %}print("Hasta pronto"){% endhighlight %}
 
 [1]: http://raulavila.com/2015/01/como-hice-el-blog/
 [2]: https://github.com/

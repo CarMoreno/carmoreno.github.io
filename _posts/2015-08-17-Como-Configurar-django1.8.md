@@ -46,7 +46,7 @@ Esto sucede porque debemos de configurar las variables de entorno de Windows. Va
 Ahora probemos si funcionó, abre un nuevo prompt y pon de nuevo el comando `django-admin --version`, debe de arrojarte la versión que has descargado de Django, en nuestro caso la versión 1.8 
 ![exito][9]
 
-Es un poco largo, pero no es difícil de hacerlo, si tienes algún problema con los pasos anteriores no dudes en dejar un comentario mas abajo, responderé lo antes posible. En los siguientes posts, para que la cosa se ponga interesante, empezaremos a programar una app Django nivel intermedio, print("Hasta Pronto").
+Es un poco largo, pero no es difícil de hacerlo, si tienes algún problema con los pasos anteriores no dudes en dejar un comentario mas abajo, responderé lo antes posible. En los siguientes posts, para que la cosa se ponga interesante, empezaremos a programar una app Django nivel intermedio. {% highlight python %}print("Hasta pronto"){% endhighlight %}
 
 [1]:https://aasanchez.wordpress.com/2013/09/20/django-en-windows-y-no-morir-en-el-intento/
 [2]:../../../../../../images/2015-08-17/instalado.png
