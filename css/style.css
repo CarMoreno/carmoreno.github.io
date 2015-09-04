@@ -500,14 +500,12 @@ ul {
     margin-bottom: 20px; }
 
 .rabbit-fold{
-  color:yellow;
   background-image: url("../images/about/rabbit.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   height: 20rem;
 }
-
 .elephant-fold{
   background-image: url("../images/about/elephant.jpg");
   -webkit-background-size: cover;
@@ -523,4 +521,11 @@ ul {
   background-size: cover;
   height: 20rem;
 }
+  @media screen and (max-width: 992px) {
+    .rabbit-fold, .elephant-fold, .clavel-fold{
+      height: 220px;
+      width: 220px;
+      margin: auto;
+    }
+  }
      
