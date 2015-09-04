@@ -42,7 +42,7 @@
 </head>
 
 
-    <body>
+<body>
 
     <nav id="my-menu">
   <div>
@@ -66,31 +66,50 @@
 <div class="menu-button" href="#menu"><i class="fa fa-bars"></i></div>
 
 
-    <div class="page-content">
-      <div class="wrap">
-      <div class="container-fluid index">
-    <div class="row">
+<div class="page-content">
+  <div class="wrap">
+    <div class="container-fluid index">
+      <div class="row">
 
-        <div class="col-md-12 main content-panel">
+      <div class="col-md-12 main content-panel">
 
-            <div class="gravatar">
-                <img src="../images/avatar2.png" class="img-circle about-image" height="150" width="150" alt="Carlos Moreno" />
-            </div>
-
-            <h1 class="header author-header" itemprop="headline">Sobre Mi</h1>
-        </div>
-        <div class="col-md-12 main content-panel">
-          <p>Back-End Developer in progress y adicto al café <i class="fa fa-coffee"></i>. La programación es un arte que se puede aprender día tras día. Soy estudiante de Ingeniería de Sistemas actualmente en cuarto año de carrera, amante de la programación web. He desarrollado en lenguajes como Python, PHP y Java. Bases de datos como PostgreSQL, MySQL y SQLite. Html5 y Css3 siempre van de la mano ;). No digo que sea un experto en el tema, pero siempre estoy dispuesto a aprender y a mejorar mis habilidades porque... <blockquote>...Hasta el experto continua aprendiendo cosas nuevas</blockquote></p>
-        </div>
-        <div class="col-md-12 content-panel article">
-          <p>Cuando no estoy tecleando me gusta ver películas de animación japonesa, en especial las de <a href="https://es.wikipedia.org/wiki/Studio_Ghibli">Studio Ghibli</a>, también me gusta hacer origami, es uno de mis pasatiempos favoritos, escucho <a href="https://www.youtube.com/watch?v=lTx3G6h2xyA">Mashup</a> <i class="fa fa-music"></i> y veo algunas series de TV. Lo demás se sigue escribiendo con el pasar del tiempo...</p>
+        <div class="gravatar">
+            <img src="../images/avatar2.png" class="img-circle about-image" height="150" width="150" alt="Carlos Moreno" />
         </div>
 
-    </div>
-</div>
+        <h1 class="header author-header" itemprop="headline">Sobre Mi</h1>
+      </div>
+      <div class="col-md-12 main content-panel">
+      <p>Back-End Developer in progress y adicto al café <i class="fa fa-coffee"></i>. La programación es un arte que se puede aprender día tras día. Soy estudiante de Ingeniería de Sistemas actualmente en cuarto año de carrera, amante de la programación web. He desarrollado en lenguajes como Python, PHP y Java. Bases de datos como PostgreSQL, MySQL y SQLite. Html5 y Css3 siempre van de la mano ;). No digo que sea un experto en el tema, pero siempre estoy dispuesto a aprender y a mejorar mis habilidades porque... <blockquote>...Hasta el experto continua aprendiendo cosas nuevas</blockquote></p>
+      </div>
+      <div class="col-md-12 content-panel article">
+      <p>Cuando no estoy tecleando me gusta ver películas de animación japonesa, en especial las de <a href="https://es.wikipedia.org/wiki/Studio_Ghibli">Studio Ghibli</a>, también me gusta hacer origami, es uno de mis pasatiempos favoritos, escucho <a href="https://www.youtube.com/watch?v=lTx3G6h2xyA">Mashup</a> <i class="fa fa-music"></i> y veo algunas series de TV. Lo demás se sigue escribiendo con el pasar del tiempo...</p>
+      </div>
+      </div>
+      
+      <div class="col-md-4 content-panel article">
+        <div class="rabbit-fold"></div>
+      </div>
+      <div class="col-md-4 content-panel article">
+        <div class="elephant-fold"></div>
+      </div>  
+      <div class="col-md-4 content-panel article">
+        <div class="clavel-fold"></div>
+      </div>
+      
 
+
+      <!-- COMENTARIOS PROPORCIONADOS POR DISQUS -->
+      <div class="content-panel comments">
+          <div id="disqus_thread">
+            <noscript>Por favor activa Javascript en tu navegador para ver los<a href="http://disqus.com/?ref_noscript">Comentarios activados por Disqus</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          </div>
       </div>
     </div>
+
+  </div>
+</div>
 
     <div class="footer clearfix">
   <div class="col-md-6">
@@ -101,8 +120,23 @@
   </div>
 </div>
 
+
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+function disqus_config() { this.experiment.enable_scroll_container = true; }
+var disqus_shortname = "httpwwwcarmorenogithubio"; // required: replace example with your forum shortname
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="../js/oridomi.min.js"></script>
+<script src="../js/origami.js"></script>
 <script src="/js/jquery.mmenu.min.all.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
@@ -136,5 +170,5 @@
 
 
 
-    </body>
+</body>
 </html>

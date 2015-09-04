@@ -498,3 +498,29 @@ ul {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px; }
+
+.rabbit-fold{
+  color:yellow;
+  background-image: url("../images/about/rabbit.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 20rem;
+}
+
+.elephant-fold{
+  background-image: url("../images/about/elephant.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 20rem;
+}
+
+.clavel-fold{
+  background-image: url("../images/about/clavel.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 20rem;
+}
+     
