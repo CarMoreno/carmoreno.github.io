@@ -26,7 +26,7 @@ Intentaré no dar spoilers sobre el film contando un poco de qué trata la pelí
 
 ![anna][5]
 
-No hace falta decir que este film es otra obra de arte, estamos hablando Ghibli, no debería de ser sorpresa. Pero en mi opinión creo que la película se vuelve algo matutina en los encuentros Marnie-Anna por unos 20 minutos antes del desenlace final, esto hace que se pierda la sorpresa de la trama y el sentimiento de:
+No hace falta decir que este film es otra obra de arte, estamos hablando de Ghibli, no debería de ser sorpresa. Pero en mi opinión creo que la película se vuelve algo matutina en los encuentros Marnie-Anna por unos 20 minutos antes del desenlace final, esto hace que se pierda la sorpresa de la trama y el sentimiento de:
 
 >¡Ya se que va a pasar!
 
