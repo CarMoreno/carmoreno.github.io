@@ -1,3 +1,5 @@
-##Personal blog
+##Blog Personal
+======================================================
+Un lugar para compartir experiencias.
 
 
