@@ -84,7 +84,7 @@ urlpatterns = [
 Con esto, Django hará una unión de los patrónes urls de los archivos editados anteriormente, es decir, unirá el patrón de `sitiolectura/sitiolectura/urls.py`, a saber `/biblioteca` con el patrón de 
 `sitiolectura/biblioteca/urls.py`, que es una cadena vacía, (por decirlo de forma un tanto grosera).
 
-La función url necesita dos argumuentos como mínimo para funcionar, el primero será un patrón, mejor conocido como expresión regular o _regex_, y el segundo es la vista asociada a ese patrón, usamos el argumento _name_ para poder hacer referencia a esta url desde cualquier parte de nuestro proyecto, puedes pensar que es una especie de identificador para esa url determinada. Existen otros argumentos como _prefix_ que no usaremos en la aplicación. Te dejo [documentación útil al respecto][6]
+La función url necesita dos argumuentos como mínimo para funcionar, el primero será un patrón, mejor conocido como expresión regular o _regex_, y el segundo es la vista asociada a ese patrón, usamos el argumento _name_ para poder hacer referencia a esta url desde cualquier parte de nuestro proyecto, puedes pensar que es una especie de identificador para esa url determinada. Existen otros argumentos como _prefix_ que no usaremos en la aplicación. Te dejo [documentación útil al respecto][6].
 
 Con lo que tenemos hasta ahora, si abres el navegador y colocas `localhost:8000/biblioteca` podrás ver como trabajan en conjunto las `vistas` y las `urls`. Ignora mis marcadores personales :D...
 
