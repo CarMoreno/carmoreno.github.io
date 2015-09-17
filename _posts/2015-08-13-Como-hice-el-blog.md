@@ -21,7 +21,7 @@ Sí pero no 100%, siempre te queda ese sin sabor de no querer algo en tu sitio, 
 
 1. Debes de crearte una cuenta en Github (si es que ya no la tienes).
 2. [Sigue los pasos][4] para crear un repositorio compatible con Github Pages, en resumen, ese repo debe de tener el nombre `<username_github>.github.io`, donde `<username_github>` es tu nombre de usuario de Github.
-3. [Busca una template][5] que te parezca agradable para que con base en ella puedas empezar tu sitio, luego edita las variables del archivo _config.yml de la plantillla elegida. Claro está, también puedes empezar desde cero tus templates.
+3. [Busca una template][5] que te parezca agradable para que con base en ella puedas empezar tu sitio, luego edita las variables del archivo `_config.yml` de la plantillla elegida. Claro está, también puedes empezar desde cero tus templates.
 4. Clona el repostioro que creaste anteriormente.
 5. Sube el template que elegiste a ese repositorio.
 
