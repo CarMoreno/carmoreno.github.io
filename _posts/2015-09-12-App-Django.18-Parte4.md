@@ -30,7 +30,7 @@ Las Vistas en Django son en donde tu escribes la lógica que se llevará a cabo 
 Las templates en Django son las que se encargan de mostrar los datos que traen las Vistas desde el Modelo, aquí encontramos nuestro código HTML, las Hojas de estílo en cascada y scripts de Javascipt dado el caso, el Framework nos proporciona un [motor de templates][3] que nos permite manipular y decidir <ins>**que datos se mostrarán**</ins>. Puedes [leer mas de la arquitectura de este Framework][4] si así lo deseas.
 
 ##¿Qué son las Urls en Django?
-Son expresiones regulares. Básicamente las urls en Django permiten que las vistas y los modelos trabajen en armonía, nosotros necesitamos las urls puesto que el Framework hace una especie de mapeo entre patrónes de urls asociados a vistas, entonces de acuerdo a una u otra url, se ejecutará una vista determinada. Django sigue una filosofía de urls limpias y legibles, por lo que no encontrarás urls de la forma `www.misitio.com/?a=3&&b=4` (como sucede en `PHP` por ejemplo). 
+Son expresiones regulares. Básicamente las urls en Django permiten que las vistas y las templates trabajen en armonía, nosotros necesitamos las urls puesto que el Framework hace una especie de mapeo entre patrónes de urls asociados a vistas, entonces de acuerdo a una u otra url, se ejecutará una vista determinada. Django sigue una filosofía de urls limpias y legibles, por lo que no encontrarás urls de la forma `www.misitio.com/?a=3&&b=4` (como sucede en `PHP` por ejemplo). 
 Teniendo un poco el horizonte mas claro, vamos a empezar a jugar con Vistas, Templates y Urls en nuestra app de la Biblioteca.
 
 ##Vistas, Templates y Urls en nuestra App
@@ -56,9 +56,9 @@ urlpatterns = [
 ]
 {% endhighlight %}
 
-Ignorando las líneas que de seguro tienes comentadas en ese archivo, lo que podemos apreciar acá es la forma en como Django relaciona una patrón url `/admin`, con el módulo `admin.site.urls` de determinada la aplicación Admin, usada en la entrada pasada. En este sentido, cuando nos dirigimos a `localhost:8000/admin` empezamos a usar ese fichero url de dicha app para los siguientes enlaces que vayamos usando `localhost:8000/admin/Libro`.
+Ignorando las líneas que de seguro tienes comentadas en ese archivo, lo que podemos apreciar acá es la forma en como Django relaciona una patrón url `/admin`, con el módulo `admin.site.urls` de la aplicación Admin, usada en la entrada pasada. En este sentido, cuando nos dirigimos a `localhost:8000/admin` empezamos a usar ese fichero url de dicha app para los siguientes enlaces que vayamos usando, como por ejemplo `localhost:8000/admin/Libro`.
 
-Vamos a hacer lo mismo para nuestra aplicación de la biblioteca, por lo tanto edita ese archivo y coloca lo siguiente
+Vamos a hacer lo mismo para nuestra aplicación de la Biblioteca, por lo tanto edita ese archivo y coloca lo siguiente
 
 {% highlight python %}
 from django.conf.urls import include, url
@@ -84,7 +84,7 @@ urlpatterns = [
 Con esto, Django hará una unión de los patrónes urls de los archivos editados anteriormente, es decir, unirá el patrón de `sitiolectura/sitiolectura/urls.py`, a saber `/biblioteca` con el patrón de 
 `sitiolectura/biblioteca/urls.py`, que es una cadena vacía, (por decirlo de forma un tanto grosera).
 
-La función url necesita dos argumuentos como mínimo para funcionar, el primero será un patrón, mejor conocido como expresión regular o _regex_, y el segundo es la vista asociada a ese patrón, usamos el argumento _name_ para poder hacer referencia a esta url desde cualquier parte de nuestro proyecto, puedes pensar que es una especie de identificador para esa url determinada. Existen otros argumentos como _prefix_ que no usaremos en la aplicación. Te dejo [documentación útil al respecto][6]
+La función url necesita dos argumuentos como mínimo para funcionar, el primero será un patrón, mejor conocido como expresión regular o _regex_, y el segundo es la vista asociada a ese patrón, usamos el argumento _name_ para poder hacer referencia a esta url desde cualquier parte de nuestro proyecto, puedes pensar que es una especie de identificador para esa url determinada. Existen otros argumentos como _prefix_ que no usaremos en la aplicación. Te dejo [documentación útil al respecto][6].
 
 Con lo que tenemos hasta ahora, si abres el navegador y colocas `localhost:8000/biblioteca` podrás ver como trabajan en conjunto las `vistas` y las `urls`. Ignora mis marcadores personales :D...
 
