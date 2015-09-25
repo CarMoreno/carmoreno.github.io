@@ -9,7 +9,7 @@ thumbnail:  django
 tags:
 - Como
 - configurar
-- estatico
+- estático
 - Django 1.8
 ---
 Cuando empecé a aprender Django me topé con un problema muy molesto, **la configuración de archivos estáticos**, como las imágenes, las hojas de estilo y los ficheros de Javascript, me tocó googlear un buen rato hasta que por fin pude encontrar la solución después de algunos días intentándolo. Por eso quise escribir este pequeño post explicando como hacerlo.

@@ -22,12 +22,12 @@ Son funciones o métodos. Como espero que sepas, Django es un Framework web que 
 
 * **El Modelo** hace alusión a como represento y acceso mis datos en mi base de datos.
 * **El Controlador** hace las veces de puente, este _escucha_ eventos, que por lo general son acciones que el usuario realizará en la aplicación, paso siguiente dispara una petición al modelo para que este le cumpla lo pedido (dado el caso en que se pueda)
-* **La Vista** es como se muestran esos datos traídos desde el modelo, se debe de mostrar al usuario algo agradable, lo que en una aplicación web se traduciría en código HTML y Hojas de estílo.
+* **La Vista** es como se muestran esos datos traídos desde el modelo, se debe de mostrar al usuario algo agradable, lo que en una aplicación web se traduciría en código HTML y Hojas de estilo.
 
-Las Vistas en Django son en donde tu escribes la lógica que se llevará a cabo cuando pase algun evento proporcionado por el usuario, y hará las correspondientes peticiónes al Modelo, en este sentido haciedo un comparativo con _MVC_, podemos ver que las Vistas en Django son equivalente a los Controladores.
+Las Vistas en Django son en donde tu escribes la lógica que se llevará a cabo cuando pase algún evento proporcionado por el usuario, y hará las correspondientes peticiones al Modelo, en este sentido haciendo un comparativo con _MVC_, podemos ver que las Vistas en Django son equivalente a los Controladores.
 
 ##¿Qué son las Templates en Django?
-Las templates en Django son las que se encargan de mostrar los datos que traen las Vistas desde el Modelo, aquí encontramos nuestro código HTML, las Hojas de estílo en cascada y scripts de Javascipt dado el caso, el Framework nos proporciona un [motor de templates][3] que nos permite manipular y decidir <ins>**que datos se mostrarán**</ins>. Puedes [leer mas de la arquitectura de este Framework][4] si así lo deseas.
+Las templates en Django son las que se encargan de mostrar los datos que traen las Vistas desde el Modelo, aquí encontramos nuestro código HTML, las Hojas de estilo en cascada y scripts de Javascipt dado el caso, el Framework nos proporciona un [motor de templates][3] que nos permite manipular y decidir <ins>**que datos se mostrarán**</ins>. Puedes [leer mas de la arquitectura de este Framework][4] si así lo deseas.
 
 ##¿Qué son las Urls en Django?
 Son expresiones regulares. Básicamente las urls en Django permiten que las vistas y las templates trabajen en armonía, nosotros necesitamos las urls puesto que el Framework hace una especie de mapeo entre patrónes de urls asociados a vistas, entonces de acuerdo a una u otra url, se ejecutará una vista determinada. Django sigue una filosofía de urls limpias y legibles, por lo que no encontrarás urls de la forma `www.misitio.com/?a=3&&b=4` (como sucede en `PHP` por ejemplo). 
@@ -81,16 +81,16 @@ urlpatterns = [
 ]
 {% endhighlight %}
 
-Con esto, Django hará una unión de los patrónes urls de los archivos editados anteriormente, es decir, unirá el patrón de `sitiolectura/sitiolectura/urls.py`, a saber `/biblioteca` con el patrón de 
+Con esto, Django hará una unión de los patrones urls de los archivos editados anteriormente, es decir, unirá el patrón de `sitiolectura/sitiolectura/urls.py`, a saber `/biblioteca` con el patrón de 
 `sitiolectura/biblioteca/urls.py`, que es una cadena vacía, (por decirlo de forma un tanto grosera).
 
-La función url necesita dos argumuentos como mínimo para funcionar, el primero será un patrón, mejor conocido como expresión regular o _regex_, y el segundo es la vista asociada a ese patrón, usamos el argumento _name_ para poder hacer referencia a esta url desde cualquier parte de nuestro proyecto, puedes pensar que es una especie de identificador para esa url determinada. Existen otros argumentos como _prefix_ que no usaremos en la aplicación. Te dejo [documentación útil al respecto][6].
+La función url necesita dos argumentos como mínimo para funcionar, el primero será un patrón, mejor conocido como expresión regular o _regex_, y el segundo es la vista asociada a ese patrón, usamos el argumento _name_ para poder hacer referencia a esta url desde cualquier parte de nuestro proyecto, puedes pensar que es una especie de identificador para esa url determinada. Existen otros argumentos como _prefix_ que no usaremos en la aplicación. Te dejo [documentación útil al respecto][6].
 
 Con lo que tenemos hasta ahora, si abres el navegador y colocas `localhost:8000/biblioteca` podrás ver como trabajan en conjunto las `vistas` y las `urls`. Ignora mis marcadores personales :D...
 
 ![primeravista][5]
 
-Hasta acá hemos visto como funcionan las urls y las Vistas en conjunto. ¿Pero y las templates?, bueno creo que eso será tema para el próximo post, junto con las llamadas _"Vistas Genéricas"_. Espero haberme explicado de la mejor forma, si tienes alguna duda, puedes dejarme un comentario mas abajo en la caja de comentarios.
+Hasta acá hemos visto como funcionan las urls y las Vistas en conjunto. Pero ¿y las templates?, bueno creo que eso será tema para el próximo post, junto con las llamadas _"Vistas Genéricas"_. Espero haberme explicado de la mejor forma, si tienes alguna duda, puedes dejarme un comentario mas abajo en la caja de comentarios.
 
 {% highlight python %}print("Hasta pronto"){% endhighlight %}
 

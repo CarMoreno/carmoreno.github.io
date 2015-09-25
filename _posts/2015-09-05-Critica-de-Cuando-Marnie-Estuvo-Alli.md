@@ -22,7 +22,7 @@ Dirigida por Hiromasa Yonebayashi, uno de los nuevos talentos que están surgien
 
 ![marnie-casa][4]
 
-Intentaré no dar spoilers sobre el film contando un poco de qué trata la película. Como es costumbre casi siempre en las películas con sello Ghibli, tenemos una protagonista de sexo femenino llamada Anna, una chica un poco retraída y que le cuesta relacionarse con las demás personas. Es una chica con un pasado duro, por cuestiones de salud va donde sus tíos para quedarse un par de días, estando allá conocerá a Marnie, una chica que se hará su amiga, pero Anna aprenderá que no todo es lo que parece, Marnie la ayudará a superar sus mas profundos sentimientos.
+Intentaré no dar spoilers contando un poco de qué trata la película. Como es costumbre casi siempre en las películas con sello Ghibli, tenemos una protagonista de sexo femenino llamada Anna, una chica un poco retraída y que le cuesta relacionarse con las demás personas. Es una chica con un pasado duro, por cuestiones de salud va donde sus tíos para quedarse un par de días, estando allá conocerá a Marnie, una chica que se hará su amiga, pero Anna aprenderá que no todo es lo que parece, Marnie la ayudará a superar sus mas profundos sentimientos.
 
 ![anna][5]
 
