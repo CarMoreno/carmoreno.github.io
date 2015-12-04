@@ -19,7 +19,7 @@ Hasta la fecha llevo más de 3 años y medio dentro de este mundo del desarrollo
 
 `Java`, `PHP`, `Python`, `Ruby`, `Scala`, `R`, `C++`, `JavaScript`, `Go`...Y la lista sigue, pero sería ingenuo y un tonto si digo específicamente un nombre, no sería justo para nadie y considero que aún me falta mucho camino para decir:
 
->El lenguaje 'X' es el mejor, no hay ningún lenguaje como el lenguaje 'X'.
+>El lenguaje 'X' es el mejor.
 
 Es más, personas que llevan décadas en la comunidad no se animan a dar un candidato fijo, y sería poco humilde de mi persona dar uno. Lo bueno es que yo nunca he tenido un candidato a mejor lenguaje de programación pues pienso que ningún lenguaje es el mejor, todos tienen sus pro y sus contra, sus puntos fuertes y sus puntos débiles dependiendo del contexto y uso que se le quiera dar a cada uno. Por ejemplo, `R` es muy bueno cuando trabajas con datos estadísticos y científicos, pero ni pienses hacer un sistema de información en este lenguaje. `PHP` por ejemplo es un lenguaje netamente orientado a la web, y débil para el análisis de grandes volúmenes de datos científicos. Todo depende de la situación a la que nos enfrentemos. <ins>**Es el desarrollador y no el lenguaje quién debe ser tildado de mejor, ya que es este quién saca todo el potencial y debe conocerlo.**</ins> 
 
