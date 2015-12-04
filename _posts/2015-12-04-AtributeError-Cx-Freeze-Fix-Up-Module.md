@@ -3,7 +3,7 @@ layout:     post
 title:      Error al crear archivos ejecutables con cx_Freeze
 date:       2015-12-04 17:35:04
 author:     Carlos Andrés Moreno
-summary:    Presentación del blog
+summary:    Como resolver un error un tanto común, entre cx_Freeze y Windows
 thumbnail:  python
 categories: Blog
 tags:
@@ -62,7 +62,7 @@ El error consiste en un bug que tiene la librería al trabajar en Windows, lo qu
 
 ![elección][6]
 
-Cabe agregar que mi máquina es de 32 bits, si la tuya es de 64 bits, descarga bien el archivo de 64 bits, o bien el de 32, para ambos funcionará.
+Como ya mencioné anteriormente, mi máquina es de 32 bits, si la tuya es de 64 bits, descarga bien el archivo de 64 bits, o bien el de 32, para ambos funcionará.
 
 Cuando lo hayas instalado abre tu cmd y coloca `pip install nombre_archivo.whl`, donde `nombre_archivo.whl`, será el archivo que te has descargado previamente. Espera a que se ejecute, lo que hará será compilar de `.whl` a `.py` y arreglará el bug que la librería presenta. Con esto, vuelve a repetir los pasos para generar el ejecutable, ya sabes: `python.exe exe.py build` dentro del directorio de tu aplicación. ¡Y listo, error solucionado!
 
