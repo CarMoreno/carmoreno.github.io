@@ -14,8 +14,8 @@ tags:
 - fix_up_module
 ---
 ## Introducción
-Como ya todos sabemos, Python es un lenguaje de propósito general en el cual puedes construir distintos tipos de aplicaciones en una sintaxis muy amigable, limpia y explícita. Hace poco estaba jugando de nuevo con la librería para la creación de aplicaciones gráficas, llamada PyQt (un envoltorio de Python para Qt, la tan famosa librería de C++), hice algo muy sencillo, una pequeña calculadora, que puedes ver en el [siguiente enlace][1]. No te miento, me gustó mucho como quedó esta sencilla aplicación, tanto así que decidí hacer un ejecutable, para mostrársela a mis amigos.
-No era la primera vez que generaba un ejecutable para una aplicación gráfica en Python, por lo que me sentí confiado, claro que esta vez estaba usando Python 3.4, así que investigando encontré una librería llamada [cx_Freeze][2], acá fue donde me tuve que romper un poco la cabeza, pues no iba a ser tan fácil como la primera vez.
+Como ya todos sabemos, Python es un lenguaje de propósito general en el cual puedes construir distintos tipos de aplicaciones en una sintaxis muy amigable, limpia y explícita. Hace poco estaba jugando de nuevo con la librería para la creación de aplicaciones gráficas, llamada PyQt (un envoltorio de Python para Qt, la tan famosa librería de C++), hice algo muy sencillo, una pequeña calculadora, que puedes ver en el [siguiente enlace][1]. No te miento, me gustó mucho como quedó, tanto así que decidí hacer un ejecutable, para mostrársela a mis amigos.
+No era la primera vez que generaba un ejecutable para una aplicación gráfica en Python, por lo que me sentí confiado, claro que esta vez estaba usando Python 3.4 (anteriormente había usado versiones 2.x del lenguaje), así que investigando encontré una librería llamada [cx_Freeze][2], aquí fue donde me tuve que romper un poco la cabeza, pues no iba a ser tan fácil como las primeras veces.
 
 ## El Problema
 Supongo que ya has instalado cx_Frezee en tu máquina y que tienes Python y pip configurados, cabe agregar que tengo un Windows 7 Ultimate de 32 bits (sí, codeo en Python usando Windows...). A continuación, debes de crear un archivo en el mismo nivel donde está tu archivo principal (desde donde corres la aplicación en mi caso es `main.py`), ponle un nombre cualquiera, yo le pondré `exe.py`. A continuación te muestro mi estructura de archivos.
@@ -64,7 +64,7 @@ El error consiste en un bug que tiene la librería al trabajar en Windows, lo qu
 
 Como ya mencioné anteriormente, mi máquina es de 32 bits, si la tuya es de 64 bits, descarga bien el archivo de 64 bits, o bien el de 32, para ambos funcionará.
 
-Cuando lo hayas instalado abre tu cmd y coloca `pip install nombre_archivo.whl`, donde `nombre_archivo.whl`, será el archivo que te has descargado previamente. Espera a que se ejecute, lo que hará será compilar de `.whl` a `.py` y arreglará el bug que la librería presenta. Con esto, vuelve a repetir los pasos para generar el ejecutable, ya sabes: `python.exe exe.py build` dentro del directorio de tu aplicación. ¡Y listo, error solucionado!
+Cuando lo hayas descargado abre tu cmd y coloca `pip install nombre_archivo.whl`, donde `nombre_archivo.whl`, será el archivo que te has descargado previamente. Espera a que se ejecute, lo que hará será compilar de `.whl` a `.py` y arreglará el bug que la librería presenta. Con esto, vuelve a repetir los pasos para generar el ejecutable, ya sabes: `python.exe exe.py build` dentro del directorio de tu aplicación. ¡Y listo, error solucionado!
 
 Espero que ahora puedas generar tus archivos ejecutables y presumir un poco con tus amigos, si tienes alguna duda en cualquiera de los pasos anteriores, siempre puedes comentar. No siendo más nos vemos en un próximo post. {% highlight python %}print("Hasta pronto"){% endhighlight %}
 
