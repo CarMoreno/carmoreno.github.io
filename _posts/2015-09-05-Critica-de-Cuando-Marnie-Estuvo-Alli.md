@@ -14,11 +14,11 @@ tags:
 - Marnie
 ---
 ![marnie][3]
-No hay nada que disfrute mas hacer en mis tiempos libres que ver una película del increíble y fantástico Studio Ghibli. Considerado por muchos cinéfilos y por la crítica como el mejor estudio de animación Japonés hoy en día. Cada película producida por este estudio es simplemente una obra de arte que vale la pena ver para deleitarse con sus historias, como solo ellos las saben contar. Si eres amante del buen cine debes de haber visto alguna vez una película de este enigmático estudio. Hoy les quiero contar acerca de la última película que tuve el placer de ver:
+No hay nada que disfrute mas hacer en mis tiempos libres que ver una película del increíble y fantástico Studio Ghibli. Considerado por muchos cinéfilos y por la crítica como el mejor estudio de animación Japonés hoy en día. Cada película que producen es simplemente una obra de arte que vale la pena ver para deleitarse con sus historias, como solo ellos las saben contar. Si eres amante del buen cine debes de haber visto alguna vez una película de Ghibli. Hoy les quiero contar acerca de la última que tuve el placer de ver:
 
 >Cuando Marnie estuvo allí
 
-Dirigida por Hiromasa Yonebayashi, uno de los nuevos talentos que están surgiendo dentro de Studio Ghibli, fue estrenada en el año 2014 y es la última película de este estudio, puesto que por ahora se encuentran en un cese de actividades. Los colores, los paisajes y texturas que nos muestra la película escena tras escena son una muestra de la técnica y calidad que posee Ghibli, cada imagen te deleita, disfrutas cada minuto que pasa. No hay que desconfiar de Yonebayashi, aunque aun es joven podemos ver el gran futuro que tiene, además trabajando de la mano con [Hayao Miyazaki][1] e [Isao Takahata][2] no es de sorprendernos lo que ha aprendido.
+Dirigida por Hiromasa Yonebayashi, uno de los nuevos talentos que están surgiendo dentro de Studio Ghibli, fue estrenada en el año 2014 y es el último film de este estudio, puesto que por ahora se encuentran en un cese de actividades. Los colores, los paisajes y texturas que nos muestra la película escena tras escena son una muestra de la técnica y calidad que posee Ghibli, cada imagen te deleita, disfrutas cada minuto que pasa. No hay que desconfiar de Yonebayashi, aunque aun es joven podemos ver el gran futuro que tiene, además trabajando de la mano con [Hayao Miyazaki][1] e [Isao Takahata][2] no es de sorprendernos lo que ha aprendido.
 
 ![marnie-casa][4]
 
