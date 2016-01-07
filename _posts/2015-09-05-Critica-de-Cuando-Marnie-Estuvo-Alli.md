@@ -14,6 +14,9 @@ tags:
 - Marnie
 ---
 ![marnie][3]
+
+Creditos de este imagen: [Ani Vardevaryan](https://www.instagram.com/anivardevaryan/)
+
 No hay nada que disfrute mas hacer en mis tiempos libres que ver una película del increíble y fantástico Studio Ghibli. Considerado por muchos cinéfilos y por la crítica como el mejor estudio de animación Japonés hoy en día. Cada película que producen es simplemente una obra de arte que vale la pena ver para deleitarse con sus historias, como solo ellos las saben contar. Si eres amante del buen cine debes de haber visto alguna vez una película de Ghibli. Hoy les quiero contar acerca de la última que tuve el placer de ver:
 
 >Cuando Marnie estuvo allí
