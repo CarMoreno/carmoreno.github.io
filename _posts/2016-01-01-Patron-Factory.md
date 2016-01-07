@@ -54,7 +54,7 @@ En la siguiente imagen podrás ver los ficheros que he creado, todos en el mismo
 
 ![estructura][2]
 
-Ahora miremos queé tienen cada uno de estos, en orden.
+Ahora miremos qué tienen cada uno de estos, en orden.
 
 1. Super Clase Persona:
 
