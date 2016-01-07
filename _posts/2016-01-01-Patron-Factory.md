@@ -15,7 +15,7 @@ tags:
 
 Hoy vamos a empezar una serie de posts donde estudiaremos los patrones de diseño más usados en el desarrollo de software, cada uno vendrá acompañado por su correspondiente codificación; si buscas en la red, encontrarás muchos ejemplos de patrones de diseño en Java. Quiero que estas entradas sean un tanto diferentes a la mayoría de artículos que están en Internet, por ello realizaremos la codificación de los ejemplos en Python, en su versión 2.7.9 y trataré de hacerme entender lo más posible.
 
-Para seguir estos post debes de tener un conocimiento básico de Programación en Python también tener claro conceptos de programación orientada a objetos (qué es una clase, qué es un objeto, qué es herencia, qué es un método, un atributo, etc.). Sería un plus si ya has hecho algo de POO con Python, aunque no es fundamental esto último. 
+Para seguir estos post debes de tener un conocimiento básico de Programación en Python además de tener claro conceptos de programación orientada a objetos (qué es una clase, qué es un objeto, qué es herencia, qué es un método, un atributo, etc.). Sería un plus si ya has hecho algo de POO con Python, aunque no es fundamental esto último. 
 
 ## ¿Qué es un patrón de diseño de software?
 
