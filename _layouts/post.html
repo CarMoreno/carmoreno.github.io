@@ -40,9 +40,28 @@ layout: default
             {% if site.google_plus_link %}
               </a>
             {% endif %}
+          </span>,
+          <span itemprop="datePublished" content="2014-08-28">
+            <!-- Snippet para establecer meses a español -->
+            {% assign m = page.date | date: "%-m" %}
+            {% case m %}
+              {% when '1' %}Enero
+              {% when '2' %}Febrero
+              {% when '3' %}Marzo
+              {% when '4' %}Abril
+              {% when '5' %}Mayo
+              {% when '6' %}Junio
+              {% when '7' %}Julio
+              {% when '8' %}Agosto
+              {% when '9' %}Septiembre
+              {% when '10' %}Octubre
+              {% when '11' %}Noviembre
+              {% when '12' %}Diciembre
+            {% endcase %}
+            {{page.date | date: "%-d" }}
+             del {{page.date | date: "%Y" }}
           </span>
-          <span itemprop="datePublished" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
-          en su {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
+          en la categoría de {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
 
