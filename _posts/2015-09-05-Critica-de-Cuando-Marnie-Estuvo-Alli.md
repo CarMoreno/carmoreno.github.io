@@ -35,7 +35,7 @@ No hace falta decir que este film es otra obra de arte, estamos hablando de Ghib
 
 salga a flote. Como espectador no hay nada mas asombroso que el no saber como terminará un film sino hasta el final, pues bueno, _"Cuando Marnie estuvo allí"_ pierde sorpresa, ya sospechas mucho como terminará unos diez minutos antes y a mi parecer es un punto que no está a favor de la película. Pero es entendible, la experiencia de Yonebayashi no es tan grande, apenas está empezando en Ghibli, pero se ha lucido con esta obra.
 
-No por esto deja de ser lo que es, una verdadera joya que sin lugar a dudas te llenará de magia, color y muchas sensaciones, de esas que sabe despertar este gran estudio, no siendo más nos vemos en una próxima entrada. Hasta pronto.
+No por esto deja de ser lo que es, una verdadera joya que sin lugar a dudas te llenará de magia, color y muchas sensaciones, de esas que sabe despertar este gran estudio; espero que ahora te animes a verla, luego puedes dejar mas abajo como te pareció la peli. No siendo más nos vemos en una próxima entrada. Hasta pronto.
 
 [1]:https://es.wikipedia.org/wiki/Hayao_Miyazaki
 [2]:https://es.wikipedia.org/wiki/Isao_Takahata
