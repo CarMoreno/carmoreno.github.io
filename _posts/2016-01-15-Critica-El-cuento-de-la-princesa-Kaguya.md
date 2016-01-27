@@ -35,4 +35,4 @@ No es sino hasta cuando la pequeña deja su adolescencia que un sabio anciano le
 
 ![kaguya-triste](../../../.././../images/offtopics/kaguya-triste.jpg)
 
-Definitivamente otra película de Studio Ghibli que me ha dejada más que satisfecho, espero que ahora te animes a verla, luego puedes dejar en los comentarios que tal te ha parecido, no siendo más nos vemos en una próxima ocasión. Hasta pronto.
+Definitivamente otra película de Studio Ghibli que me ha dejado más que satisfecho, espero que ahora te animes a verla, luego puedes dejar en los comentarios que tal te ha parecido, no siendo más nos vemos en una próxima ocasión. Hasta pronto.
