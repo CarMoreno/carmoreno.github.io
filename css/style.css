@@ -116,11 +116,11 @@ ul {
   .links .fa-google-plus:hover {
     color: #c95644; }
   .links .fa-github-alt:hover {
-    color: #f6c2a4; }
+    color: #000; }
   .links .fa-stack-overflow:hover {
     color: #c98b3b; }
-  .links .fa-rss:hover {
-    color: #eea33a; }
+  .links .fa-codepen:hover {
+    color: #121212; }
 
 /* Index */
 .index {
