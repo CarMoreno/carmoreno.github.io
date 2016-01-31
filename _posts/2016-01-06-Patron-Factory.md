@@ -64,7 +64,8 @@ Clase que define a una persona
 """
 
 class Persona(object):
-	"""Para nuestro caso, una persona tendra un nombre, una edad y un genero, por lo general
+	"""Para nuestro caso, una persona tendra un nombre,
+	una edad y un genero, por lo general
 	en Java esta clase sería una 'interfaz' """
 	def __init__(self):
 		self.nombre = None
@@ -92,7 +93,8 @@ class Persona(object):
 from persona import Persona
 
 class Femenino(Persona): 
-	"""Esta clase hereda de la super clase Persona, solo definiremos su constructor"""
+	"""Esta clase hereda de la super clase Persona,
+	solo definiremos su constructor"""
 	
 	def __init__(self, nombre, edad, genero):
 		self.nombre  = nombre
@@ -107,7 +109,8 @@ class Femenino(Persona):
 from persona import Persona
 
 class Masculino(Persona): # Heredamos de Persona
-	"""Esta clase hereda de la super clase Persona, solo definiremos su constructor"""
+	"""Esta clase hereda de la super clase Persona,
+	solo definiremos su constructor"""
 
 	def __init__(self, nombre, edad, genero):
 		self.nombre = nombre
@@ -124,14 +127,16 @@ from femenino import Femenino
 from masculino import Masculino
 
 class Factoria(object):
-	"""Esta clase es nuestra factoria, como ya sabes Python define un constructor sin
-	por default para cada clase, por eso no hace falta escribir uno"""
+	"""Esta clase es nuestra factoria, como ya sabes
+	Python define un constructor sin argumentos 
+	por default para cada clase, por eso no hace falta 
+	escribir uno"""
 
 	def get_persona(self, nombre, genero, edad):
 		"""Metodo que retorna objetos persona segun el genero"""
 
 		#genero es el parametro usado por la factoria 
-		#para elegir qué obj crear
+		#para elegir el obj a crear
 		if (genero is 'F'): 
 			return Femenino(nombre, edad, genero)
 		elif (genero is 'M'):
@@ -147,6 +152,7 @@ if __name__ == '__main__':
 
 	#Factoria, crea a una persona!
 	persona = mi_factoria.get_persona('Guido Vann Rosum', 'M', 30)
+	#se ha creado una persona masculina
 	print persona 
 	# print persona.get_nombre()
 	# print persona.get_genero()
@@ -167,6 +173,8 @@ Cosas por decir acá:
 Abre una terminal y ejecuta el fichero `main`, deberías ver algo como esto:
 
 ![resultado][3]
+
+Se ha creado un objeto Persona, específicamente de género Masculino, hemos pasado el carácter 'M' al constructor, por ello la fábrica a decidido crear un objeto Masculino.
 
 ¿El platillo se ve bien no?. Te animo a que ahora crees un objeto `Femenino` y mires que pasa, también puedes agregar mas métodos, probar con otros parámetros y por qué no, introducir otras clases; recuerda que puedes comentar si tienes alguna duda. No siendo más, nos vemos en un próximo post. 
 
