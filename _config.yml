@@ -26,9 +26,10 @@ stackoverflow_link: http://stackoverflow.com/users/4508767/carlos-moreno?tab=pro
 footer_left: "Blog personal de  <i class=\"fa fa-coffee\"></i> Carlos Andrés Moreno</a>"
 footer_right: "<i> \"La belleza sin inteligencia es solamente geometría\"</i> <i class=\"fa fa-heart\"></i>"
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+markdown: kramdown
+highlighter: pygments
+kramdown:
+  input: GFM
 permalink: pretty
 exclude: [vendor]
 #Variables personales
