@@ -24,14 +24,14 @@ a, a:active {
   text-decoration: none; }
 
 a:hover {
-  color: #21EB75;
+  color: #215A6D;
   text-decoration: none; }
 
 ul {
   list-style-type: none; }
 
 .navbar, .nav {
-  background-color: #21EB75; }
+  background-color: #215A6D; }
   .navbar .navbar-toggle, .nav .navbar-toggle {
     margin-top: 10px;
     padding-top: 0px;
@@ -39,7 +39,7 @@ ul {
   .navbar li a, .navbar li a:active, .nav li a, .nav li a:active {
     color: #FFFFFF; }
   .navbar li a:hover, .nav li a:hover {
-    color: #21EB75;
+    color: #215A6D;
     text-decoration: none; }
 
 .clearfix:after {
@@ -267,7 +267,7 @@ ul {
       .single p {
         margin-bottom: 40px; } }
   .single .menu {
-    background-color: #21EB75; }
+    background-color: #215A6D; }
     .single .menu a, .single .menu a:active {
       color: #FFFFFF; }
     .single .menu a:hover {
@@ -447,7 +447,7 @@ ul {
           background-color: #21211E;
           box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2); }
         .single .article .related .related-header a:hover {
-          color: #21EB75; }
+          color: #215A6D; }
       .single .article .related .title {
         padding-top: 20px;
         font-size: 24px;
