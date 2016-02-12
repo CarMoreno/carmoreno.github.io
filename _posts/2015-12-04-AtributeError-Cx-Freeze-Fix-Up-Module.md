@@ -56,7 +56,7 @@ Las líneas que considero son importantes, las he comentado, de cualquier forma 
 Abre tu cmd, dirígite a la raíz de tu aplicación, y ejecuta `python.exe exe.py build`, este comando te construirá una carpeta con nombre `build`, dentro de ella encontrarás una segunda carpeta, ábrela y podrás ver lo que se ha generado, tu archivo ejecutable debe de estar allí.
 Muy bien, dale doble click al archivo. Algo macabro y tenebroso ha pasado, tenemos un error: `AttributeError 'module' object has no attribute '_fix_up_module'`, pero tranquilo, ya vamos a resolverlo.
 
-##Solución
+## Solución
 
 El error consiste en un bug que tiene la librería al trabajar en Windows, lo que debes de hacer es dirigirte a [este sitio][5], y descargarte un archivo con extensión `.whl` pero, ¿cúal de todos?, si tienes instalado Python 3.4 como es mi caso, debes de bajarte `cx_Freeze-4.3.4-cp34-none-win32.whl`. Si tienes instalado otra distribución, fíjate en el número que está después de `cp`, te lo muestro en una imagen:
 
