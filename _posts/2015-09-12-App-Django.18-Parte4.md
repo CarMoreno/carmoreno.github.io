@@ -17,7 +17,7 @@ hablamos un poco acerca del sitio de administración que este Framework nos ofre
 manera rápida y sencilla nuestra base de datos. El tópico que nos reúne hoy son las vistas y las templates; si hablamos de estos dos elementos es menester también hablar de las urls, pues sin estas
 no podrían trabajar en armonía las vistas y las templates.
 
-##¿Qué son las Vistas en Django?
+## ¿Qué son las Vistas en Django?
 Son funciones o métodos. Como espero que sepas, Django es un Framework web que se acoge el patrón de arquitectura de software llamado [_Modelo-Vista-Controlador (MVT)_][2], (aunque con algunos ligeros cambios) no me quiero extender mucho en este tema, pues no es el objetivo de este post. Pero por respeto solo diré **a groso modo** que:
 
 * **El Modelo** hace alusión a como represento y acceso mis datos en mi base de datos.
@@ -26,14 +26,14 @@ Son funciones o métodos. Como espero que sepas, Django es un Framework web que 
 
 Las Vistas en Django son en donde tu escribes la lógica que se llevará a cabo cuando pase algún evento proporcionado por el usuario, y hará las correspondientes peticiones al Modelo, en este sentido haciendo un comparativo con _MVC_, podemos ver que las Vistas en Django son equivalente a los Controladores.
 
-##¿Qué son las Templates en Django?
+## ¿Qué son las Templates en Django?
 Las templates en Django son las que se encargan de mostrar los datos que traen las Vistas desde el Modelo, aquí encontramos nuestro código HTML, las Hojas de estilo en cascada y scripts de Javascipt dado el caso, el Framework nos proporciona un [motor de templates][3] que nos permite manipular y decidir <ins>**que datos se mostrarán**</ins>. Puedes [leer mas de la arquitectura de este Framework][4] si así lo deseas.
 
-##¿Qué son las Urls en Django?
+## ¿Qué son las Urls en Django?
 Son expresiones regulares. Básicamente las urls en Django permiten que las vistas y las templates trabajen en armonía, nosotros necesitamos las urls puesto que el Framework hace una especie de mapeo entre patrónes de urls asociados a vistas, entonces de acuerdo a una u otra url, se ejecutará una vista determinada. Django sigue una filosofía de urls limpias y legibles, por lo que no encontrarás urls de la forma `www.misitio.com/?a=3&&b=4` (como sucede en `PHP` por ejemplo). 
 Teniendo un poco el horizonte mas claro, vamos a empezar a jugar con Vistas, Templates y Urls en nuestra app de la Biblioteca.
 
-##Vistas, Templates y Urls en nuestra App
+## Vistas, Templates y Urls en nuestra App
 Para entender mejor como orquestan estos elementos, vamos a empezar haciendo una vista muy básica, abre la carpeta de la aplicación y en el archivo `views.py` coloca lo siguiente:
 
 {% highlight python %}
