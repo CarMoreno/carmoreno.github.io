@@ -499,6 +499,12 @@ ul {
     margin-top: 20px;
     margin-bottom: 20px; }
 
+.suggest-edit{
+  font-size:14px;
+  font-style:italic;
+  text-align:center;
+}
+
 .rabbit-fold{
   background-image: url("../images/about/rabbit.jpg");
   -webkit-background-size: cover;
