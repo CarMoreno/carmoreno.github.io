@@ -3,15 +3,16 @@ layout:     post
 title:      El cuento de la princesa Kaguya, de Studio Ghibli.
 date:       2016-01-15 16:53:05
 author:     Carlos Andrés Moreno
-summary:    Una crítica a la película El cuento de la princesa Kaguya, producida por Studio Ghibli
-categories: offtopics
+summary:    Una review sobre la película El cuento de la princesa Kaguya, producida por Studio Ghibli
+categories: Review
 thumbnail:  ghibli
 tags:
-- Offtopic
+- Review
 - Studio
 - Ghibli
 - Princesa
 - Kaguya
+- Películas
 ---
 ![kaguya](../../../.././../images/offtopics/kaguya.png)
 
