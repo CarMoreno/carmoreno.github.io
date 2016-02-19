@@ -34,8 +34,6 @@ Definitivamente este libro no pudo haber sido escrito en un mes para ser publica
 
 Todo empieza en un viejo parque de diversiones llamado Jumbo Jumbo, donde vive Knaach, un valiente león quien se convertirá en amigo de Claudia, una niña ingenua y un poco malcriada, juntos emprenderán una gran aventura para salvar el sistema solar y a sus habitantes de un devastador final. Para lograrlo dos razas del sistema solar (Claudia hace parte de una de ellas) deberán dejar a un lado sus diferencias y trabajar en equipo, solo así podrán vencer. En el camino nos encontraremos con seres increibles (como los Nereidianos, los Zeyas o el Capitán Gargajo) y muy graciosos (como los que tienen la cabeza entre las piernas) además de lugares asombrosos como Titan, con sus alrededores tan relajantes, también sitios muy tenebrosos como la gran Parca Imperial.
 
-![yoyluna](http://i.imgur.com/UgFsn7H.jpg)
-
-_Claudia y Knaach_.
+<!--![yoyluna](http://i.imgur.com/UgFsn7H.jpg)-->
 
 Amistad, camaradería, tolerancia, aventuras y una pizca de humor negro, eso y mucho más podrás encontrar en este libro, no está de más decir que me ha dejado más que satisfecho. Espero que te animes a leerlo pues hay fuertes rumores de una segunda parte y, si ya te lo leíste puedes dejar mas abajo en los comentarios qué tal te pareció, no siendo más nos vemos en una próxima entrada. Hasta pronto.
