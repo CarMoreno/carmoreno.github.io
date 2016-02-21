@@ -5,7 +5,7 @@ date:       2016-02-18 07:40:12
 author:     Carlos Andrés Moreno
 summary:    Una opinión acerca del libro Luna de Plutón by Dross, escrito por Ángel David Revilla.
 categories: Review
-thumbnail:  books
+thumbnail:  book
 tags:
 - Review
 - Luna
