@@ -25,7 +25,6 @@ _Fanart de Dross._
 2015 sería el año (específicamente a finales del mismo) en el que Luna de Plutón vería la luz y saldría del anonimato en el que se mantuvo por algunos años (esto último no lo supe hasta mucho después). En el preciso instante que me enteré de la noticia muchas dudas llegaron a mi mente, la principal: ¿sería un libro publicado por moda?, si la respuesta era afirmativa eso significaba que la calidad del libro no iba a ser tan buena, pues Dross iba a publicar su obra solo porque sí, porque quizá su manager así se lo aconsejó y el dinero estaba a la vuelta de la esquina. Lo anterior lo pensé porque el lanzamiento de Luna de Plutón coincidió en tiempo y espacio con la moda de algunos _youtubers_ de publicar un libro (a mi parecer mas por marketing que por amor a escribir), libros que además, no tienen muy buenas críticas. No podía estar mas equivocado.
 
 Cuando empecé a leer Luna de Plutón, todas mis dudas respecto a lo anterior se esfumaron, desde la primera página te das cuenta de la calidad y las ganas que tiene el escritor de sumergirnos en su mundo, de presentarnos a cada personaje, de describir todos los escenarios con lujo de detalles, de hacernos parte de su universo. Aspectos que se logran solo cuando le haz puesto empeño y ganas, además de haber estudiado para ello. La lectura no cansa, es demasiado fresca y entendible además de divertida. 
-
 ![drossyluna](http://i.imgur.com/WcVU7TN.jpg)
 
 _Ángel David Revilla (Dross) junto a Luna de Plutón._
