@@ -95,6 +95,10 @@ Cosas por decir acá:
 
 * Podemos usar algunas pseudoclases como en CSS, si te fijas anteriormente le he añadido la pseudoclase _hover_ a `QPushButton`, este comportamiento será general para todos los botones que hayan en la ventana. Prueba usando la pseudoclase _pressed_ y observa lo que ocurre.
 
+Con los estilos anteriores nuestro login ha quedado así:
+
+![loginbonito](http://i.imgur.com/l5X8GIZ.png)
+
 # Bonus
 
 > ¿Que te parece si pasamos la ventana de login a código Python?
@@ -105,7 +109,7 @@ Abre una terminal y ubicate en la carpeta donde guardaste el archivo, luego escr
 
 # Conclusión
 
-Hoy hemos aprendido como darle un poco de estilo a nuestras interfaces gráficas, PyQt nos ofrece muchas facilidades a la hora de gestionar estas reglas, además siempre puedes [dirigirte a la documentación](http://doc.qt.io/qt-4.8/stylesheet-examples.html) para ver mas ejemplos y jugar un poco con lo que has aprendido. Por último decirte que he basado este artículo en una [entrada de este blog](http://thesmithfam.org/blog/2009/09/10/qt-stylesheets-tutorial/#) que me fue útil hace un tiempo
+Hoy hemos aprendido como darle un poco de estilo a nuestras interfaces gráficas, PyQt nos ofrece muchas facilidades a la hora de gestionar estas reglas, además siempre puedes [dirigirte a la documentación](http://doc.qt.io/qt-4.8/stylesheet-examples.html) para ver mas ejemplos y jugar un poco con lo que has aprendido. Por último decirte que he basado este artículo en una [entrada de este blog](http://thesmithfam.org/blog/2009/09/10/qt-stylesheets-tutorial/#) que me fue útil hace un tiempo.
 
 Como siempre, si tienes alguna duda o has tenido algún problema siguiendo este artículo, puedes dejar tu comentario más abajo, procuro responder en breve. No siendo más nos vemos en otra ocasión.
 
