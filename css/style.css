@@ -538,7 +538,6 @@ ul {
   background-color: #2D2D29 !important;
 }
 
-/*.panel-footer:hover, .panel-heding:hover, */
 .panel-heading h3{
   color: #3CA2A2;
 }
@@ -551,7 +550,4 @@ ul {
 .panel-footer .more-demo{
   width: 80px;
   margin: 0 auto; 
-}
-.label .label-primary{
-  background-color: #3CA2A2 !important;
 }
