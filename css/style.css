@@ -527,11 +527,31 @@ ul {
   background-size: cover;
   height: 20rem;
 }
-  @media screen and (max-width: 992px) {
-    .rabbit-fold, .elephant-fold, .clavel-fold{
-      height: 220px;
-      width: 220px;
-      margin: auto;
-    }
+ @media screen and (max-width: 992px) {
+  .rabbit-fold, .elephant-fold, .clavel-fold{
+    height: 220px;
+    width: 220px;
+    margin: auto;
   }
-     
+} 
+.panel-heading, .panel-footer, .panel-default{
+  background-color: #2D2D29 !important;
+}
+
+/*.panel-footer:hover, .panel-heding:hover, */
+.panel-heading h3{
+  color: #3CA2A2;
+}
+
+.panel-footer .more{
+  width: 30px;
+  margin: 0 auto;
+}
+
+.panel-footer .more-demo{
+  width: 80px;
+  margin: 0 auto; 
+}
+.label .label-primary{
+  background-color: #3CA2A2 !important;
+}
