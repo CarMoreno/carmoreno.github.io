@@ -25,18 +25,18 @@ Para seguir este artículo doy por sentado que has instalado correctamente Pytho
 # Construyendo la interfaz en QtDesigner
 Vamos a hacer una ventana de login, para ello creamos un `QtMainWindow`, arrastramos un `QPushButton`, dos `QLineEdit` (para el nombre de usuario y contraseña) y 3 `QLabel`, hasta que tengas algo como esto:
 
-![login](http://i.imgur.com/rLx1Qlf.png)
+![login](http://i.imgur.com/Ngmu7OM.png)
 
 Ahora vamos a **cambiar el nombre del objeto** de cada uno de los componentes que hemos puesto en el MainWindow, incluyendo el MainWindow como tal, para ello das clic derecho sobre el componente que deseas cambiar de nombre, luego damos en `Change objectName...` como vemos en la imagen de abajo.
 
-![cambioName](http://i.imgur.com/yIX0bzC.png)
+![cambioName](http://i.imgur.com/GVUzSFz.png)
 
 En mi caso Los `objectName` de mis componentes son `VentanaLogin` para el `QMainWindow`; `button_iniciar` para el `QPushButton`; `line_usuario` y `line_password` para los dos `QLineEdit`; `label_login` para el `QLabel` superior y `label_usuario` y `label_password` para los otros dos restantes.
 
 # Dando estilo a la interfaz
 Siempre es mejor establecer los estilos desde el objeto padre, en nuestro caso ese objeto es el `QMainWindow`, entonces será en este objeto donde vamos a establecer las reglas de estilo que afectaran a todos los componentes hijos (e.i. botones, labels). Damos clic derecho **sobre la ventana** (ojo, sin tocar otro componente), y luego clic en `Change styleSheet ...`, como vemos en la imagen.
 
-![cambioEstilos](http://i.imgur.com/wGdrjsx.png)
+![cambioEstilos](http://i.imgur.com/5Z6T21N.png)
 Se nos abrirá un recuadro para escribir reglas de estilo, estas afectarán a todos los elementos de la ventana. Si tienes conocimientos en CSS te sentirás como en casa. Realizemos entonces algunos cambios de estilo.
 
 {% highlight css %}
