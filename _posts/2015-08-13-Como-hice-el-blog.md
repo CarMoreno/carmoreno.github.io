@@ -4,7 +4,7 @@ title:      Github Pages y Jekyll... Un blog bastante cool.
 date:       2015-08-13 19:29:04
 author:     Carlos Andrés Moreno
 summary:    Te explico como hice el sitio
-categories: Blog
+categories: Tutoriales
 thumbnail:  jekyll
 tags:
 - Como

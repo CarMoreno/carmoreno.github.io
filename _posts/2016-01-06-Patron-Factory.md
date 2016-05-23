@@ -4,7 +4,7 @@ title:      Patrones Pythonicos Patrón Factory
 date:       2016-01-06 21:10:12
 author:     Carlos Andrés Moreno
 summary:    Entendiendo el patrón de diseño Factory.
-categories: Blog
+categories: Python
 thumbnail:  cubes
 tags:
 - Patrones de diseño

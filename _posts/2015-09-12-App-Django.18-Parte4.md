@@ -4,8 +4,9 @@ title:      La Biblioteca, aplicación en Django 1.8 | Parte IV
 date:       2015-09-12 16:30:10
 author:     Carlos Andrés Moreno
 summary:    Construyendo una aplicación en Django 1.8, cuarta parte.
-categories: Blog
+categories: Django
 thumbnail:  django
+series: Django dummies
 tags:
 - aplicación
 - Django 1.8

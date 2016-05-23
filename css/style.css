@@ -551,4 +551,23 @@ ul {
   width: 80px;
   margin: 0 auto; 
 }
+.series {
+  margin-bottom: 50px;}
 
+.dropdown-menu {
+  background-color: #3CA2A2;
+  color: #FFFFFF;
+}    
+.dropdown-menu > li > a {
+  background-color: #3CA2A2;
+  color: #FFFFFF;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #215A6D;
+  color: #FFFFFF;
+}
+
+.next-series{
+  font-size:16px;
+}

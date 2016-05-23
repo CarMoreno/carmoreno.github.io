@@ -4,7 +4,7 @@ title:      ¿Cuál es el mejor lenguaje de programación?
 date:       2015-09-20 11:27:01
 author:     Carlos Andrés Moreno
 summary:    Una opinión acerca de cuál es el mejor lenguaje para programar.
-categories: blog
+categories: Reflexiones
 thumbnail:  gavel
 tags:
 - Cual

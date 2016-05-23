@@ -4,7 +4,7 @@ title:      ¿Cómo configurar archivos estáticos en Django 1.8?
 date:       2015-08-15 18:46:24
 author:     Carlos Andrés Moreno
 summary:    Configuración de archivos estáticos en Django 1.8
-categories: Blog
+categories: Django
 thumbnail:  django
 tags:
 - Como

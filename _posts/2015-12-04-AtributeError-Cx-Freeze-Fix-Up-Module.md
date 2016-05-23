@@ -5,7 +5,7 @@ date:       2015-12-04 17:35:04
 author:     Carlos Andrés Moreno
 summary:    Como resolver un error un tanto común, entre cx_Freeze y Windows
 thumbnail:  python
-categories: Blog
+categories: Python
 tags:
 - Cx_Freeze
 - Python

@@ -72,7 +72,37 @@ layout: default
       </div>
 
       <div class="content-panel content">
+      {% if page.series %}
+          Este artículo hace parte de la serie <i>«{{ page.series }}»</i>:
+          <ol class="series">
+          {% for apost in site.posts reversed %}
+            {% if page.series == apost.series %}
+              <li>
+                {% if page.title == apost.title %}
+                  {% assign nextpost = true %}
+                  {{ apost.title }}
+                {% else %}
+                  {% if nextpost == true %}
+                    {% assign seriesnext = apost %}
+                  {% endif %}
+                  {% assign nextpost = false %}
+                  <a href="{{ apost.url }}">{{ apost.title }}</a>
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+          </ol>
+        {% endif %}
+
         <span itemprop="articleBody">{{ content }}</span>
+        
+        {% if page.series %}
+          {% if seriesnext %}
+            <div class="next-series suggest-edit">
+              <p>Siguiente artículo en la serie: <a href="{{ seriesnext.url }}">{{ seriesnext.title }}</a></p>
+            </div>
+          {% endif %}
+        {% endif %}
 
         {% if site.addthis_id %}
         <div class="share">

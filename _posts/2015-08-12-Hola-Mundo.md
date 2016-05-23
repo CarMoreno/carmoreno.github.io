@@ -4,7 +4,7 @@ title:      print ("Hola Mundo")
 date:       2015-08-12 18:01:19
 author:     Carlos Andrés Moreno
 summary:    Presentación del blog
-categories: Blog
+categories: Reflexiones
 thumbnail:  code
 tags:
 - Hola

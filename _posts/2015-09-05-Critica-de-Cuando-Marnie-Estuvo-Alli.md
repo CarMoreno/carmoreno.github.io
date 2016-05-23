@@ -4,7 +4,7 @@ title:      Cuando Marnie estuvo allí, de Studio Ghibli.
 date:       2015-09-05 21:02:59
 author:     Carlos Andrés Moreno
 summary:    Una review sobre la película Cuando Marnie estuvo allí, producida por Studio Ghibli
-categories: Review
+categories: Reviews
 thumbnail:  ghibli
 tags:
 - Review

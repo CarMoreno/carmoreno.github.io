@@ -4,7 +4,7 @@ title:      El cuento de la princesa Kaguya, de Studio Ghibli.
 date:       2016-01-15 16:53:05
 author:     Carlos Andrés Moreno
 summary:    Una review sobre la película El cuento de la princesa Kaguya, producida por Studio Ghibli
-categories: Review
+categories: Reviews
 thumbnail:  ghibli
 tags:
 - Review

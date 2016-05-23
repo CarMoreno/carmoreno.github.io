@@ -4,7 +4,7 @@ title:      ¿Cómo configurar Django 1.8 en Windows?
 date:       2015-08-17 14:24:10
 author:     Carlos Andrés Moreno
 summary:    Explico cómo configurar Django 1.8 en Windows
-categories: Blog
+categories: Django
 thumbnail:  django
 tags:
 - Como

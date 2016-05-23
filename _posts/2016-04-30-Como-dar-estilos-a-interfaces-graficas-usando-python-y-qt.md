@@ -4,7 +4,7 @@ title:      Interfaces gráficas con mucho estilo usando Python y PyQT
 date:       2016-04-30 14:24:10
 author:     Carlos Andrés Moreno
 summary:   	Explico como realizar una interfaz gráfica usando Python y la libería PyQt.
-categories: Blog
+categories: Python
 thumbnail:  python
 tags:
 - Python
