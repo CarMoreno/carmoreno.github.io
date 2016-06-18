@@ -42,7 +42,7 @@ Para entender mejor como orquestan estos elementos, vamos a empezar haciendo una
 from django.http import HttpResponse
 # Create your views here.
 
-def primer_vista(request):#siempre recibe un parámetro HttpRequest
+def primer_vista(request):#siempre recibe un parametro HttpRequest
 	return HttpResponse("Hola, soy tu primera vista")
 {% endhighlight %}
 
