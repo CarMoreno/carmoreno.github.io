@@ -380,16 +380,16 @@ ul {
       .single .article .content .aligncenter {
         display: block;
         margin: 5px auto 5px auto; }
-      .single .article .content .highlight, pre {/*Editado*/
+      .single .article .content .highlight{/*Editado*/
         width: 100%;
         margin-left: -15px;
         padding-right: 45px;
         box-sizing: content-box; }
         @media (min-width: 768px) {
-          .single .article .content .highlight, pre {/*Editado*/
+          .single .article .content .highlight{/*Editado*/
             margin-left: -30px;
             padding-right: 60px; } }
-        .single .article .content .highlight pre, pre {/*Editado*/
+        .single .article .content .highlight pre{/*Editado*/
           width: 100%;
           font-family: 'Anonymous Pro';
           background-color: #21211E;
@@ -405,7 +405,7 @@ ul {
           margin-bottom: 10px;
           margin-top: 10px; }
           @media (min-width: 768px) {
-            .single .article .content .highlight pre, pre {/*Editado*/
+            .single .article .content .highlight pre{/*Editado*/
               padding-left: 50px;
               padding-right: 10px;
               margin-bottom: 40px;
@@ -503,6 +503,11 @@ ul {
   font-size:14px;
   font-style:italic;
   text-align:center;
+}
+
+pre {
+  border:none;
+  background-color: #21211E;
 }
 
 .rabbit-fold{
