@@ -510,30 +510,36 @@ pre {
   background-color: #21211E;
 }
 
-.rabbit-fold{
-  background-image: url("../images/about/rabbit.jpg");
+.figures{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  height: 20rem;
+  height: 25rem;
+  border: solid 2px #3CA2A2;
+  border-radius: 4px;
+}
+
+.rabbit-fold{
+  background-image: url("../images/about/rabbit.jpg");
+  
 }
 .elephant-fold{
   background-image: url("../images/about/elephant.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  height: 20rem;
 }
 
 .clavel-fold{
   background-image: url("../images/about/clavel.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  height: 20rem;
+}
+
+.rat-fold{
+  background-image: url("../images/about/rat.png");
+}
+
+.lion-fold{
+  background-image: url("../images/about/lion.png");
 }
  @media screen and (max-width: 992px) {
-  .rabbit-fold, .elephant-fold, .clavel-fold{
+  .rabbit-fold, .elephant-fold, .clavel-fold, .rat-fold, .lion-fold{
     height: 220px;
     width: 220px;
     margin: auto;
@@ -576,3 +582,13 @@ pre {
 .next-series{
   font-size:16px;
 }
+
+.article-galeria{
+  font-size: 20px;
+  margin-bottom: 1px;
+}
+.article-galeria ul li{
+  list-style: none !important;
+}
+
+
