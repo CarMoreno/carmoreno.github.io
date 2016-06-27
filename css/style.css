@@ -511,12 +511,12 @@ pre {
 }
 
 .figures{
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  height: 25rem;
-  border: solid 2px #3CA2A2;
-  border-radius: 4px;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  height: 25rem !important;
+  border: solid 2px #3CA2A2 !important;
+  border-radius: 4px !important;
 }
 
 .rabbit-fold{
@@ -538,8 +538,12 @@ pre {
 .lion-fold{
   background-image: url("../images/about/lion.png");
 }
+
+.flamingo-fold{
+  background-image: url("../images/about/flamingo.jpg");
+}
  @media screen and (max-width: 992px) {
-  .rabbit-fold, .elephant-fold, .clavel-fold, .rat-fold, .lion-fold{
+  .rabbit-fold, .elephant-fold, .clavel-fold, .rat-fold, .lion-fold, .flamingo-fold{
     height: 220px;
     width: 220px;
     margin: auto;
@@ -584,11 +588,9 @@ pre {
 }
 
 .article-galeria{
-  font-size: 20px;
-  margin-bottom: 1px;
+  font-size: 20px !important; 
+  margin-bottom: 1px !important;
 }
 .article-galeria ul li{
   list-style: none !important;
 }
-
-
