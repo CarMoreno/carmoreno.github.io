@@ -1,5 +1,5 @@
 # Site settings
-title: "Carlos Moreno"
+title: "Carmoreno"
 email: carlosandresmorenovelez@gmail.com
 description: "Un espacio para compartir"
 baseurl: ""
@@ -16,6 +16,7 @@ post_limit: 5
 twitter_username: IngenieroReal
 github_username:  CarMoreno
 codepen_username: CarMoreno
+duolingo_username: CarMoreno
 linkedin_link: https://co.linkedin.com/in/carmoreno1
 google_plus_link: https://plus.google.com/u/0/+CarlosMorenoV/about
 stackoverflow_link: http://stackoverflow.com/users/4508767/carlos-moreno?tab=profile

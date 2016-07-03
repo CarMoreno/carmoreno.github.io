@@ -98,11 +98,17 @@ ul {
 .links {
   margin-top: 50px;
   text-align: center; }
-  .links i {
+  .links img {
+      width: 3.5em;
+      padding-bottom: 8px;}
+      @media (max-width: 768px) {
+        .links img {width: 3em;}
+      }
+  .links i, .links img {
     padding-left: 5px;
     padding-right: 5px; }
     @media (min-width: 768px) {
-      .links i {
+      .links i, .links img {
         padding-left: 10px;
         padding-right: 10px; } }
   .links .fa {
@@ -121,6 +127,9 @@ ul {
     color: #c98b3b; }
   .links .fa-codepen:hover {
     color: #121212; }
+  .links .fa-duolingo:hover {
+    opacity: 0.5;
+  }  
 
 /* Index */
 .index {
