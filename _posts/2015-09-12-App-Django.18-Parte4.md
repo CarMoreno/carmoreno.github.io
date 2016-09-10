@@ -71,7 +71,7 @@ urlpatterns = [
 ]
 {% endhighlight %}
 
-De esta forma le decimos a Django que el patrón `/biblioteca` usará el modulo urls de nuestra aplicación. Ahora editemos el fichero `urls.py` que hemos creado nosotros.
+De esta forma le decimos a Django que el patrón `/biblioteca` usará el modulo urls de nuestra aplicación.
 
 El segundo fichero para el manejo de urls lo crearemos nosotros, ve a la carpeta de la aplicación `sitiolectura/biblioteca` y crea un nuevo archivo llamado `urls.py` y escribe lo siguiente:
 
