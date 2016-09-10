@@ -46,9 +46,11 @@ def primer_vista(request):#siempre recibe un parametro HttpRequest
 	return HttpResponse("Hola, soy tu primera vista")
 {% endhighlight %}
 
-Entrando más en detalle, podemos decir que una vista es una función o método que toma como parámetro <ins>**siempre**</ins> un objeto `HttpRequest`, en este objeto va la información referente a la solicitud que estamos haciendo, por ejemplo si el método solicitado es `POST` o `GET`. Y retorna un objeto `HttpResponse`, con la información de la página que va a mostrar, o una excepción, si algo anda mal. La vista por si sola no hace nada, necesitamos asociar esta vista a una dirección url, para esto vamos a manejar dos ficheros. El primer fichero Django ya nos lo crea, búscalo en el directorio del proyecto `sitiolectura/sitiolectura/urls.py`, el otro lo crearemos nosotros, ve a la carpeta de la aplicación `sitiolectura/biblioteca` y crea un nuevo archivo llamado `urls.py`. Vamos a editar el primero `sitiolectura/sitiolectura/urls.py`.
+Entrando más en detalle, podemos decir que una vista es una función o método que toma como parámetro <ins>**siempre**</ins> un objeto `HttpRequest`, en este objeto va la información referente a la solicitud que estamos haciendo, por ejemplo si el método solicitado es `POST` o `GET`. Y retorna un objeto `HttpResponse`, con la información de la página que va a mostrar, o una excepción, si algo anda mal. La vista por si sola no hace nada, necesitamos asociar esta vista a una dirección url, para esto vamos a manejar dos ficheros. El primer fichero Django ya nos lo crea, búscalo en el directorio del proyecto `sitiolectura/sitiolectura/urls.py`, abrelo y deberás ver algo como esto:
 
 {% highlight python %}
+# sitiolectura/sitiolectura/urls.py
+
 from django.conf.urls import include, url
 from django.contrib import admin
 
@@ -57,9 +59,7 @@ urlpatterns = [
 ]
 {% endhighlight %}
 
-Ignorando las líneas que de seguro tienes comentadas en ese archivo, lo que podemos apreciar acá es la forma en como Django relaciona una patrón url `/admin`, con el módulo `admin.site.urls` de la aplicación Admin, usada en la entrada pasada. En este sentido, cuando nos dirigimos a `localhost:8000/admin` empezamos a usar ese fichero url de dicha app para los siguientes enlaces que vayamos usando, como por ejemplo `localhost:8000/admin/Libro`.
-
-Vamos a hacer lo mismo para nuestra aplicación de la Biblioteca, por lo tanto edita ese archivo y coloca lo siguiente
+Ignorando las líneas que de seguro tienes comentadas en ese archivo, lo que podemos apreciar acá es la forma en como Django relaciona una patrón url `/admin`, con el módulo `admin.site.urls` de la aplicación Admin, usada en la entrada pasada. En este sentido, cuando nos dirigimos a `localhost:8000/admin` empezamos a usar ese fichero url de dicha app para los siguientes enlaces que vayamos usando, como por ejemplo `localhost:8000/admin/Libro`. Escribe entonces lo siguiente...
 
 {% highlight python %}
 from django.conf.urls import include, url
@@ -72,6 +72,8 @@ urlpatterns = [
 {% endhighlight %}
 
 De esta forma le decimos a Django que el patrón `/biblioteca` usará el modulo urls de nuestra aplicación. Ahora editemos el fichero `urls.py` que hemos creado nosotros.
+
+El segundo fichero para el manejo de urls lo crearemos nosotros, ve a la carpeta de la aplicación `sitiolectura/biblioteca` y crea un nuevo archivo llamado `urls.py` y escribe lo siguiente:
 
 {% highlight python %}
 from django.conf.urls import include, url
