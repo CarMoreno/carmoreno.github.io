@@ -22,7 +22,6 @@ Siempre es enriquecedor asistir a eventos y escuchar a expertos en distintas mat
 En mi opinión fue uno de los puntos mas sobresalientes del 11° CCC, había muchas charlas para elegir, según tu interés en áreas especificas. Se dictaron conferencias sobre Usabilidad, Manejo de Datos, Ingeniería del Software, Inteligencia Artificial, Computación Emocional, Web Semántica, entre otras. Había gran variedad de temas en distintas líneas de la computación que podías elegir. Que el congreso contara con este abanico de posibilidades es en mi opinión su punto mas fuerte. Los ponentes estuvieron bastante bien, explicaron algunas nuevas tendencias que se están dando en las áreas anteriormente mencionadas.
 
 ![teatro](http://i.imgur.com/AGCHt7f.jpg)
-
 _Llegue muy temprano a la primera conferencia_ <i class="fa fa-meh-o"></i> 
 
 ## Short Papers y Full Papers
@@ -34,7 +33,6 @@ Tuve la oportunidad de enviar un _Short Paper_ sobre mi proyecto de tesis de pre
 Aquellos cuyos artículos fueron seleccionados, debían realizar una ponencia explicando un poco en que consistía su investigación, y así lo hicimos (la ponente fue mi compañera, y lo hizo excelente). Podías ir a las presentaciones de otros _Short Papers_ y _Full Papers_ y, para poner la cereza sobre el pastel, todos los artículos seleccionados fueron publicados en el IEEE Explore como parte de las memorias del evento, genial.
 
 ![IEEE](http://i.imgur.com/bCoXsw7.jpg?1)
-
 _IEEE Colombia fue uno de los patrocinadores del evento_
 
 ## La logística
