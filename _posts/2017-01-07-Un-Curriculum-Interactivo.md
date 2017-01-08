@@ -22,15 +22,15 @@ Ahora sí a lo que vinimos, para nadie es un secreto que hacer un buen _curricul
 
 De [Javier Muñiz](https://twitter.com/javianmuniz), él es un Ingeniero Informático, escritor, desarrollador de video juegos y _youtuber_ español. Acostumbro ver [su contenido](https://www.youtube.com/channel/UCt4oJu2ItngyTNBwPNmJDfA) en _Youtube_ cada vez que tengo algún rato libre, en su canal trata de dar _tips_ y consejos sobre cómo mejorar en aspectos personales y laborales. En uno de sus videos mencionó que una buena idea para destacar del resto es hacer algo que impacte y que tenga que ver con tu campo de conocimiento, Javier realizó un juego en _HTML5_ donde se presentaba a sí mismo y daba a conocer sus habilidades.
 
-La temática de [su juego](http://seetio.com/curriculum/) es simple, pero la idea es fantástica y me propuse realizar uno propio (por supuesto, con otra temática). Con un juego puedes demostrar tus capacidades de programación al mismo tiempo que te presentas y hablas un poco de ti. Además ¿Un juego como _curriculum_?, seguro que te desmarcará del resto.
+La temática del [juego de Javier](http://seetio.com/curriculum/) es simple, pero la idea es fantástica y me propuse realizar uno propio (por supuesto, con otra temática). De esta manera puedes demostrar tus capacidades de programación al mismo tiempo que te presentas y hablas un poco de ti. Además ¿Un juego como _curriculum_?, seguro que te desmarcará del resto.
 
-Luego empecé a _googlear_ un poco y descubrí que no solo Javier tenía un juego de _curriculum_, encontré a [Daniel Sternlicht](http://danielsternlicht.com/), a [Robby Leonardi](http://www.rleonardi.com/interactive-resume/) y a Miquel Camps (su juego no está disponible a la fecha ;_;). Ingenieros que hicieron lo mismo que Javier, ¡en este momento estaba súper entusiasmado!, así que me puse manos a la obra.
+Luego empecé a _googlear_ un poco y descubrí que no solo Javier tenía uno, encontré a [Daniel Sternlicht](http://danielsternlicht.com/), a [Robby Leonardi](http://www.rleonardi.com/interactive-resume/) y a Miquel Camps (su juego no está disponible a la fecha ;_;). Ingenieros que hicieron lo mismo que Javier, ¡en este momento estaba súper entusiasmado!, así que me puse manos a la obra.
 
 # ¿Cómo lo hice?
 
-[Mi juego](http://carmoreno.github.io/cvgame) está desarrollado con tecnologías web, se puede jugar desde cualquier navegador e incluso desde dispositivos móviles. El juego en su totalidad está programado en _Javascript_, haciendo uso de [Phaser](http://phaser.io/), un _framework_ para la construcción de videojuegos que ofrece muchas ventajas (manejo de _sprites_, sistema de físicas, funciones para _responsive_, entre otras). No tenía ni idea sobre este _framework_, así que tuve que aprender a usarlo, por suerte hay bastantes foros (en inglés) y el tutorial oficial de _Mozilla_ en español, la verdad es muy sencillo de usar si ya tienes algo de experiencia en _Javascript_ y haz hecho algún juego antes.
+[Mi juego](http://carmoreno.github.io/cvgame) está desarrollado con tecnologías web, se puede jugar desde cualquier navegador e incluso desde dispositivos móviles. Está programado en _Javascript_, haciendo uso de [Phaser](http://phaser.io/), un _framework_ para la construcción de videojuegos que ofrece muchas ventajas (manejo de _sprites_, sistema de físicas, funciones para _responsive_, entre otras). No tenía ni idea sobre este _framework_, así que tuve que aprender a usarlo, por suerte hay bastantes foros (en inglés) y el tutorial oficial de _Mozilla_ en español, la verdad es muy sencillo de usar si ya tienes algo de experiencia en _Javascript_ y haz hecho algún juego antes.
 
-Primero hice un diseño en papel del juego, con el fin de determinar cómo iba a funcionar y cómo iba a ser su aspecto. La imagen de más abajo muestra el _sketch_, algo simple pero lo importante era tener una idea general de cómo iba a quedar el juego. Quería que el juego tuviera un aspecto pixelado, que el avatar fuera al estilo NES o Súper Nintendo y que fuera fácil de usar.
+Primero hice un diseño en papel, con el fin de determinar cómo iba a funcionar y cómo iba a ser su aspecto. La imagen de más abajo muestra el _sketch_ (algo simple), pero lo importante era tener una idea general de cómo iba a quedar el juego. Quería que tuviera un aspecto pixelado, que el avatar fuera al estilo NES o Súper Nintendo y que fuera fácil de usar.
 
 ![sketch](http://i.imgur.com/TdLV2gD.png)
 _Diseño en papel_
@@ -44,6 +44,6 @@ Después de mas o menos 20 días, lo terminé y la verdad que estoy muy contento
 
 # Conclusión
 
-Un juego donde muestres lo que puedes hacer es sin duda una gran opción que te va a destacar del resto, anímate y crea uno propio, nos vemos en una próxima entrada.
+Sin duda alguna, construir un juego donde que te sirva de _curriculum_ es una gran opción que te va a destacar del resto, anímate y crea uno propio, nos vemos en una próxima entrada.
 
 {% highlight python %}print("Hasta pronto"){% endhighlight %}
