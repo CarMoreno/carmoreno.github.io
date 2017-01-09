@@ -44,6 +44,6 @@ Después de mas o menos 20 días, lo terminé y la verdad que estoy muy contento
 
 # Conclusión
 
-Sin duda alguna, construir un juego donde que te sirva de _curriculum_ es una gran opción que te va a destacar del resto, anímate y crea uno propio, nos vemos en una próxima entrada.
+Sin duda alguna, construir un juego de _curriculum_ es una gran opción que te va a destacar del resto, anímate y crea uno propio, nos vemos en una próxima entrada.
 
 {% highlight python %}print("Hasta pronto"){% endhighlight %}
