@@ -15,7 +15,7 @@ tags:
 # Introducción
 Nuevo año, muchos objetivos que cumplir y muchas metas que alcanzar, tenemos 365 días para sacarles el mayor jugo y aprovecharlos al máximo. Este post lo escribo para plasmar en él mis propósitos para este nuevo año, es una buena idea tener por escrito tus propósitos, esto ayudará a que no pierdas el norte conforme van pasando los días y meses. 
 
-Mi lista es bastante extensa, y obviamente será un desafío cumplirlas todas, pero ya sabes lo que dicen: _"Es mejor tirar la piedra alto_. Al final del año, volveré a este post para revisar los objetivos que cumplí y los que no, y haré un balance al respecto (espero que sean más los objetivos cumplidos).
+Mi lista es bastante extensa, y obviamente será un desafío cumplirlas todas, pero ya sabes lo que dicen: _"Es mejor tirar la piedra alto"_. Al final del año, volveré a este post para revisar los objetivos que cumplí y los que no, y haré un balance al respecto (espero que sean más los objetivos cumplidos).
 
 # Propositos
 Voy a clasificarlos de acuerdo a ciertas categorías: Familia/Amigos, Dinero, Amor, Carrera profesional, Mente, _Hobbies_, Salud y Ocio.
@@ -33,7 +33,7 @@ Voy a clasificarlos de acuerdo a ciertas categorías: Familia/Amigos, Dinero, Am
 
 ### Salud
 
-1. Dejar consumir bebidas gaseosas.
+1. Dejar de consumir bebidas gaseosas.
 2. Levantarme todos los días a las 6:30 AM, a excepción de los fines de semana.
 3. Acostarme antes de las 11:30 PM
 
@@ -64,7 +64,7 @@ Voy a clasificarlos de acuerdo a ciertas categorías: Familia/Amigos, Dinero, Am
 1. Ver una película nueva al mes.
 2. Seguir alguna serie interesante.
 
-Al parecer he puesto muchos propósitos, pero como dije antes es mejor _tirar la piedra alto_, al final del año revisaré este post y me daré cuenta de cuales cumplí y cuales no.
+Al parecer he puesto muchos propósitos, pero como dije antes es mejor _"tirar la piedra alto"_, al final del año revisaré este post y me daré cuenta de cuales cumplí y cuales no.
 
 Por último, decirte que este post está inspirado en [este video de Javier Muñiz](https://www.youtube.com/watch?v=pFisMmMmakg), de paso te invito a que revises su canal, su contenido es muy inspirador. 
 
