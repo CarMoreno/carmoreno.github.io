@@ -7,9 +7,9 @@ summary:    Post para recordar mis propósitos para el nuevo año 2017.
 categories: Reflexiones
 thumbnail:  pencil
 tags:
-- Hola
-- Mundo
-- Presentación
+- Metas
+- Propósitos
+- Objetivos
 ---
 
 # Introducción
