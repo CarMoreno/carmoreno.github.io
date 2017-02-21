@@ -157,7 +157,24 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
           </p>
-          <p class="date">Publicado en {{ page.previous.date | date: "%B %-d, %Y" }}</p>
+          <p class="date">Publicado en 
+          {% assign m = page.date | date: "%-m" %}
+            {% case m %}
+              {% when '1' %}Enero
+              {% when '2' %}Febrero
+              {% when '3' %}Marzo
+              {% when '4' %}Abril
+              {% when '5' %}Mayo
+              {% when '6' %}Junio
+              {% when '7' %}Julio
+              {% when '8' %}Agosto
+              {% when '9' %}Septiembre
+              {% when '10' %}Octubre
+              {% when '11' %}Noviembre
+              {% when '12' %}Diciembre
+            {% endcase %}
+            {{page.date | date: "%-d" }}
+             del {{page.date | date: "%Y" }}</p>
           {% endif %}
         </div>
         <div class="next previous-next">
@@ -165,7 +182,24 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
           </p>
-          <p class="date">Publicado en {{ page.next.date | date: "%B %-d, %Y" }}</p>
+          <p class="date">Publicado en 
+          {% assign m = page.date | date: "%-m" %}
+            {% case m %}
+              {% when '1' %}Enero
+              {% when '2' %}Febrero
+              {% when '3' %}Marzo
+              {% when '4' %}Abril
+              {% when '5' %}Mayo
+              {% when '6' %}Junio
+              {% when '7' %}Julio
+              {% when '8' %}Agosto
+              {% when '9' %}Septiembre
+              {% when '10' %}Octubre
+              {% when '11' %}Noviembre
+              {% when '12' %}Diciembre
+            {% endcase %}
+            {{page.date | date: "%-d" }}
+             del {{page.date | date: "%Y" }}</p>
           {% endif %}
         </div>
       </div>
