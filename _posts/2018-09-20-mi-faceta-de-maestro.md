@@ -30,7 +30,7 @@ Si tuviera que describir el exigente oficio del docente en una sola palabra ser�
 
 Desde que estaba cursando mi secundaria hace unos 8 años atrás, siempre sentí gran admiración por mis profesores, aunque también sentí gran frustración con otros. En esos momentos pensaba:
 
-> Si en algún momento llego a ser docente, quiero ser delos que dá gusto escuchar y atender a sus clases.
+> Si en algún momento llego a ser docente, quiero ser de aquellos a los que dá gusto escuchar y atender a sus clases.
 
 Y sin siquiera planearlo, a la fecha estoy dictando clases y, puedo decir que estoy cumpliendo lo que pensaba en esos momentos (ojalá uno de mis estudiantes me leyera y comentara, así ustedes me creerían más jajaja). Llevo en total dos meses enseñando _Programación Lineal_ la cual, será recordada por siempre por ser mi primera asignatura. Aunque es un curso pequeño, es un buen comienzo y siento que los estudiantes aprenden de una buena forma los temas dictados. Ha sido una grata experiencia aunque, al principio me he tenido que ganar mi lugar, pues por mi edad (tengo 23 años) es un poco fácil que las personas te sobrestimen. Mi punto a favor es que no soy un _"Ingeniero Académico"_, ni tampoco quiero serlo (al menos no por ahora), por el contrario, actualmente ejerzo mi profesión en el campo laboral y hago lo que más me gusta: Desarrollar software, tanto en _backend_ como en _frontend_. 
 
