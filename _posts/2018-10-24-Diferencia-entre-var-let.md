@@ -50,7 +50,7 @@ function esFinDeMes() {
 
     console.log(mensaje); // "Mostrará por consola Hola"
     console.log(dias); // "Mostrará por consola 2
-    console.log(response); // "Mostrará por consola false"
+    console.log(response); // "Mostrará por consola true"
     // Obtendremos un ReferenceError: diasAsString no está definido
     console.log(diasAsString);
 }
