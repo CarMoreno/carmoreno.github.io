@@ -23,7 +23,7 @@ Y sí, lo voy a decir aunque parezca un poco obvio. En este grupo nos encanta el
 
 ## Algo de historia
 
-Hay que darle el crédito a [Isabel Cristina Ruíz](https://github.com/iris9112), una nueva amiga y colega; fue la que pensó en crear una comunidad de entusiastas del python en la ciudad de Tuluá, luego nos fuimos uniendo más amigos y conocidos. Pero realmente la idea nació de ella. Nos acompaña también en los _meetups_. 
+Hay que darle el crédito a [Isabel Cristina Ruíz](https://github.com/iris9112), una nueva amiga y colega; fue la que pensó en crear una comunidad de entusiastas de python en la ciudad de Tuluá, luego nos fuimos uniendo más amigos y conocidos. Pero realmente la idea nació de ella. Nos acompaña también en los _meetups_. 
 
 ## ¿Qué hacemos?
 
