@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Cuál es la diferencia entre Var y Let
+title:      ¿Cuál es la diferencia entre Var y Let?
 date:       2018-10-24 15:25:42
 author:     Carlos Andrés Moreno
 summary:    Establcememos las diferencias que existen entre var y let y realizamos ejemplos para comprender e interiorizar.
