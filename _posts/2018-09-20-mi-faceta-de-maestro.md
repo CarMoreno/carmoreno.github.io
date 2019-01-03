@@ -13,9 +13,9 @@ tags:
 - Sistemas
 ---
 
-![books](https://wallpaper.wiki/book-hd-backgrounds.html/free-download-book-hd-backgrounds/)
+![books](https://wallpaper.wiki/wp-content/uploads/2017/05/Free-Download-Book-HD-Backgrounds.jpg)
 
-_Imagen sacada de [[1]](https://wallpaper.wiki/book-hd-backgrounds.html/free-download-book-hd-backgrounds/)_
+_Imagen sacada de [[1]](https://wallpaper.wiki/wp-content/uploads/2017/05/Free-Download-Book-HD-Backgrounds.jpg)_
 
 
 ## Hola
