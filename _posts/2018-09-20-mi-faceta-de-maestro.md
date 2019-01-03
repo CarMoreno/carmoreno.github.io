@@ -13,9 +13,9 @@ tags:
 - Sistemas
 ---
 
-![books](http://www.bestfon.info/images/joomgallery/originals/macro_16/macro_60_20120506_1558469738.jpg)
+![books](https://wallpaper.wiki/book-hd-backgrounds.html/free-download-book-hd-backgrounds/)
 
-_Imagen sacada de [[1]](http://www.bestfon.info/macro/macro/macro60-1906.html)_
+_Imagen sacada de [[1]](https://wallpaper.wiki/book-hd-backgrounds.html/free-download-book-hd-backgrounds/)_
 
 
 ## Hola
