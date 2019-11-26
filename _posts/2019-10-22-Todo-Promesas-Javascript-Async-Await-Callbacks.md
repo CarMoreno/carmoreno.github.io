@@ -15,9 +15,11 @@ tags:
 
 Hace mucho tenía pensado realizar este artículo, pues en su momento fue un tema muy confuso para mi y quiero de alguna forma, orientar un poco al lector en la comprensión de las **tan** famosas _Promises_ de Javascript, presentes desde la versión ES6. El objetivo es realizar un repaso sobre las funciones callbacks, esto ayudará a entender de mejor forma las Promesas y luego explicaremos qué papel juega Async y Await en todo esto; esto último introducido a partir de ES7.
 
-A lo largo de este post trabajaremos con un ejemplo, el cual iremos modificando conforme se vaya avanzando. Sería excelente que el lector contara con conocimientos en Javascript básico, ya que no se explicarán aspectos como funciones flecha, métodos de arreglos (map, filter, forEach), string _templates_, entre otros.
+A lo largo de este post trabajaremos con un ejemplo, el cual iremos modificando conforme se vaya avanzando, al final de este artículo tienes el link al repositorio con el código del ejemplo, para que puedas estudiarlo.
 
-Por último, para este artículo se uso NodeJS versión 10.16.3, NPM 6.9.0 y Nodemon 1.19.4 sobre Windows 10 de 64 bits.
+Sería excelente que el lector contara con conocimientos en Javascript básico, ya que no se explicarán aspectos como funciones flecha, métodos de arreglos (map, filter, forEach), string _templates_, entre otros.
+
+Por último, para este artículo se usó NodeJS versión 10.16.3, NPM 6.9.0 y Nodemon 1.19.4 sobre Windows 10 de 64 bits.
 
 ### Hablemos de Callbacks
 
