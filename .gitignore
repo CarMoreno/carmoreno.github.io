@@ -26,3 +26,6 @@ _site/
 .jekyll-cache/
 # Ruby
 Gemfile.lock
+
+#vscode
+.vscode/
