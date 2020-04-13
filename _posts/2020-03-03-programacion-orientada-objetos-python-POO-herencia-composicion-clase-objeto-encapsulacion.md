@@ -386,7 +386,7 @@ class Vehiculo:
         print(f"Soy {self.marca}, estoy volteando a la {direccion}")
 {% endhighlight %}
 
-**3. Privados:** Establece que un atributo puede ser accedido **únicamente** desde la clase donde fue definido. Es este sentido, los atributos propios de las clases hijas y los atributos de la clase PalancaCambios deberían ser privados y tener los correspondientes _getters_ y _setters_ para acceder a estos. Para que un atributo sea privado en Python, debemos anteponer _"dobles guiones bajo"_
+**3. Privados:** Establece que un atributo puede ser accedido **únicamente** desde la clase donde fue definido. En este sentido, los atributos propios de las clases hijas y los atributos de la clase PalancaCambios deberían ser privados y tener los correspondientes _getters_ y _setters_ para acceder a estos. Para que un atributo sea privado en Python, debemos anteponer _"dobles guiones bajo"_
 
 Realizando las correspondientes modificaciones a la clase PalancaCambios, tendríamos lo siguiente:
 {% highlight python %}
