@@ -4,7 +4,7 @@ title: Python con Súper poderes - Programación Orientada a Objetos
 date: 2020-03-03 10:49:19
 author: Carlos Andrés Moreno
 summary: En este articulo se explican los conceptos de Programación Orientada a objetos y hacemos ejemplos de los conceptos vistos usando Python.
-categories: python
+categories: Python
 thumbnail: python
 tags:
   - POO
