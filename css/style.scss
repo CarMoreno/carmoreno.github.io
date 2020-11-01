@@ -186,12 +186,16 @@ ul {
 		color: $linkedin;
 	}
 
-	.fa-google-plus:hover {
-		color: $google-plus;
+	.fa-book:hover {
+		color: $orange;
 	}
 
 	.fa-github-alt:hover {
 		color: $github;
+    }
+    
+    .fa-codepen:hover {
+		color: $darker;
 	}
 
 	.fa-stack-overflow:hover {
