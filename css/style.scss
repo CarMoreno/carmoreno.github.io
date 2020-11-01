@@ -828,3 +828,51 @@ ul {
 		}
 	}
 }
+
+/*Estilos de galeria*/
+.panel-heading, .panel-footer, .panel-default{
+    background-color: #2D2D29 !important;
+}
+
+.figures{
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    height: 25rem !important;
+    border: solid 2px #3CA2A2 !important;
+    border-radius: 4px !important;
+  }
+  
+  .rabbit-fold{
+    background-image: url("../images/about/rabbit.jpg");
+    
+  }
+  .elephant-fold{
+    background-image: url("../images/about/elephant.jpg");
+  }
+  
+  .clavel-fold{
+    background-image: url("../images/about/clavel.jpg");
+  }
+  
+  .rat-fold{
+    background-image: url("../images/about/rat.png");
+  }
+  
+  .lion-fold{
+    background-image: url("../images/about/lion.png");
+  }
+  
+  .flamingo-fold{
+    background-image: url("../images/about/flamingo.jpg");
+  }
+   @media screen and (max-width: 992px) {
+    .rabbit-fold, .elephant-fold, .clavel-fold, .rat-fold, .lion-fold, .flamingo-fold{
+      height: 220px;
+      width: 220px;
+      margin: auto;
+    }
+  }
+  .panel-heading h3{
+    color: #3CA2A2;
+  }
