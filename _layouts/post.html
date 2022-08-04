@@ -103,7 +103,9 @@ layout: default
             </div>
           {% endif %}
         {% endif %}
-
+        <div class="feedback">
+            <strong>Si te ha gustado esta entrada, puedes ...</strong> <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Cómprarme un cafecito', '#29abe0', 'X8X5E6UGW');kofiwidget2.draw();</script>
+        </div>
         {% if site.addthis_id %}
         <div class="share">
           <!-- Go to www.addthis.com/dashboard to customize your tools -->
@@ -115,14 +117,12 @@ layout: default
           <i class="fa fa-tags"></i>
             {{ page.tags | join: ', ' }}
         </small></div>
-        <div class="suggest-edit">
-          <p>¿Ves un error en este artículo, por qué no <a href="https://github.com/CarMoreno/carmoreno.github.io/tree/master/{{page.path}}" target="_blank"> sugieres una revisión?</a></p>
-        </div>
   
       </div>
 
       <div class="content-panel feedback">
-        Déjame saber lo que piensas de este artículo en twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> o deja un comentario mas abajo 
+        Déjame saber lo que piensas de este artículo en twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> o deja un comentario mas abajo.
+        ¿Ves un error en este artículo, por qué no <a href="https://github.com/CarMoreno/carmoreno.github.io/tree/master/{{page.path}}" target="_blank"> sugieres una revisión?</a>
       </div>
 
       {% if site.disqus_account %}
@@ -158,7 +158,7 @@ layout: default
             <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
           </p>
           <p class="date">Publicado en 
-          {% assign m = page.date | date: "%-m" %}
+          {% assign m = page.previous.date | date: "%-m" %}
             {% case m %}
               {% when '1' %}Enero
               {% when '2' %}Febrero
@@ -173,8 +173,8 @@ layout: default
               {% when '11' %}Noviembre
               {% when '12' %}Diciembre
             {% endcase %}
-            {{page.date | date: "%-d" }}
-             del {{page.date | date: "%Y" }}</p>
+            {{page.previous.date | date: "%-d" }}
+             del {{page.previous.date | date: "%Y" }}</p>
           {% endif %}
         </div>
         <div class="next previous-next">
@@ -183,7 +183,7 @@ layout: default
             <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
           </p>
           <p class="date">Publicado en 
-          {% assign m = page.date | date: "%-m" %}
+          {% assign m = page.next.date | date: "%-m" %}
             {% case m %}
               {% when '1' %}Enero
               {% when '2' %}Febrero
@@ -198,8 +198,8 @@ layout: default
               {% when '11' %}Noviembre
               {% when '12' %}Diciembre
             {% endcase %}
-            {{page.date | date: "%-d" }}
-             del {{page.date | date: "%Y" }}</p>
+            {{page.next.date | date: "%-d" }}
+             del {{page.next.date | date: "%Y" }}</p>
           {% endif %}
         </div>
       </div>

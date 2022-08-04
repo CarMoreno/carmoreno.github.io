@@ -41,14 +41,15 @@ layout: default
               <h2>Últimos artículos</h2>
 
               <ul>
-                  {% for post in site.posts | limit: site.post_limit %}
+                  {% for post in site.posts limit: site.post_limit %}
 
                       <li>
                           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                           <small class="hidden-xs">
                             <!-- Snippet para establecer meses a español -->
-                            {% assign m = post.date | page.date | date: "%-m" %}
-                            {% case m %}
+                            {% assign m = post.date | date: "%-m" %}
+                            {% assign n = page.date | date: "%-m" %}
+                            {% case m, n %}
                               {% when '1' %}Enero
                               {% when '2' %}Febrero
                               {% when '3' %}Marzo
@@ -62,7 +63,7 @@ layout: default
                               {% when '11' %}Noviembre
                               {% when '12' %}Diciembre
                             {% endcase %}
-                            {{post.date | page.date | date: "%-d" }}, {{post.date | page.date | date: "%Y" }}
+                            {{post.date | date: "%-d" }}, {{post.date | date: "%Y" }}
                           </small>
                       </li>
 
