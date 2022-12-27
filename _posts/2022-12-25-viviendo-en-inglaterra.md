@@ -16,6 +16,9 @@ En julio de 2022 decidí aceptar una oferta de trabajo e irme a vivir a Inglater
 
 Inglaterra siempre ha sido uno de esos países con los cuales soñaba algún día poder visitar y Londres una de las ciudades en las que siempre imaginé caminar, viendo el _Big Ben_ mientras un bus de dos pisos pasaba delante de mí. Ya sabes, las típicas imágenes mentales que uno se hace en la noche cuando esta a punto de dormir. El valor cultural de Reino Unido es muy variado, tienen músicos, escritores, actores, pintores, etc. A lo que voy es que me siento identificado con su cultura. Aunque no soy fan de _The Beatles_ me gusta _Queen_, no he leído a Agatha Christie pero sí a J.K. Rowling y, hablando desde la parte de ciencias de la computación, acá nació Alan Turing que creo, no necesita presentación.
 
+![bigben](../../../../../../images/2022-12-25/bigben.jpg)
+_Big Ben. Fuente: Imagen propia_
+
 Además, quería poner en práctica lo aprendido durante casi año y medio de estudio intensivo de inglés. Esto no ponía propiamente a Inglaterra como la única opción, también estaban los otros países de Reino Unido (Escocia, Gales e Irlanda del Norte), y en menor medida por preferencia, Canadá y Estados Unidos.
 
 A continuación algunas opiniones, muy propias, sobre lo que mas me ha gustado y lo que aún no termina de gustarme de vivir en Inglaterra.
@@ -79,6 +82,9 @@ _Invierno en Cambridge. Fuente: Imagen propia_
 
 ### La comida
 Han pasado 6 meses y no he podido descubrir la cocina típica inglesa, ese toque mágico de alguna hierba o especia, algún plato que tenga la real sazón británica (si es que algo así existe). La comida mas británica que he probado ha sido los famosos _Fish and Chips_. Plato que puedo comer en Inglaterra, o en España o en México. Es pescado apanado con papas, nada realmente elaborado o con un ritual culinario. Probé también el _Sunday Roast_ acompañado de salsa _Gravy_, este plato un poco mas elaborado, pero insípido. Mención especial al _Full English Breakfast_, que ha sido el mejor plato que me he comido en Inglaterra, y es un desayuno.
+
+![sundayroast](../../../../../../images/2022-12-25/sundayroast.jpg)
+_Sunday Roast. Fuente: Imagen propia_
 
 ![tyrrells](../../../../../../images/2022-12-25/tyrrells.jpg)
 _Papas Tyrrels, lo primero que comí al llegar a Inglaterra. Fuente: Imagen propia_
