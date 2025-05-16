@@ -32,3 +32,5 @@ Gemfile.lock
 #vscode
 .vscode/
 .venv
+
+.ipynb_checkpoints/
