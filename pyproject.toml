@@ -1,0 +1,16 @@
+[project]
+name = "carmoreno-github-io"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib-inline>=0.1.7",
+    "matplotlib>=3.10.3",
+    "pandas>=2.2.3",
+    "plotly>=6.0.1",
+    "plotting>=0.0.7",
+    "nbconvert>=7.16.6",
+    "jupyter>=1.1.1",
+    "polars-lts-cpu>=1.27.0 ; sys_platform == 'darwin'",
+    "polars>=1.27.0 ; sys_platform == 'linux'",
+]
