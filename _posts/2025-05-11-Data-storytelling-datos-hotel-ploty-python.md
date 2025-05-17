@@ -36,12 +36,11 @@ Me gustaría tambien mencionar a [Jérome Eertmans](https://github.com/jeertmans
 
 Lisboa es uno de los destinos turísticos más visitados todos los años en Europa, tiene un clima excelente, buena comida, hermosos paisajes y playas mediterraneas. En 2021, esta ciudad ocupó [el tercer lugar](https://elordenmundial.com/mapas-y-graficos/ciudades-mas-visitadas-europa/) entre las 15 ciudades más visitadas de Europa, solo por detrás de París y Barcelona. Sin embargo, que sea tan popular no significa que todo sea color de rosa; muchas veces implica sitios de interés repletos de gente, pocos lugares para parquear tu vehículo y pagar precios más altos por temporada. ¿No sería mejor ir a Lisboa en una temporada un poco mas relajada?, podríamos usar los datos de hoteles para saber cuándo hay mayor cantidad de turistas. Entre más reservaciones sin cancelación existan, significa mayor cantidad de personas yendo a estos hoteles. Miremos qué nos dicen los datos.
 
-
 <iframe style="color-scheme: none;"
     scrolling="no"
     width="100%"
     height="545px"
-    src="/assets/notebooks/html_0022420b-d3cd-47f1-8b56-1e9938604407/figure_5.html"
+    src="/assets/notebooks/html_d66607c9-8bde-4de4-8e02-74d62e0c8c1a/figure_5.html"
     frameborder="0"
     allowfullscreen
 ></iframe>
@@ -60,7 +59,7 @@ Primero miremos de forma general de dónde proceden las personas que han hecho u
     scrolling="no"
     width="100%"
     height="545px"
-    src="/assets/notebooks/html_0022420b-d3cd-47f1-8b56-1e9938604407/figure_7.html"
+    src="/assets/notebooks/html_d66607c9-8bde-4de4-8e02-74d62e0c8c1a/figure_7.html"
     frameborder="0"
     allowfullscreen
 ></iframe>
@@ -69,13 +68,13 @@ Primero miremos de forma general de dónde proceden las personas que han hecho u
 
 Vemos que tenemos muchos paises (**178** para ser exactos). Tiene sentido que Portugal sea el país desde donde más se hacen reservas a Lisboa seguido de los paises cercanos como España, Francia, Italia y Reino Unido. Este último al igual que Irlanda parecen preferir el Hotel Resort en lugar del Hotel Urbano.
 
-Por el contrario, los tursitas que vienen de los tres primeros países mencionados anteriormente prefieren visitar el Hotel Urbano, al igual que los turistas que proceden de Alemania. Ahora exploremos de qué paises serían los turistas que nos pudieramos encontrar en Lisboa, en caso de que viajaramos en Junio o Septiembre. Quizá podamos hacer amigos mientras viajamos, miremos qué nos dicen los datos:
+Por el contrario, los tursitas que vienen de los tres primeros países mencionados anteriormente prefieren visitar el Hotel Urbano, al igual que los turistas que proceden de Alemania. Ahora exploremos de qué paises serían los turistas que nos pudieramos encontrar en Lisboa, en caso de que viajaramos en Junio o Septiembre. Vamos a tomar solo paises que tengan 50 personas o más, con el fin de mostrar datos más significativos. Miremos:
 
 <iframe style="color-scheme: none;"
     scrolling="no"
     width="100%"
     height="545px"
-    src="/assets/notebooks/html_0022420b-d3cd-47f1-8b56-1e9938604407/figure_9.html"
+    src="/assets/notebooks/html_d66607c9-8bde-4de4-8e02-74d62e0c8c1a/figure_9.html"
     frameborder="0"
     allowfullscreen
 ></iframe>
@@ -96,7 +95,7 @@ Ya vimos que Junio y Septiembre pueden ser los mejores meses para viajar si es q
     scrolling="no"
     width="100%"
     height="545px"
-    src="/assets/notebooks/html_0022420b-d3cd-47f1-8b56-1e9938604407/figure_13.html"
+    src="/assets/notebooks/html_d66607c9-8bde-4de4-8e02-74d62e0c8c1a/figure_13.html"
     frameborder="0"
     allowfullscreen
 ></iframe>
@@ -121,7 +120,7 @@ Podemos hacer _zoom in_ / _zoom out_ para ir apreciando la taza de cancelaciones
     scrolling="no"
     width="100%"
     height="545px"
-    src="/assets/notebooks/html_0022420b-d3cd-47f1-8b56-1e9938604407/figure_15.html"
+    src="/assets/notebooks/html_d66607c9-8bde-4de4-8e02-74d62e0c8c1a/figure_15.html"
     frameborder="0"
     allowfullscreen
 ></iframe>
@@ -130,12 +129,12 @@ Podemos hacer _zoom in_ / _zoom out_ para ir apreciando la taza de cancelaciones
 
 ## Conclusiones
 
-Algunas conclusiones (un poco a la ligera), que podemos sacar de esta exploración de datos son:
+Algunas conclusiones (un poco a la ligera), que podemos sacar luego de este _data storytelling_ son:
 
 * Junio y Septiembre ofrecen una buena relación entre clima y número de turistas.
 * Es muy dificil poder reservar alojamiento en el Hotel Resort a última hora, por lo que es mejor hacer este proceso con antelación.
 * Portugal es el país de donde vienen los turistas que más viajan a Lisboa, pero también de donde más cancelan reservas (En Europa).
-* Es más fácil reservar a última hora en el Hotel Urbano, puesto que la taza de cancelaciones es mayor que en el Hotel Urbano.
+* Es más fácil reservar a última hora en el Hotel Urbano.
 * Los Británicos prefieren el Hotel Resort, mientras que el resto de países vecinos prefieren el Hotel Urbano.
 
 
