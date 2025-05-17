@@ -40,7 +40,7 @@ Lisboa es uno de los destinos turísticos más visitados todos los años en Euro
     scrolling="no"
     width="100%"
     height="545px"
-    src="/assets/notebooks/html_d66607c9-8bde-4de4-8e02-74d62e0c8c1a/figure_5.html"
+    src="/assets/notebooks/html_9d4b6a60-c168-4d8b-8a4b-eb18680be32e/figure_5.html"
     frameborder="0"
     allowfullscreen
 ></iframe>
@@ -59,7 +59,7 @@ Primero miremos de forma general de dónde proceden las personas que han hecho u
     scrolling="no"
     width="100%"
     height="545px"
-    src="/assets/notebooks/html_d66607c9-8bde-4de4-8e02-74d62e0c8c1a/figure_7.html"
+    src="/assets/notebooks/html_9d4b6a60-c168-4d8b-8a4b-eb18680be32e/figure_7.html"
     frameborder="0"
     allowfullscreen
 ></iframe>
@@ -74,7 +74,7 @@ Por el contrario, los tursitas que vienen de los tres primeros países mencionad
     scrolling="no"
     width="100%"
     height="545px"
-    src="/assets/notebooks/html_d66607c9-8bde-4de4-8e02-74d62e0c8c1a/figure_9.html"
+    src="/assets/notebooks/html_9d4b6a60-c168-4d8b-8a4b-eb18680be32e/figure_9.html"
     frameborder="0"
     allowfullscreen
 ></iframe>
@@ -91,24 +91,34 @@ Del anterior gráfico también podemos observar que habrá un poco más de turis
 
 Ya vimos que Junio y Septiembre pueden ser los mejores meses para viajar si es que estás buscando un equilibrio entre clima y cantidad de turistas, pero quizá no te importe mucho esto último. Quizá lo más importante para tí sea viajar en los meses de verano sea que haya muchos turístas o no; sin embargo no siempre es posible reservar a tiempo y los mejores meses son los primeros en irse. Que tal si miramos la taza de cancelaciones por mes para mirar si tenemos algún chance de "cazar" alguna reserva cancelada en caso de no poder reservar a tiempo, e irnos de vacaciones a Lisboa.
 
+En los siguientes gráficos la etiqueta "Sí" tiene el procentaje de reservas canceladas y "No" el porcentaje de reservas completadas. Para cada mes podemos obtener esta información pasando el mouse por encima de algun mes o simplemente haciendo click sobre el mismo. Vemos que para el total de reservas hechas en el Hotel Resort en el mes de Junio, solamente se cancelaron el **33.07%**, mientras que el **66.93%** restante se completaron. En general, parece que las reservas para este tipo de hotel tienen una taza mas pequeña de cancelaciones. Será mejor planear con antelacion el hospedaje en el Hotel Resort y reservar con antelación.
+
 <iframe style="color-scheme: none;"
     scrolling="no"
     width="100%"
     height="545px"
-    src="/assets/notebooks/html_d66607c9-8bde-4de4-8e02-74d62e0c8c1a/figure_13.html"
+    src="/assets/notebooks/html_9d4b6a60-c168-4d8b-8a4b-eb18680be32e/figure_13.html"
     frameborder="0"
     allowfullscreen
 ></iframe>
 
 
 
-En los anteriores gráficos la etiqueta "Sí" tiene el procentaje de reservas canceladas y "No" el porcentaje de reservas completadas. Para cada mes podemos obtener esta información pasando el mouse por encima de algun mes o simplemente haciendo click sobre el mismo. Vemos que para el total de reservas hechas en el Hotel Reort en el mes de Junio, solamente se cancelaron el **33.07%**, mientras que el **66.93%** restante se completaron. En general, parece que las reservas para este tipo de hotel tienen una taza mas pequeña de cancelaciones. Será mejor planear con antelacion el hospedaje en el Hotel Resort y reservar con antelación.
+Otro compartamiento interesante que vemos es que en el mes de Enero, donde el Hotel Resort tiene un porcentaje de cancelación mínimo, de hecho es el más bajo de todos con un **14.82%** (¿vacaciones de trabajo en Enero?).
 
 Por otra parte, en el Hotel Urbano, para el mes de Junio tenemos una taza de cancelaciones más elevadas, de un **44.69%**. Imagina que no alcanzaste a reservar un lugar en Lisboa para tus próximas vacaciones, en este escenario parece más probable que puedas aprovechar alguna cancelación hecha en el Hotel Urbano, pero que sea más dificil "cazar" una para el Hotel Resort.
 
-Otro compartamiento interesante que vemos es que en el mes de Enero, donde el Hotel Resort tiene un porcentaje de cancelación mínimo, de hecho es el más bajo de todos con un **14.82%** (¿vacaciones de trabajo en Enero?). Para finalizar y solo por curiosidad, miremos el porcentaje de cancelaciones de reserva por pais de origen.
 
+<iframe style="color-scheme: none;"
+    scrolling="no"
+    width="100%"
+    height="545px"
+    src="/assets/notebooks/html_9d4b6a60-c168-4d8b-8a4b-eb18680be32e/figure_14.html"
+    frameborder="0"
+    allowfullscreen
+></iframe>
 
+Para finalizar y solo por curiosidad, miremos el porcentaje de cancelaciones de reserva por pais de origen.
 
 ### ¿Los más viajeros ahora no lo son tanto?
 
@@ -120,7 +130,7 @@ Podemos hacer _zoom in_ / _zoom out_ para ir apreciando la taza de cancelaciones
     scrolling="no"
     width="100%"
     height="545px"
-    src="/assets/notebooks/html_d66607c9-8bde-4de4-8e02-74d62e0c8c1a/figure_15.html"
+    src="/assets/notebooks/html_9d4b6a60-c168-4d8b-8a4b-eb18680be32e/figure_16.html"
     frameborder="0"
     allowfullscreen
 ></iframe>
