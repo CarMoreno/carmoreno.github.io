@@ -20,7 +20,7 @@ class CustomRenderer(IFrameRenderer):
         mimebundle = super().to_mimebundle(*args, **kwargs)
         html = mimebundle["text/html"]
         soup = BeautifulSoup(html, "html.parser")
-        mimebundle["text/html"] = "{% " + f'include graph.html path="{soup.iframe['src'][2:]}"' + " %}"
+        mimebundle["text/html"] = "{% " + f'include graph.html src="{soup.iframe['src']}"' + " %}"
         return mimebundle
 
 
