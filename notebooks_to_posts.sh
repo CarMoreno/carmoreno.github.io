@@ -3,10 +3,16 @@
 
 #export PLOTLY_RENDERER=notebook
 
+notebook_file="$1"
+if [[ -z "$notebook_file" ]]; then
+  echo "You should provide a valid notebook path"
+  exit 1
+fi
+
 echo "Executing notebooks..." && \
     [ -d _notebooks ] && \
     [ "$(find _notebooks -type f -iname '*.ipynb')" ] && \
-    python -m jupyter nbconvert _notebooks/*.ipynb \
+    python -m jupyter nbconvert _notebooks/$notebook_file \
         --ExecutePreprocessor.kernel_name=python \
         --execute \
         --to markdown \
