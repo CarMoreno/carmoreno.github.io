@@ -1,3 +1,81 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:574bf97f410eb6ee538abfda63a99332a27cdcf4ee6fd6b297bcb83bd1be0d79
-size 3873
+---
+layout: default
+---
+
+
+<div class="container-fluid index">
+    <div class="row">
+
+        <div class="col-md-12 main content-panel">
+
+            <div class="gravatar">
+                <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
+            </div>
+
+            <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
+
+            <div class="author-text">
+                {{ site.title_description }}
+            </div>
+            <div class="row text-center">
+              <div class="col-md-6"><h3><a href="https://carmoreno.com.co/about">Sobre mi</a></h3></div>
+              <div class="col-md-6"><h3><a href="https://carmoreno.com.co/curriculum.pdf">Curriculum</a></h3></div>
+<!--              <div class="col-md-4"><h3><a href="https://carmoreno.com.co/proyectos/">Proyectos</a></h3></div>-->
+              
+            </div>
+            <div class="links">
+                {% if site.twitter_username %}<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_new"><i class="fa fa-twitter fa-2x"></i></a>{% endif %}
+                {% if site.linkedin_link %}<a href="{{ site.linkedin_link }}" target="_new"><i class="fa fa-linkedin fa-2x"></i></a>{% endif %}
+                {% if site.good_reads_link %}<a href="{{ site.good_reads_link }}" target="_new"><i class="fa fa-book fa-2x"></i></a>{% endif %}
+                {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_new"><i class="fa fa-github-alt fa-2x"></i></a>{% endif %}
+                {% if site.duolingo_username %}<a href="https://duolingo.com/{{site.duolingo_username }}" target="_new"><img src="http://i.imgur.com/S5sSQMC.png" class="fa fa-duolingo" alt="duolingo icon"></a>{% endif %}
+                {% if site.stackoverflow_link %}<a href="{{ site.stackoverflow_link }}" target="_new"><i class="fa fa-stack-overflow fa-2x"></i></a>{% endif %}
+                {% if site.codepen_username %}<a href="https://codepen.io/{{site.codepen_username }}" target="_new"><i class="fa fa-codepen fa-2x"></i></a>{% endif %}
+            </div>
+
+          </div>
+          <div class="col-md-12 main content-panel">
+
+            <div class="articles">
+
+              <h2>Últimos artículos</h2>
+
+              <ul>
+                  {% for post in site.posts limit: site.post_limit %}
+
+                      <li>
+                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                          <small class="hidden-xs">
+                            <!-- Snippet para establecer meses a español -->
+                            {% assign m = post.date | date: "%-m" %}
+                            {% assign n = page.date | date: "%-m" %}
+                            {% case m, n %}
+                              {% when '1' %}Enero
+                              {% when '2' %}Febrero
+                              {% when '3' %}Marzo
+                              {% when '4' %}Abril
+                              {% when '5' %}Mayo
+                              {% when '6' %}Junio
+                              {% when '7' %}Julio
+                              {% when '8' %}Agosto
+                              {% when '9' %}Septiembre
+                              {% when '10' %}Octubre
+                              {% when '11' %}Noviembre
+                              {% when '12' %}Diciembre
+                            {% endcase %}
+                            {{post.date | date: "%-d" }}, {{post.date | date: "%Y" }}
+                          </small>
+                      </li>
+
+                  {% endfor %}
+                  <li>
+                      <small><i><a href="/posts/">más...</a></i></small>
+                  </li>
+              </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
