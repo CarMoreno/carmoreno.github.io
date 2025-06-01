@@ -164,4 +164,4 @@ Mientras más arriba vamos en el estrato, mas crece el porcentaje de estudiantes
 
 # ¡Gracias!
 
-Si haz llegado hasta este punto, no tengo más sino que agradecer tu tiempo, el notebook con el código de las visualizaciones puede ser accedido a través de este enlace. He usado Plotly para todas estas visualizaciones tal cual hice en este [otro artículo](https://carmoreno.com.co/data/2025/05/11/Data-storytelling-datos-hotel-ploty-python/) sobre reservas de hoteles, que si no lo haz leído te anímo a que lo hagas, es de lejos muchísimo mas corto que este 🙃.
+Si haz llegado hasta este punto, no tengo más sino que agradecer tu tiempo, el notebook con el código de las visualizaciones puede ser accedido a través de [este enlace](https://colab.research.google.com/drive/1hxYrCXIEwsEeHUkDhqlcd7HrlSDTjKL4?usp=sharing). He usado Plotly para todas estas visualizaciones tal cual hice en este [otro artículo](https://carmoreno.com.co/data/2025/05/11/Data-storytelling-datos-hotel-ploty-python/) sobre reservas de hoteles, que si no lo haz leído te anímo a que lo hagas, es de lejos muchísimo mas corto que este 🙃.

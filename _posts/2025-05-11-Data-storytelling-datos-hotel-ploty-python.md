@@ -148,6 +148,6 @@ Algunas conclusiones (un poco a la ligera), que podemos sacar luego de este _dat
 * Los Británicos prefieren el Hotel Resort, mientras que el resto de países vecinos prefieren el Hotel Urbano.
 
 
-Muchas gracías por llegar hasta el final de este ejercicio. El código completo de este artículo lo puedes ver en [este notebook](https://github.com/CarMoreno/carmoreno.github.io/blob/dataviz-test/_notebooks/2025-05-11-Data-storytelling-datos-hotel-ploty-python.ipynb).
+Muchas gracías por llegar hasta el final de este ejercicio. El código completo de este artículo lo puedes ver en [este notebook](https://drive.google.com/file/d/1GwkCM4jNAFAsFcwcZrN84yKPCbC9HcEa/view?usp=sharing).
 
 {% highlight python %}print("Hasta pronto"){% endhighlight %}
