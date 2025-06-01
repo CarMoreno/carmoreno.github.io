@@ -11,24 +11,24 @@
         <iframe style="color-scheme: none;"
             scrolling="no"
             width="100%"
-            height="545px"
+            height="{{ include.height | default: '545px' }}"
             src="{{ include.src }}"
             frameborder="0"
             allowfullscreen
         ></iframe>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-        {{ include.text }}
+        {{ include.text | markdownify }}
       </div>
     {% elsif orientation == "right" | default: orientation %}
       <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-        {{ include.text }}
+        {{ include.text | markdownify }}
       </div>
       <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12">
           <iframe style="color-scheme: none;"
               scrolling="no"
               width="100%"
-              height="545px"
+              height="{{ include.height | default: '545px' }}"
               src="{{ include.src }}"
               frameborder="0"
               allowfullscreen
@@ -39,7 +39,7 @@
           <iframe style="color-scheme: none;"
               scrolling="no"
               width="100%"
-              height="545px"
+              height="{{ include.height | default: '545px' }}"
               src="{{ include.src }}"
               frameborder="0"
               allowfullscreen
