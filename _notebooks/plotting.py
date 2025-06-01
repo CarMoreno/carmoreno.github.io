@@ -2,14 +2,13 @@
 __all__ = ("express", "graph_objects", "pyplot")
 
 import os
-
 from uuid import uuid4
+
 import matplotlib
 import matplotlib.pyplot as pyplot
 import plotly.express as express
 import plotly.graph_objects as graph_objects
 import plotly.io as pio
-from bs4 import BeautifulSoup
 from matplotlib_inline.backend_inline import set_matplotlib_formats
 from plotly.graph_objs import Figure
 from plotly.io._base_renderers import IFrameRenderer
@@ -19,8 +18,8 @@ class CustomRenderer(IFrameRenderer):
     def to_mimebundle(self, *args, **kwargs):
         mimebundle = super().to_mimebundle(*args, **kwargs)
         html = mimebundle["text/html"]
-        soup = BeautifulSoup(html, "html.parser")
-        mimebundle["text/html"] = "{% " + f'include graph.html src="{soup.iframe['src']}"' + " %}"
+        mimebundle["text/html"] = '<iframe style="color-scheme: none;"' + html[7:]
+
         return mimebundle
 
 

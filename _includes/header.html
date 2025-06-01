@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b281c51b2b0595657a3ee41e43b3d636c4389fd7ef83cf18afd4ed026492e4cc
-size 1806
+<nav id="my-menu">
+  <div>
+    <p>{{ site.title }}</p>
+    <ul class="pages">
+      <li><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Inicio</a></li>
+      <li><a href="{{ site.baseurl }}/posts/"><i class="fa fa-archive"></i>Todos los artículos</a></li>
+      <li><a href="{{ site.baseurl }}/search/"><i class="fa fa-search"></i>Buscar</a></li>
+      <li><a href="{{ site.baseurl }}/about/"><i class="fa fa-user"></i>Sobre mi</a></li>
+<!--      <li><a href="{{ site.baseurl }}/proyectos/"><i class="fa fa-book"></i>Proyectos</a></li>-->
+      <li><a href="{{ site.baseurl }}/galeria/"><i class="fa fa-paper-plane"></i>Galería</a></li>
+    </ul>
+    <p class="links">
+      {% if site.twitter_username %}<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_new"><i class="fa fa-twitter"></i></a>{% endif %}
+      {% if site.linkedin_link %}<a href="{{ site.linkedin_link }}" target="_new"><i class="fa fa-linkedin"></i></a>{% endif %}
+      {% if site.good_reads_link %}<a href="{{ site.good_reads_link }}" target="_new"><i class="fa fa-book"></i></a>{% endif %}
+      {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_new"><i class="fa fa-github-alt"></i></a>{% endif %}
+      {% if site.duolingo_username %}<a href="https://duolingo.com/{{ site.duolingo_username }}" target="_new"><img src="http://i.imgur.com/S5sSQMC.png"></a>{% endif %}
+      {% if site.stackoverflow_link %}<a href="{{ site.stackoverflow_link }}" target="_new"><i class="fa fa-stack-overflow"></i></a>{% endif %}
+      {% if site.codepen_username %}<a href="https://codepen.io/{{ site.codepen_username }}" target="_new"><i class="fa fa-codepen"></i></a>{% endif %}
+    </p>
+  </div>
+</nav>
+<div class="menu-button" href="#menu"><i class="fa fa-bars"></i></div>
