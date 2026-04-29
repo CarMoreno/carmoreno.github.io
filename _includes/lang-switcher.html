@@ -115,6 +115,7 @@
     var SCROLL_KEY = "lang_switch_scroll_state";
     var MAX_AGE_MS = 20000;
     var allowedThemes = ["dark", "light"];
+    var lastAppliedTheme = null;
 
     function readTheme() {
       try {
@@ -155,6 +156,24 @@
       if (document.body) {
         document.body.classList.toggle("theme-light", isLight);
       }
+      if (document.documentElement) {
+        document.documentElement.style.colorScheme = isLight ? "light" : "dark";
+      }
+
+      var disqusNode = document.getElementById("disqus_thread");
+      if (disqusNode) {
+        disqusNode.style.color = isLight ? "#2D2D29" : "#FFFFFF";
+      }
+
+      if (lastAppliedTheme && lastAppliedTheme !== mode && window.DISQUS && disqusNode) {
+        try {
+          window.DISQUS.reset({
+            reload: true
+          });
+        } catch (e) {}
+      }
+
+      lastAppliedTheme = mode;
       syncMmenuSkin();
       setTimeout(syncMmenuSkin, 80);
       setTimeout(syncMmenuSkin, 250);

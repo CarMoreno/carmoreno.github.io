@@ -175,6 +175,13 @@ body.theme-light {
 			color: $medium;
 		}
 	}
+
+	.comments,
+	#disqus_thread,
+	#disqus_thread a,
+	#disqus_thread .dsq-brlink {
+		color: $dark;
+	}
 }
 
 /* MMenu still uses its own dark skin class (mm-black); override it in light mode */
