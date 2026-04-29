@@ -85,3 +85,101 @@
     transform: translateX(40px);
 }
 </style>
+
+<script>
+  (function() {
+    var SCROLL_KEY = "lang_switch_scroll_state";
+    var MAX_AGE_MS = 20000;
+
+    function normalizeUrl(rawHref) {
+      try {
+        var href = (rawHref || "").trim();
+        var url = new URL(href, window.location.origin);
+        return url.pathname + url.search;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function currentPath() {
+      return window.location.pathname + window.location.search;
+    }
+
+    function maxScrollableY() {
+      return Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+    }
+
+    function saveScrollState(targetHref) {
+      try {
+        var y = window.scrollY || window.pageYOffset || 0;
+        var maxY = Math.max(1, maxScrollableY());
+        var payload = {
+          ts: Date.now(),
+          target: normalizeUrl(targetHref),
+          y: y,
+          ratio: y / maxY
+        };
+        sessionStorage.setItem(SCROLL_KEY, JSON.stringify(payload));
+      } catch (e) {}
+    }
+
+    function restoreScrollIfNeeded() {
+      var raw;
+      try {
+        raw = sessionStorage.getItem(SCROLL_KEY);
+      } catch (e) {
+        return;
+      }
+      if (!raw) return;
+
+      var data;
+      try {
+        data = JSON.parse(raw);
+      } catch (e) {
+        sessionStorage.removeItem(SCROLL_KEY);
+        return;
+      }
+
+      if (!data || !data.target || !data.ts) {
+        sessionStorage.removeItem(SCROLL_KEY);
+        return;
+      }
+      if (Date.now() - data.ts > MAX_AGE_MS) {
+        sessionStorage.removeItem(SCROLL_KEY);
+        return;
+      }
+      if (data.target !== currentPath()) {
+        return;
+      }
+
+      var restore = function() {
+        var maxY = maxScrollableY();
+        var ratioY = typeof data.ratio === "number" ? Math.round(maxY * data.ratio) : 0;
+        var absY = typeof data.y === "number" ? data.y : 0;
+        var targetY = Math.min(maxY, Math.max(0, Math.max(absY, ratioY)));
+        window.scrollTo(0, targetY);
+      };
+
+      requestAnimationFrame(function() {
+        restore();
+        requestAnimationFrame(restore);
+      });
+      window.addEventListener("load", function() {
+        restore();
+        setTimeout(restore, 120);
+        sessionStorage.removeItem(SCROLL_KEY);
+      }, { once: true });
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var links = document.querySelectorAll(".lang-switcher .toggle-option");
+      links.forEach(function(link) {
+        link.addEventListener("click", function() {
+          if (link.classList.contains("active")) return;
+          saveScrollState(link.getAttribute("href"));
+        });
+      });
+      restoreScrollIfNeeded();
+    });
+  })();
+</script>
