@@ -4,15 +4,17 @@ layout: post
 title: Data storytelling, visualizando datos sobre reservas de hoteles.
 date: 2025-05-11 10:49:19
 author: Carlos Andrés Moreno
-summary: En este artículo vamos a realizar un storytelling de un conjunto de datos de reservas de hoteles
+summary: En este artículo vamos a realizar un storytelling de un conjunto de datos
+  de reservas de hoteles
 categories: Data
 thumbnail: plot
 tags:
-  - Data
-  - Python
-  - Plotly
+- Data
+- Python
+- Plotly
+lang: es
+page_id: data-storytelling-datos-hotel-ploty-python
 ---
-
 # Introducción
 
 Como parte de la Maestría en Cienicas de Datos que estoy estudiando en la [Universidad Oberta de Catalunya](https://uoc.edu), me fue asignada una actividad que consiste en crear un *Data Storytelling* de un conjunto de datos sobre reservaciones de hoteles en Lisboa, Portugal. Creo que es una excelente oportunidad de mostrar un poco lo que he aprendido este semestre en la asignatura de Visualización de Datos, es por eso que he decidido crear el *storytelling* en un nuevo artículo del blog.

@@ -7,10 +7,11 @@ summary: Todo lo que debes saber sobre promesas en Javascript.
 categories: javascript
 thumbnail: handshake-o
 tags:
-  - Javascript
-  - Promesas
+- Javascript
+- Promesas
+lang: es
+page_id: todo-promesas-javascript-async-await-callbacks
 ---
-
 # Introducción
 
 Hace mucho tenía pensado realizar este artículo, pues en su momento fue un tema muy confuso para mi y quiero de alguna forma, orientar un poco al lector en la comprensión de las **tan** famosas _Promises_ de Javascript, presentes desde la versión ES6. El objetivo es realizar un repaso sobre las funciones callbacks, esto ayudará a entender de mejor forma las Promesas y luego explicaremos qué papel juega Async y Await en todo esto; esto último introducido a partir de ES7.

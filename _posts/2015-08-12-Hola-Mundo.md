@@ -10,6 +10,8 @@ tags:
 - Hola
 - Mundo
 - Presentación
+lang: es
+page_id: hola-mundo
 ---
 Desde hace mucho estaba pensando crear un blog para compartir mis experiencias y lo aprendido
 a lo largo de estos años (un poco mas de 3 años, si no me falla la memoria), en este

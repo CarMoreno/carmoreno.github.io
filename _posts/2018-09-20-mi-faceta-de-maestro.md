@@ -1,18 +1,19 @@
 ---
-layout:     post
-title:      Mi faceta como maestro
-date:       2018-09-20 21:23:59
-author:     Carlos Andrés Moreno
-summary:    Opiniones sobre esta linda labor
+layout: post
+title: Mi faceta como maestro
+date: 2018-09-20 21:23:59
+author: Carlos Andrés Moreno
+summary: Opiniones sobre esta linda labor
 categories: Reflexiones
-thumbnail: leaf 
+thumbnail: leaf
 tags:
 - Reflexiones
 - Docencia
 - Ingeniería
 - Sistemas
+lang: es
+page_id: mi-faceta-de-maestro
 ---
-
 ![books](https://wallpaper.wiki/wp-content/uploads/2017/05/Free-Download-Book-HD-Backgrounds.jpg)
 
 _Imagen sacada de [[1]](https://wallpaper.wiki/wp-content/uploads/2017/05/Free-Download-Book-HD-Backgrounds.jpg)_

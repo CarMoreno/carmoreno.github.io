@@ -7,15 +7,15 @@ layout: default
   <div class="row index all-posts">
 
     <h1 class="header author-header">{{ site.author_name }}</h1>
-    <h2 class="header" itemprop="headline">Todos los artículos</h2>
-    <h2 class="header categories" itemprop="headline"><small>agrupar por
+    <h2 class="header" itemprop="headline">{{ site.data.locales[site.active_lang].posts_title }}</h2>
+    <h2 class="header categories" itemprop="headline"><small>{{ site.data.locales[site.active_lang].posts_group_by }}
 
       <div class="dropdown btn-group">
-        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">Años
+        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">{{ site.data.locales[site.active_lang].posts_years }}
           <span class="caret"></span>
         </button>
         <ul class="dropdown-menu">
-          <li><a href="{{ site.baseurl }}/posts-by-categories/">Categorías</a></li>
+          <li><a href="{{ site.baseurl }}/posts-by-categories/">{{ site.data.locales[site.active_lang].posts_categories }}</a></li>
         </ul>
       </div>
 

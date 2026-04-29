@@ -1,18 +1,19 @@
 ---
-layout:     post
-title:      ¿Cuál es el mejor lenguaje de programación?
-date:       2015-09-20 11:27:01
-author:     Carlos Andrés Moreno
-summary:    Una opinión acerca de cuál es el mejor lenguaje para programar.
+layout: post
+title: ¿Cuál es el mejor lenguaje de programación?
+date: 2015-09-20 11:27:01
+author: Carlos Andrés Moreno
+summary: Una opinión acerca de cuál es el mejor lenguaje para programar.
 categories: Reflexiones
-thumbnail:  gavel
+thumbnail: gavel
 tags:
 - Cual
 - mejor
 - lenguaje
 - programación
+lang: es
+page_id: cual-es-el-mejor-lenguaje-de-programacion
 ---
-
 ![lenguajes][1]
 
 Hasta la fecha llevo más de 3 años y medio dentro de este mundo del desarrollo de software, han sido bastantes las anécdotas y aprendizajes que he adquirido a lo largo del camino, y he picado en varios lenguajes de programación. Es fascinante ver como la universidad y mas importante, el auto-aprendizaje, te llevan a lugares que jamás habrías pensado llegar. Pero en el camino también han surgido preguntas e inquietudes, unas ya resueltas y otras aún en proceso. Hoy les vengo a dar mi humilde opinión acerca de lo que considero, es el mejor lenguaje para programar, espero les guste.

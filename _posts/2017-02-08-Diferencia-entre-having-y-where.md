@@ -1,17 +1,19 @@
 ---
-layout:     post
-title:      ¿Cual es la diferencia entre HAVING y WHERE?
-date:       2017-02-09 18:01:19
-author:     Carlos Andrés Moreno
-summary:    Repasamos el funcionamiento de las cláusulas HAVING y WHERE y mostramos sus diferencias con un ejemplo práctico.
+layout: post
+title: ¿Cual es la diferencia entre HAVING y WHERE?
+date: 2017-02-09 18:01:19
+author: Carlos Andrés Moreno
+summary: Repasamos el funcionamiento de las cláusulas HAVING y WHERE y mostramos sus
+  diferencias con un ejemplo práctico.
 categories: SQL
-thumbnail:  SQL
+thumbnail: SQL
 tags:
 - SQL
 - Bases de Datos
 - Consultas
+lang: es
+page_id: diferencia-entre-having-y-where
 ---
-
 # Introducción
 Estos últimos días he estado estudiando SQL, repasando conceptos que ya había visto en la universidad y aprendiendo otros nuevos, uno de ellos es la cláusula _HAVING_ que, aunque sabía que existía, nunca sentí la necesidad de usarla y fueron pocos los ejercicios que recuerdo haber hecho usando esta cláusula. Total que, profundizando en el tema me di cuenta de lo útil que resulta emplearla, minimizando las consultas y haciendo de estas mucho más legibles e intuitivas.
 

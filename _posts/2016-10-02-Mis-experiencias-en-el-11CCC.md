@@ -1,17 +1,18 @@
 ---
-layout:     post
-title:      Mis experiencias en el 11° Congreso Colombiano de Computación
-date:       2016-09-30 15:25:42
-author:     Carlos Andrés Moreno
-summary:    El 11CCC es el evento mas importante de Computación en Colombia.
+layout: post
+title: Mis experiencias en el 11° Congreso Colombiano de Computación
+date: 2016-09-30 15:25:42
+author: Carlos Andrés Moreno
+summary: El 11CCC es el evento mas importante de Computación en Colombia.
 categories: Reflexiones
-thumbnail: university 
+thumbnail: university
 tags:
 - 11CCC
 - Ciencias de la Computación
 - Congreso
+lang: es
+page_id: mis-experiencias-en-el-11ccc
 ---
-
 ![poster](http://i.imgur.com/KrZeIBP.png)
 _Poster oficial del 11°CCC, tomado de: [http://fup.edu.co/11ccc/](http://fup.edu.co/11ccc/)_
 

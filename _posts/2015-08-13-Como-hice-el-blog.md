@@ -1,15 +1,17 @@
 ---
-layout:     post
-title:      Github Pages y Jekyll... Un blog bastante cool.
-date:       2015-08-13 19:29:04
-author:     Carlos Andrés Moreno
-summary:    Te explico como hice el sitio
+layout: post
+title: Github Pages y Jekyll... Un blog bastante cool.
+date: 2015-08-13 19:29:04
+author: Carlos Andrés Moreno
+summary: Te explico como hice el sitio
 categories: Tutoriales
-thumbnail:  jekyll
+thumbnail: jekyll
 tags:
 - Como
 - Hice
 - Blog
+lang: es
+page_id: como-hice-el-blog
 ---
 <!-- ![Thumper](http://www.webhostwhat.com/wp-content/uploads/host-jekyll-blog-github.jpg) -->
 ![Picture](../../../../../../images/2015-08-13/Github+Jekyll.jpg)

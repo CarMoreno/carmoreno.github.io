@@ -8,6 +8,7 @@ layout: default
   {% assign minutes = content | number_of_words | divided_by: 180 %}
   {% if minutes == 0 %}{% assign minutes = 1 %}{% endif %}
 {% endif %}
+{% assign t = site.data.locales[site.active_lang] %}
 
 <div class="container-fluid single">
   <div class="row">
@@ -27,7 +28,7 @@ layout: default
 
       <div class="author">
         <small><i>
-          por
+          {{ t.post_by }}
           <span itemprop="author">
             {% if site.linkedin_link %}
               <a rel="author" href="{{ site.linkedin_link }}">
@@ -42,32 +43,34 @@ layout: default
             {% endif %}
           </span>,
           <span itemprop="datePublished" content="2014-08-28">
-            <!-- Snippet para establecer meses a español -->
-            {% assign m = page.date | date: "%-m" %}
-            {% case m %}
-              {% when '1' %}Enero
-              {% when '2' %}Febrero
-              {% when '3' %}Marzo
-              {% when '4' %}Abril
-              {% when '5' %}Mayo
-              {% when '6' %}Junio
-              {% when '7' %}Julio
-              {% when '8' %}Agosto
-              {% when '9' %}Septiembre
-              {% when '10' %}Octubre
-              {% when '11' %}Noviembre
-              {% when '12' %}Diciembre
-            {% endcase %}
-            {{page.date | date: "%-d" }}
-             del {{page.date | date: "%Y" }}
+            {% if site.active_lang == 'es' %}
+              {% assign m = page.date | date: "%-m" %}
+              {% case m %}
+                {% when '1' %}Enero
+                {% when '2' %}Febrero
+                {% when '3' %}Marzo
+                {% when '4' %}Abril
+                {% when '5' %}Mayo
+                {% when '6' %}Junio
+                {% when '7' %}Julio
+                {% when '8' %}Agosto
+                {% when '9' %}Septiembre
+                {% when '10' %}Octubre
+                {% when '11' %}Noviembre
+                {% when '12' %}Diciembre
+              {% endcase %}
+              {{ page.date | date: "%-d" }} del {{ page.date | date: "%Y" }}
+            {% else %}
+              {{ page.date | date: "%B %-d, %Y" }}
+            {% endif %}
           </span>
-          en la categoría de {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
+          {{ t.post_in_category }} {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
 
       <div class="read-time">
         <small>
-          {{ minutes }} minuto(s) de lectura
+          {{ minutes }} {{ t.post_reading_time }}
         </small>
       </div>
 
@@ -104,7 +107,7 @@ layout: default
           {% endif %}
         {% endif %}
         <div class="feedback">
-            <strong>Si te ha gustado esta entrada, puedes ...</strong> <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Comprarme un cafecito', '#29abe0', 'X8X5E6UGW');kofiwidget2.draw();</script>
+            <strong>{{ t.post_feedback_like }}</strong> <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('{{ t.post_feedback_kofi_label }}', '#29abe0', 'X8X5E6UGW');kofiwidget2.draw();</script>
         </div>
         {% if site.addthis_id %}
         <div class="share">
@@ -121,8 +124,8 @@ layout: default
       </div>
 
       <div class="content-panel feedback">
-        Déjame saber lo que piensas de este artículo en twitter <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> o deja un comentario mas abajo.
-        ¿Ves un error en este artículo, por qué no <a href="https://github.com/CarMoreno/carmoreno.github.io/tree/master/{{page.path}}" target="_blank"> sugieres una revisión?</a>
+        {{ t.post_feedback_twitter_intro }} <a href="http://www.twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a> {{ t.post_feedback_twitter_outro }}
+        {{ t.post_feedback_revision_intro }} <a href="https://github.com/CarMoreno/carmoreno.github.io/tree/master/{{page.path}}" target="_blank"> {{ t.post_feedback_revision_link }}</a>
       </div>
 
       {% if site.disqus_account %}
@@ -137,7 +140,7 @@ layout: default
       <div class="content-panel related clearfix">
         {% for post in site.related_posts limit:1 %}
         <div class="related-header">
-          <a href="{{ site.baseurl }}{{ post.url }}">Leer más</a>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ t.post_read_more }}</a>
         </div>
           <div class="title">
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -148,7 +151,7 @@ layout: default
              {% else %}
               {{ post.excerpt | strip_html | truncatewords:30 }}
              {% endif %}
-            <a href="{{ site.baseurl }}{{ post.url }}">Continuar Leyendo</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ t.post_continue_reading }}</a>
           </div>
         {% endfor %}
         <hr />
@@ -157,24 +160,28 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
           </p>
-          <p class="date">Publicado en 
-          {% assign m = page.previous.date | date: "%-m" %}
-            {% case m %}
-              {% when '1' %}Enero
-              {% when '2' %}Febrero
-              {% when '3' %}Marzo
-              {% when '4' %}Abril
-              {% when '5' %}Mayo
-              {% when '6' %}Junio
-              {% when '7' %}Julio
-              {% when '8' %}Agosto
-              {% when '9' %}Septiembre
-              {% when '10' %}Octubre
-              {% when '11' %}Noviembre
-              {% when '12' %}Diciembre
-            {% endcase %}
-            {{page.previous.date | date: "%-d" }}
-             del {{page.previous.date | date: "%Y" }}</p>
+          <p class="date">{{ t.post_published_on }}
+          {% if site.active_lang == 'es' %}
+            {% assign m = page.previous.date | date: "%-m" %}
+              {% case m %}
+                {% when '1' %}Enero
+                {% when '2' %}Febrero
+                {% when '3' %}Marzo
+                {% when '4' %}Abril
+                {% when '5' %}Mayo
+                {% when '6' %}Junio
+                {% when '7' %}Julio
+                {% when '8' %}Agosto
+                {% when '9' %}Septiembre
+                {% when '10' %}Octubre
+                {% when '11' %}Noviembre
+                {% when '12' %}Diciembre
+              {% endcase %}
+              {{ page.previous.date | date: "%-d" }} del {{ page.previous.date | date: "%Y" }}
+          {% else %}
+              {{ page.previous.date | date: "%B %-d, %Y" }}
+          {% endif %}
+          </p>
           {% endif %}
         </div>
         <div class="next previous-next">
@@ -182,24 +189,28 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
           </p>
-          <p class="date">Publicado en 
-          {% assign m = page.next.date | date: "%-m" %}
-            {% case m %}
-              {% when '1' %}Enero
-              {% when '2' %}Febrero
-              {% when '3' %}Marzo
-              {% when '4' %}Abril
-              {% when '5' %}Mayo
-              {% when '6' %}Junio
-              {% when '7' %}Julio
-              {% when '8' %}Agosto
-              {% when '9' %}Septiembre
-              {% when '10' %}Octubre
-              {% when '11' %}Noviembre
-              {% when '12' %}Diciembre
-            {% endcase %}
-            {{page.next.date | date: "%-d" }}
-             del {{page.next.date | date: "%Y" }}</p>
+          <p class="date">{{ t.post_published_on }}
+          {% if site.active_lang == 'es' %}
+            {% assign m = page.next.date | date: "%-m" %}
+              {% case m %}
+                {% when '1' %}Enero
+                {% when '2' %}Febrero
+                {% when '3' %}Marzo
+                {% when '4' %}Abril
+                {% when '5' %}Mayo
+                {% when '6' %}Junio
+                {% when '7' %}Julio
+                {% when '8' %}Agosto
+                {% when '9' %}Septiembre
+                {% when '10' %}Octubre
+                {% when '11' %}Noviembre
+                {% when '12' %}Diciembre
+              {% endcase %}
+              {{ page.next.date | date: "%-d" }} del {{ page.next.date | date: "%Y" }}
+          {% else %}
+              {{ page.next.date | date: "%B %-d, %Y" }}
+          {% endif %}
+          </p>
           {% endif %}
         </div>
       </div>

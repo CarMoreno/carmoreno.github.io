@@ -1,18 +1,19 @@
 ---
-layout:     post
-title:      La Biblioteca, aplicación en Django 1.8 | Parte IV
-date:       2015-09-12 16:30:10
-author:     Carlos Andrés Moreno
-summary:    Construyendo una aplicación en Django 1.8, cuarta parte.
+layout: post
+title: La Biblioteca, aplicación en Django 1.8 | Parte IV
+date: 2015-09-12 16:30:10
+author: Carlos Andrés Moreno
+summary: Construyendo una aplicación en Django 1.8, cuarta parte.
 categories: Django
-thumbnail:  django
+thumbnail: django
 series: Django dummies
 tags:
 - aplicación
 - Django 1.8
 - Biblioteca
+lang: es
+page_id: app-django.18-parte4
 ---
-
 Bienvenidos a la cuarta entrega de la construcción de una app en Django 1.8, en la [entrega pasada][1]
 hablamos un poco acerca del sitio de administración que este Framework nos ofrece para gestionar de una
 manera rápida y sencilla nuestra base de datos. El tópico que nos reúne hoy son las vistas y las templates; si hablamos de estos dos elementos es menester también hablar de las urls, pues sin estas

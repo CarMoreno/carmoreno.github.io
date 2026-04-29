@@ -1,18 +1,20 @@
 ---
-layout:     post
-title:      Un curriculum interactivo
-date:       2017-01-07 21:18:23
-author:     Carlos Andrés Moreno
-summary:    Te cuento un poco sobre mi curriculum interactivo y algunas ideas para que crees uno propio
-thumbnail:  gamepad
+layout: post
+title: Un curriculum interactivo
+date: 2017-01-07 21:18:23
+author: Carlos Andrés Moreno
+summary: Te cuento un poco sobre mi curriculum interactivo y algunas ideas para que
+  crees uno propio
+thumbnail: gamepad
 categories: Ideas
 tags:
 - Juego
 - Html5
 - curriculum
 - Javascript
+lang: es
+page_id: un-curriculum-interactivo
 ---
-
 # Introducción
 Se siente un poco extraño volver a escribir, hace mas de cuatro meses que no redacto nada en el blog. He estado muy ocupado con la universidad, ¡por fin defendí mi trabajo de grado! y luego estuve realizando prácticas en una empresa de desarrollo de software. Han pasado bastantes cosas en estos últimos cuatro meses (tal vez luego les cuente).
 

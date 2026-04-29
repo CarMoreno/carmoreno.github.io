@@ -7,7 +7,9 @@ summary: Algunos consejos para empezar a ganar reputación en stack overflow
 categories: Reflexiones
 thumbnail: stack-overflow
 tags:
-  - Stackoverflow
+- Stackoverflow
+lang: es
+page_id: como-conseguir-mas-de-mil-puntos-stack-overflow.
 ---
 # Introducción
 Stack Overflow es uno de los sitios de preguntas y respuestas sobre programación y desarrollo de Software mas importante del mundo. Si te dedicas a esto de escribir código ya te habrás topado más de una vez con alguna respuesta útil y es casi seguro de que hayas usado alguna de estas para resolver un problema en tu trabajo o universidad. 

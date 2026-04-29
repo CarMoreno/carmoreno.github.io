@@ -1,18 +1,19 @@
 ---
-layout:     post
-title:      Reflexiones de un recién graduado
-date:       2017-07-07 18:01:19
-author:     Carlos Andrés Moreno
-summary:    Algunas reflexiones y anécdotas
+layout: post
+title: Reflexiones de un recién graduado
+date: 2017-07-07 18:01:19
+author: Carlos Andrés Moreno
+summary: Algunas reflexiones y anécdotas
 categories: Reflexiones
-thumbnail: leaf 
+thumbnail: leaf
 tags:
 - Reflexiones
 - Graduado
 - Ingeniería
 - Sistemas
+lang: es
+page_id: reflexiones-de-un-recien-graduado
 ---
-
 El 29 de Febrero del 2012 comenzó a escribirse una historia para mi y para muchas personas que como yo, sentíamos el deseo de ser profesionales, de aprender, de hacerle frente a nuevos desafíos. Fue el día en que comencé a formarme en un mundo maravilloso, lleno de retos y momentos únicos. Y es que la Ingeniería (mejor aún la de Sistemas) fue la mejor carrera que pude haber elegido. 
 
 Desde que era un niño me he sentido atraído hacia los números, los puzzles, los acertijos y todo eso que para algunos otros es considerado aburrido. Pero algo muy extraño es que solo usaba el computador para jugar o chatear por Messenger (sí, el antiguo Windows Live Messenger) y jamás me pregunté qué había "detrás de bambalinas", que hacia que un botón hiciera algo o que un personaje de un juego saltara o se moviera. Yo empecé a estudiar Ingeniería de Sistemas por amor a los números, no a la programación.

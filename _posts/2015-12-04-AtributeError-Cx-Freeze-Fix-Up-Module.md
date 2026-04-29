@@ -1,10 +1,10 @@
 ---
-layout:     post
-title:      Error al crear archivos ejecutables con cx_Freeze
-date:       2015-12-04 17:35:04
-author:     Carlos Andrés Moreno
-summary:    Como resolver un error un tanto común, entre cx_Freeze y Windows
-thumbnail:  python
+layout: post
+title: Error al crear archivos ejecutables con cx_Freeze
+date: 2015-12-04 17:35:04
+author: Carlos Andrés Moreno
+summary: Como resolver un error un tanto común, entre cx_Freeze y Windows
+thumbnail: python
 categories: Python
 tags:
 - Cx_Freeze
@@ -12,6 +12,8 @@ tags:
 - PyQt
 - Atribute
 - fix_up_module
+lang: es
+page_id: atributeerror-cx-freeze-fix-up-module
 ---
 ## Introducción
 Como ya todos sabemos, Python es un lenguaje de propósito general en el cual puedes construir distintos tipos de aplicaciones en una sintaxis muy amigable, limpia y explícita. Hace poco estaba jugando de nuevo con la librería para la creación de aplicaciones gráficas, llamada PyQt (un envoltorio de Python para Qt, la tan famosa librería de C++), hice algo muy sencillo, una pequeña calculadora, que puedes ver en el [siguiente enlace][1]. No te miento, me gustó mucho como quedó, tanto así que decidí hacer un ejecutable, para mostrársela a mis amigos.

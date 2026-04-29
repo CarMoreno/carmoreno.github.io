@@ -1,15 +1,17 @@
 ---
-layout:     post
-title:      No te "cases" con un solo lenguaje de programación.
-date:       2016-06-02 11:53:20
-author:     Carlos Andrés Moreno
-summary:   	Una pequeña reflexión.
+layout: post
+title: No te "cases" con un solo lenguaje de programación.
+date: 2016-06-02 11:53:20
+author: Carlos Andrés Moreno
+summary: Una pequeña reflexión.
 categories: Reflexiones
-thumbnail:  balance-scale
+thumbnail: balance-scale
 tags:
 - Lenguaje
 - Programación
 - Reflexión
+lang: es
+page_id: no-te-cases-con-un-solo-lenguaje
 ---
 Es un poco tarde para escribir un nuevo artículo (es casi la media noche), pero he sentido la necesidad de contarles un poco acerca de algunos pensamientos que he tenido estos últimos días. Y es que me sorprende que existan personas tan acotadas de mente, hablo por supuesto de aquellas que le dedican amor incondicional y enfermizo a un lenguaje de programación en específico, tanto así que se _casan_ (por decirlo de alguna forma) con ese lenguaje y nunca aprenden nuevas tecnologías. Creo que ellos aún no han entendido que todo este genial mundo de la Ingeniería del Software es cambiante, es dinámico y así mismo debemos de ser nosotros (los elegidos para vivir en ese mundo).
 

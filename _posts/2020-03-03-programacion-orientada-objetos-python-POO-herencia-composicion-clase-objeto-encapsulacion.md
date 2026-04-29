@@ -1,16 +1,18 @@
 ---
 layout: post
-title: Python con Súper poderes - Programación Orientada a Objetos 
+title: Python con Súper poderes - Programación Orientada a Objetos
 date: 2020-03-03 10:49:19
 author: Carlos Andrés Moreno
-summary: En este articulo se explican los conceptos de Programación Orientada a objetos y hacemos ejemplos de los conceptos vistos usando Python.
+summary: En este articulo se explican los conceptos de Programación Orientada a objetos
+  y hacemos ejemplos de los conceptos vistos usando Python.
 categories: Python
 thumbnail: python
 tags:
-  - POO
-  - Python
+- POO
+- Python
+lang: es
+page_id: programacion-orientada-objetos-python-poo-herencia-composicion-clase-objeto-encapsulacion
 ---
-
 # Introducción
 
 Hace mucho tiempo quería escribir sobre programación orientada a objetos con Python, pero últimamente no he contado con el tiempo suficiente para volver a escribir como quisiera, y personalmente prefiero escribir de forma pausada, calmada y con tiempo, esto permite crear post de calidad y no solo escribir por escribir. Ahora mismo por fin he tenido algo de tiempo y me he decidido construir el presente post.

@@ -1,15 +1,17 @@
 ---
-layout:     post
-title:      Patrones Pythonicos Patrón Factory
-date:       2016-01-06 21:10:12
-author:     Carlos Andrés Moreno
-summary:    Entendiendo el patrón de diseño Factory.
+layout: post
+title: Patrones Pythonicos Patrón Factory
+date: 2016-01-06 21:10:12
+author: Carlos Andrés Moreno
+summary: Entendiendo el patrón de diseño Factory.
 categories: Python
-thumbnail:  cubes
+thumbnail: cubes
 tags:
 - Patrones de diseño
 - Factory
 - Design Patterns
+lang: es
+page_id: patron-factory
 ---
 ## Introducción
 

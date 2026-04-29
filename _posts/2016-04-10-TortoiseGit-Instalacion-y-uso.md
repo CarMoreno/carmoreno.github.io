@@ -1,15 +1,17 @@
 ---
-layout:     post
-title:      La comodidad de TortoiseGit, instalación y manejo
-date:       2016-04-14 14:24:10
-author:     Carlos Andrés Moreno
-summary:    Explico cómo instalar y usar TortoiseGit, el cliente gráfico de GIT.
+layout: post
+title: La comodidad de TortoiseGit, instalación y manejo
+date: 2016-04-14 14:24:10
+author: Carlos Andrés Moreno
+summary: Explico cómo instalar y usar TortoiseGit, el cliente gráfico de GIT.
 categories: Tutoriales
-thumbnail:  code-fork
+thumbnail: code-fork
 tags:
 - TortoiseGit
 - Git
 - Windows
+lang: es
+page_id: tortoisegit-instalacion-y-uso
 ---
 ## Introducción
 

@@ -5,12 +5,12 @@ layout: default
 <div class="container-fluid index">
   <div class="row index all-posts">
 
-    <h1 class="header author-header">Buscar</h1>
+    <h1 class="header author-header">{{ site.data.locales[site.active_lang].search_title }}</h1>
 
     <div id="search-container">
-      <input type="text" id="search-input" placeholder="Escribe aquí...">
+      <input type="text" id="search-input" placeholder="{{ site.data.locales[site.active_lang].search_placeholder }}">
       <div class="col-md-12 content-panel articles">
-        <ul id="results-container"><small>Empieza a escribir para que vayas viendo los resultados</small></ul>
+        <ul id="results-container"><small>{{ site.data.locales[site.active_lang].search_hint }}</small></ul>
       </div>
     </div>
 
@@ -25,7 +25,7 @@ layout: default
     resultsContainer: document.getElementById('results-container'),
     dataSource: '{{ site.baseurl }}/search.json',
     searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}<\/a><\/li>',
-    noResultsText: 'No hay resultados',
+    noResultsText: '{{ site.data.locales[site.active_lang].search_no_results }}',
     limit: 10,
     fuzzy: true,
   })

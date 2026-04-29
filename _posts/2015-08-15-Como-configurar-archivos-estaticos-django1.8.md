@@ -1,16 +1,18 @@
 ---
-layout:     post
-title:      ¿Cómo configurar archivos estáticos en Django 1.8?
-date:       2015-08-15 18:46:24
-author:     Carlos Andrés Moreno
-summary:    Configuración de archivos estáticos en Django 1.8
+layout: post
+title: ¿Cómo configurar archivos estáticos en Django 1.8?
+date: 2015-08-15 18:46:24
+author: Carlos Andrés Moreno
+summary: Configuración de archivos estáticos en Django 1.8
 categories: Django
-thumbnail:  django
+thumbnail: django
 tags:
 - Como
 - configurar
 - estático
 - Django 1.8
+lang: es
+page_id: como-configurar-archivos-estaticos-django1.8
 ---
 Cuando empecé a aprender Django me topé con un problema muy molesto, **la configuración de archivos estáticos**, como las imágenes, las hojas de estilo y los ficheros de Javascript, me tocó googlear un buen rato hasta que por fin pude encontrar la solución después de algunos días intentándolo. Por eso quise escribir este pequeño post explicando como hacerlo.
 

@@ -38,3 +38,6 @@ exclude: [vendor]
 keep_files: [about] #Mantener directorios y archivos
 timezone: America/Bogota
 # lang: es
+plugins: [jekyll-polyglot]
+languages: ["es", "en"]
+default_lang: "es"

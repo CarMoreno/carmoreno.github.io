@@ -1,17 +1,18 @@
 ---
-layout:     post
-title:      Mis propósitos para 2017
-date:       2017-01-25 18:01:19
-author:     Carlos Andrés Moreno
-summary:    Post para recordar mis propósitos para el nuevo año 2017.
+layout: post
+title: Mis propósitos para 2017
+date: 2017-01-25 18:01:19
+author: Carlos Andrés Moreno
+summary: Post para recordar mis propósitos para el nuevo año 2017.
 categories: Reflexiones
-thumbnail:  pencil
+thumbnail: pencil
 tags:
 - Metas
 - Propósitos
 - Objetivos
+lang: es
+page_id: mis-propositos-para-2017
 ---
-
 # Introducción
 Nuevo año, muchos objetivos que cumplir y muchas metas que alcanzar, tenemos 365 días para sacarles el mayor jugo y aprovecharlos al máximo. Este post lo escribo para plasmar en él mis propósitos para este nuevo año, es una buena idea tener por escrito tus propósitos, esto ayudará a que no pierdas el norte conforme van pasando los días y meses. 
 

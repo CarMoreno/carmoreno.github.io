@@ -1,16 +1,17 @@
 ---
-layout:     post
-title:      Un año con el blog
-date:       2016-08-20 11:30:39
-author:     Carlos Andrés Moreno
-summary:    Algunas notas interesantes luego de llevar un año con este blog
+layout: post
+title: Un año con el blog
+date: 2016-08-20 11:30:39
+author: Carlos Andrés Moreno
+summary: Algunas notas interesantes luego de llevar un año con este blog
 categories: Reflexiones
-thumbnail:  clock-o
+thumbnail: clock-o
 tags:
 - Blog
 - Tiempo
+lang: es
+page_id: un-year-con-el-blog
 ---
-
 ![writing](http://i.imgur.com/jDm7tVH.jpg)
 
 

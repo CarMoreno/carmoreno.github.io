@@ -8,15 +8,15 @@ make-smaller-titles: true
   <div class="row index all-posts">
 
     <h1 class="header author-header">{{ site.author_name }}</h1>
-    <h2 class="header" itemprop="headline">Todos los artículos</h2>
-    <h2 class="header categories" itemprop="headline"><small>agrupar por
+    <h2 class="header" itemprop="headline">{{ site.data.locales[site.active_lang].posts_title }}</h2>
+    <h2 class="header categories" itemprop="headline"><small>{{ site.data.locales[site.active_lang].posts_group_by }}
 
       <div class="dropdown btn-group">
-        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">Categorías
+        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">{{ site.data.locales[site.active_lang].posts_categories }}
           <span class="caret"></span>
         </button>
         <ul class="dropdown-menu">
-          <li><a href="{{ site.baseurl }}/posts/">Años</a></li>
+          <li><a href="{{ site.baseurl }}/posts/">{{ site.data.locales[site.active_lang].posts_years }}</a></li>
         </ul>
       </div>
 
@@ -25,12 +25,10 @@ make-smaller-titles: true
       <div class="col-md-12 content-panel articles">
         <h2 id="{{ category | first }}-ref">{{ category | first }}</h2>
         <ul>
-          {% for posts in category %}
-            {% for post in posts %}
-              <li>
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </li>
-            {% endfor %}
+          {% for post in category.last %}
+            <li>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
           {% endfor %}
 
         </ul>

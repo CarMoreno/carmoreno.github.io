@@ -1,19 +1,21 @@
 ---
 source: _notebooks/2025-05-25-pruebas-saber-11-icfes-colombia-en-números.ipynb
-layout:     post
+layout: post
 class: dashboard
-title:      Pruebas Saber 11 en números
+title: Pruebas Saber 11 en números
 author: Carlos Andrés Moreno
-date:       2025-05-20 12:31:19
-summary:    Data storytelling sobre las Pruebas Saber Pro, el exámen final de secundaria en Colombia
+date: 2025-05-20 12:31:19
+summary: Data storytelling sobre las Pruebas Saber Pro, el exámen final de secundaria
+  en Colombia
 categories: dataviz
 thumbnail: plot
 tags:
- - Data
- - Python
- - Plotly
+- Data
+- Python
+- Plotly
+lang: es
+page_id: pruebas-saber-11-icfes-colombia-en-numeros
 ---
-
 # Sobre las Pruebas Saber 11
 
 La Prueba Saber 11 es un examen diseñado por el Instituto Colombiano para la Evaluación de la Educación (ICFES) que se realiza a cada estudiante de último año de educación secundaria en Colombia. Esta prueba mide el nivel de conocimiento en diferentes áreas o asignaturas, específicamente en Lectura Crítica, Matemáticas, Sociales y Ciudadanas, Ciencias Naturales e Inglés. El exámen se divide en dos sesiones, con una duración de 4 horas y 30 minutos cada una. Cada asignatura tiene un puntaje de 0 a 100 puntos y la prueba tiene un puntaje global que va de 0 a 500 puntos. Dependiendo de estos puntajes, el estudiante tendrá opciones de postularse a becas para continuar sus estudios superiores, o de ser admitido en alguna universidad pública o privada.

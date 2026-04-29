@@ -1,18 +1,19 @@
 ---
-layout:     post
-title:      ¿Cómo configurar Django 1.8 en Windows?
-date:       2015-08-17 14:24:10
-author:     Carlos Andrés Moreno
-summary:    Explico cómo configurar Django 1.8 en Windows
+layout: post
+title: ¿Cómo configurar Django 1.8 en Windows?
+date: 2015-08-17 14:24:10
+author: Carlos Andrés Moreno
+summary: Explico cómo configurar Django 1.8 en Windows
 categories: Django
-thumbnail:  django
+thumbnail: django
 tags:
 - Como
 - configurar
 - Django 1.8
 - Windows
+lang: es
+page_id: como-configurar-django1.8
 ---
-
 Trabajar con Python sobre cualquier distribución de Windows puede ser un dolor de cabeza si no se hace la correcta configuración en dicho sistema operativo. La primera vez que instale Python en mi laptop fue de verdad un martirio, fue muy frustrante puesto que todo lo que me arrojaba la consola al escribir `python` era un `error, comando no reconocido`, vaya que si me estanque por algunos días, además no quería usar Linux, puesto que si elegía esa opción, debía de: instalar alguna distribución, mis IDES y mis editores de texto en él. Me parecía simplemente mucho trabajo.
 
 Pero bueno, este post trata de explicar cómo configurar Django 1.8 en Windows, no Python; por lo que supongo que el lector tiene instalado y configurado correctamente Python en su máquina, de no ser así te recomiendo [esta entrada][1], explican muy bien la instalación de dicho lenguaje, además del genial paquete pip y del virtual-env, si aun no tienes pip y trabajas en Python, ¿qué esperas para descargarlo?. Dicho lo anterior continuemos:

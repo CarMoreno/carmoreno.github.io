@@ -1,16 +1,18 @@
 ---
-layout:     post
-title:      El gen egoísta, entendiendo el comportamiento humano
-date:       2017-03-09 19:49:12
-author:     Carlos Andrés Moreno
-summary:    Una opinión acerca del libro El Gen Egoísta, escrito por Richard Dawkins.
+layout: post
+title: El gen egoísta, entendiendo el comportamiento humano
+date: 2017-03-09 19:49:12
+author: Carlos Andrés Moreno
+summary: Una opinión acerca del libro El Gen Egoísta, escrito por Richard Dawkins.
 categories: Reviews
-thumbnail:  book
+thumbnail: book
 tags:
 - Reviews
 - Gen
 - Egoísta
 - Libros
+lang: es
+page_id: critica-del-gen-egoista-richard-dawkins-resumen-por-capitulos-opiniones
 ---
 ![pic](http://i.imgur.com/k6TSO0l.jpg)
 _Imagen tomada de [[1]](http://cinabrio.over-blog.es/article-del-imaginario-gen-egoista-al-genoma-cooperativista-leonardo-boff-theologian-101331893.html)_

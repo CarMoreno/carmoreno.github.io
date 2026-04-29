@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Viviendo en Inglaterra
-date: 2022-12-25 9:45:59
+date: 2022-12-25 09:45:59
 author: Carlos Andrés Moreno
 summary: Primeras impresiones viviendo en Inglaterra
 categories: Reflexiones
 thumbnail: flag-uk
 tags:
-  - Inglaterra
+- Inglaterra
+lang: es
+page_id: viviendo-en-inglaterra
 ---
 ## Introducción
 En julio de 2022 decidí aceptar una oferta de trabajo e irme a vivir a Inglaterra. Era algo que estaba buscando desde hace un par de años, ya te imaginarás la alegría que sentí cuando me di cuenta que finalmente era yo el seleccionado para la posición :D. Bueno, este post es algo así como mis primeras impresiones después de casi 6 meses viviendo en este hermoso país. Quizá, luego escriba otro post para contarles un poco cómo fue mi proceso para obtener la vacante, dicho sea de paso que fue bastante luchado y no salió a la primera (ni a la segunda, ni la tercera).

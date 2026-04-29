@@ -1,16 +1,18 @@
 ---
-layout:     post
-title:      Interfaces gráficas con mucho estilo usando Python y PyQT
-date:       2016-04-30 14:24:10
-author:     Carlos Andrés Moreno
-summary:   	Explico como realizar una interfaz gráfica usando Python y la libería PyQt.
+layout: post
+title: Interfaces gráficas con mucho estilo usando Python y PyQT
+date: 2016-04-30 14:24:10
+author: Carlos Andrés Moreno
+summary: Explico como realizar una interfaz gráfica usando Python y la libería PyQt.
 categories: Python
-thumbnail:  python
+thumbnail: python
 tags:
 - Python
 - PyQt
 - Estilo
 - Interfaz
+lang: es
+page_id: como-dar-estilos-a-interfaces-graficas-usando-python-y-qt
 ---
 ![estilo](http://i.imgur.com/uascq4u.jpg)
 

@@ -15,12 +15,12 @@ layout: default
             <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
 
             <div class="author-text">
-                {{ site.title_description }}
+                {{ site.data.locales[site.active_lang].title_description }}
             </div>
             <div class="row text-center">
-              <div class="col-md-6"><h3><a href="https://carmoreno.com.co/about">Sobre mi</a></h3></div>
-              <div class="col-md-6"><h3><a href="https://carmoreno.com.co/curriculum.pdf">Curriculum</a></h3></div>
-<!--              <div class="col-md-4"><h3><a href="https://carmoreno.com.co/proyectos/">Proyectos</a></h3></div>-->
+              <div class="col-md-6"><h3><a href="{{ site.baseurl }}/about">{{ site.data.locales[site.active_lang].index_about }}</a></h3></div>
+              <div class="col-md-6"><h3><a href="{{ site.baseurl }}/curriculum.pdf">{{ site.data.locales[site.active_lang].index_curriculum }}</a></h3></div>
+<!--              <div class="col-md-4"><h3><a href="{{ site.baseurl }}/proyectos/">Proyectos</a></h3></div>-->
               
             </div>
             <div class="links">
@@ -38,7 +38,7 @@ layout: default
 
             <div class="articles">
 
-              <h2>Últimos artículos</h2>
+              <h2>{{ site.data.locales[site.active_lang].index_latest_posts }}</h2>
 
               <ul>
                   {% for post in site.posts limit: site.post_limit %}
@@ -46,30 +46,33 @@ layout: default
                       <li>
                           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                           <small class="hidden-xs">
-                            <!-- Snippet para establecer meses a español -->
-                            {% assign m = post.date | date: "%-m" %}
-                            {% assign n = page.date | date: "%-m" %}
-                            {% case m, n %}
-                              {% when '1' %}Enero
-                              {% when '2' %}Febrero
-                              {% when '3' %}Marzo
-                              {% when '4' %}Abril
-                              {% when '5' %}Mayo
-                              {% when '6' %}Junio
-                              {% when '7' %}Julio
-                              {% when '8' %}Agosto
-                              {% when '9' %}Septiembre
-                              {% when '10' %}Octubre
-                              {% when '11' %}Noviembre
-                              {% when '12' %}Diciembre
-                            {% endcase %}
-                            {{post.date | date: "%-d" }}, {{post.date | date: "%Y" }}
+                            <!-- Snippet para establecer meses a español o dejar inglés por defecto -->
+                            {% if site.active_lang == 'es' %}
+                              {% assign m = post.date | date: "%-m" %}
+                              {% case m %}
+                                {% when '1' %}Enero
+                                {% when '2' %}Febrero
+                                {% when '3' %}Marzo
+                                {% when '4' %}Abril
+                                {% when '5' %}Mayo
+                                {% when '6' %}Junio
+                                {% when '7' %}Julio
+                                {% when '8' %}Agosto
+                                {% when '9' %}Septiembre
+                                {% when '10' %}Octubre
+                                {% when '11' %}Noviembre
+                                {% when '12' %}Diciembre
+                              {% endcase %}
+                              {{post.date | date: "%-d" }}, {{post.date | date: "%Y" }}
+                            {% else %}
+                              {{ post.date | date: "%B %-d, %Y" }}
+                            {% endif %}
                           </small>
                       </li>
 
                   {% endfor %}
                   <li>
-                      <small><i><a href="/posts/">más...</a></i></small>
+                      <small><i><a href="{{ site.baseurl }}/posts/">{{ site.data.locales[site.active_lang].index_more }}</a></i></small>
                   </li>
               </ul>
 

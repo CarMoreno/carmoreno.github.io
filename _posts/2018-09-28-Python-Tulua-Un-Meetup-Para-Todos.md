@@ -1,9 +1,9 @@
 ---
-layout:     post
-title:      Python Tuluá, un meetup para todos
-date:       2018-09-26 22:19:59
-author:     Carlos Andrés Moreno
-summary:    Les cuento un poco de lo que hacemos en nuestro meetup
+layout: post
+title: Python Tuluá, un meetup para todos
+date: 2018-09-26 22:19:59
+author: Carlos Andrés Moreno
+summary: Les cuento un poco de lo que hacemos en nuestro meetup
 categories: Reflexiones
 thumbnail: python
 tags:
@@ -11,8 +11,9 @@ tags:
 - Tuluá
 - Meetup
 - Desarrollo
+lang: es
+page_id: python-tulua-un-meetup-para-todos
 ---
-
 ![logo_python_tulua](https://secure.meetupstatic.com/photos/event/2/7/0/f/600_472869999.jpeg)
 
 ## Introducción

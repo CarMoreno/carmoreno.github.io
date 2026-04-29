@@ -1,16 +1,18 @@
 ---
-layout:     post
-title:      ¿Cuál es la diferencia entre Var y Let?
-date:       2018-10-24 15:25:42
-author:     Carlos Andrés Moreno
-summary:    Establcememos las diferencias que existen entre var y let y realizamos ejemplos para comprender e interiorizar.
+layout: post
+title: ¿Cuál es la diferencia entre Var y Let?
+date: 2018-10-24 15:25:42
+author: Carlos Andrés Moreno
+summary: Establcememos las diferencias que existen entre var y let y realizamos ejemplos
+  para comprender e interiorizar.
 categories: javascript
-thumbnail: university 
+thumbnail: university
 tags:
 - Javascript
 - Fundamentos
+lang: es
+page_id: diferencia-entre-var-let
 ---
-
 ## Introducción
 
 Los nuevos estándares de Javascript han traído nuevas características y funcionalidades que están cambiando la forma en como este lenguaje ha sido concebido, tanto así que Typescript prácticamente ha revolucionado la forma en como estamos programando en Javascript; sí, ya sabemos que Typescript al final es código javascript escrito de otra forma y que al final, la traducción de este nos dá puro JS nativo. Sin embargo, poder crear tipos, interfaces, clases, poder encapsular atributos y métodos es algo que hace unos años atrás, era mas complicado de hacer con Javascript. 
