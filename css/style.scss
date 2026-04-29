@@ -201,6 +201,7 @@ html.theme-light {
 	.mm-ismenu.mm-black {
 		background: $light !important;
 		color: $medium !important;
+		box-shadow: 6px 0 18px rgba($darker, 0.45);
 	}
 
 	#my-menu.mm-menu.mm-black .mm-list > li:after,
@@ -259,6 +260,21 @@ html.theme-light {
 	.mm-menu.mm-black .mm-header a:before {
 		border-color: rgba($dark, 0.45);
 	}
+}
+
+/* Keep dark mode menu on the site's gray tone instead of pure black */
+html:not(.theme-light) {
+	#my-menu.mm-menu.mm-black,
+	.mm-menu.mm-black,
+	.mm-ismenu.mm-black {
+		background: $medium !important;
+		box-shadow: 6px 0 18px rgba($darker, 0.65);
+	}
+}
+
+/* Safe right-edge depth when menu is open (without overlaying canvas content) */
+html.mm-opened .mm-page {
+	box-shadow: -8px 0 22px rgba($darker, 0.55) !important;
 }
 
 a, a:active {
