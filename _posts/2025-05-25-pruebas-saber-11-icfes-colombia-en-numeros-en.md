@@ -28,8 +28,6 @@ The data that will be used throughout this study have been obtained from the [Of
 
 Furthermore, I have decided to focus on two major aspects that can influence the performance of the tests: Family and collegiate aspects. For the first, we will look at the performance of the students according to the socioeconomic stratum of the family home and if the student has internet at home. As for the schools, we will study the performance according to the day (morning, afternoon, Saturday, etc.), gender of the school (male, female or mixed school), whether the school is bilingual or not, whether the school is rural or urban and finally, we will look at the performance of the students in public and private schools.
 
-
-
 ## Related works
 
 There have already been other quite good works on the analysis of the Pruebas Saber 11, I would like to highlight the one carried out by Javier Moreno and Jorge Orlando Melo with the mathematics and language results for the 2013 results; This work focused on municipalities and public schools. In addition, we tried to find some interesting correlations between multidimensional poverty and violence with the results of the exam. You can go check out this work [here](https://finiterank.github.io/saber_notebooks/).
@@ -40,16 +38,15 @@ First let's review the distributions at the national level. We see that the scor
 
 {% include graph.html src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_11.html" %}
 
-
 If we look at the last graph, we can see that the global score, which ranges from 0 to 500 points, has a concentration to the left, which suggests that students in Colombia tend to get scores lower than the national average, which for the year 2022 was **251.4** according to [Portafolio](https://www.portafolio.co/economia/finanzas/educacion-en-colombia-puntaje-promedio-de-probas-saber-11-aumento-en-2022-581407). With a score equal to or lower than the average, it is quite unlikely that you will be able to obtain scholarships for higher education, not to mention the chances of being admitted to an academic program that requires a minimum requirement.
 
 The above makes us ask what is special about those schools where students who performed well in the Pruebas Saber 11 study. Perhaps official entities can take note of this and, why not, implement certain practices or routines to begin to raise the scores of their graduates.
 
-# Study English millet
+# Study English, mate
 
 Let's look at the distribution of scores in the different areas for bilingual and non-bilingual schools. For this we use the [box diagrams](https://bookdown.org/jboscomendoza/r-principiantes4/diagramas-de-caja.html), you can mouse over each box to see its information. For the forgetful reader, let's remember that each box has a line in the middle, this is the median. The top of the box is the third quartile of the data and the bottom of the box is the first quartile, the range from the first to the third quartile is known as the Interquartile Range, which is the box itself. The lines coming out of the boxes are called whiskers and represent the minimum and maximum values, while the points further away represent outliers.
 
-{% include graph.html 
+{% include graph.html
     src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_13.html"
     orientation="left"
     height="650px"
@@ -62,7 +59,6 @@ In the following [Bullet Chart](https://www.tableau.com/chart/what-is-bullet-gra
 
 {% include graph.html src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_14.html" height="255px" %}
 
-
 # Official and Private Schools
 
 I couldn't find much information regarding the nature of the schools for the year 2022. However:
@@ -71,8 +67,8 @@ I couldn't find much information regarding the nature of the schools for the yea
 
 Based on the above, we could then affirm that in Colombia there are fewer private schools, which means that more students from official schools take Saber 11.
 
-{% include graph.html 
-    src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_16.html" 
+{% include graph.html
+    src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_16.html"
     height="650px"
     orientation="left"
     text="According to the visualizations, private-school students score higher than public-school students across all subjects. In English and Critical Reading, this gap is even more pronounced. One possible reason is that public schools often have many more students per teacher, making classroom learning more complex and limiting individualized attention. By 2023, there were around 24 students per teacher in public schools and 14 in private schools, according to the same [La República article](https://www.larepublica.co/economia/dos-de-cada-diez-estudiantes-escolares-en-colombia-estudian-en-colegios-privados-3964187)." %}
@@ -87,10 +83,10 @@ _Note: There may be official or private bilingual schools, to obtain the data we
 
 For no Colombian it should be a secret that the National Government has a very large debt with rural areas. Colombia is not a country of cities but of fields, and on this the reader and I may or may not agree. What does not enter into any debate is that:
 
-> In Colombia there are approximately 39,949 rural educational establishments, which are equivalent to 67.5% of the total national establishments. While in urban areas there are 17,346 establishments, equivalent to 32.5% nationally. — *Josué Sarmiento Lozano in [The Universe of the school and rural schools in Colombia](https://rutamaestra.santillana.com.co/el-universo-de-la-escuela-y-los-colegios-rurales-en-colombia/)*
+> In Colombia there are approximately 39,949 rural educational establishments, which are equivalent to 67.5% of the total national establishments. While in urban areas there are 17,346 establishments, equivalent to 32.5% nationally. — _Josué Sarmiento Lozano in [The Universe of the school and rural schools in Colombia](https://rutamaestra.santillana.com.co/el-universo-de-la-escuela-y-los-colegios-rurales-en-colombia/)_
 
-{% include graph.html 
-    src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_19.html" 
+{% include graph.html
+    src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_19.html"
     orientation="left"
     height="650px"
     text="Students from rural schools tend to obtain noticeably lower results in all subjects compared to students from urban schools. In general, the interquartile range for urban-school students is between **40** and **60** points for most evaluated subjects. In rural schools, however, the third quartile does not even reach **60** points. Even worse, the lowest scores start below **40**, suggesting that a low score for an urban student is often not as low as a low score for a rural student."
@@ -100,15 +96,13 @@ Furthermore, none of the maximum score values ​​of rural students exceed tho
 
 What could be the reason for these results in rural schools? The truth is that there are many factors and it is beyond the purpose of this study to describe them all in detail. What is certain is that there is a lack of state presence in most rural areas. Let's not isolate the problem only to schools, issues such as accessibility through roads, public services such as water and electricity and infrastructure of educational centers, all these components go hand in hand and can surely influence the results of the Pruebas Saber 11. I recommend reading the article that I mentioned before entitled [The Universe of the school and rural schools in Colombia](https://rutamaestra.santillana.com.co/el-universo-de-la-escuela-y-los-colegios-rurales-en-colombia/).
 
-
 {% include graph.html src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_20.html" height="255px" %}
-
 
 # Girls, Boys and Mixed Under the Magnifying Glass
 
 Something that should be taken into account in these comparisons is that they are not entirely fair, because the percentage of single-gender schools in Colombia is very low compared to mixed schools. For Pruebas Saber 11 in 2022, 96% of evaluated students belonged to mixed schools, 2.31% to girls' schools, and only 0.75% to boys' schools. That said, let's interpret the visualizations.
 
-{% include graph.html 
+{% include graph.html
     src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_21.html"
     orientation="left"
     height="650px"
@@ -123,8 +117,6 @@ So, the order seems to be: boys' schools first, then girls' schools very closely
 
 > That boys do better than girls in subjects such as mathematics and natural sciences is not new news; Of the 65 countries that presented the PISA test in 2009, 54 countries presented this trend. Likewise, the ICFES has known about these differences for three decades. One of the explanations for the difference between genders is that boys have greater visuospatial skills. — _Taken from [Mixed, masculine, feminine. Does the gender of the school matter?](https://www.eccole.co/importa-el-genero-del-colegio/)_
 
-
-
 # The School Day and its Surprising Effect on Pruebas Saber 11
 
 To finish with the aspects related to the schools where the students belong, let's look at the data from the school days. The lowest scores come from the night and Saturday days, both days with similarly bad numbers for all subjects. While the highest scores are given by full-time students. In the graph, you can click on each square in the legend to activate/deactivate matchday categories. As for the morning, afternoon and single sessions, their scores for all subjects are also quite similar, with the morning session being a little higher in the global average compared to the afternoon session.
@@ -135,9 +127,7 @@ To finish with the aspects related to the schools where the students belong, let
 
 Looking at the average of the global scores for each day, we can see that full-day students are **+32** points above the national average. The reader will be able to draw their own conclusions from the other days shown in the bullet chart.
 
-
 {% include graph.html src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_24.html" height="575px" %}
-
 
 Apart from the aspects of school that we have just studied above, it is also worth asking if there is any socioeconomic factor that affects the scores of the Pruebas Saber 11. Violence, poverty, access to technology, educational level of the student's parents? To finish this study I want to look at two aspects: Stratum and Internet Access. Let's look.
 
@@ -149,22 +139,20 @@ The following bar graph shows the number of students on the y-axis and the diffe
 
 The higher we go in the stratum, the more the percentage of students who are between 300 and 400 points grows. Until, reaching Stratum 6, we see how the previously mentioned range exceeds in percentage the range of 200 to 300. Something to take into account is the total number of students per stratum. It would not be fair to compare Stratum 1 with Stratum 6, the total population in both would make us fall into conclusions and judgments lightly. However, we could compare the first 3 strata with each other. It seems that the socioeconomic status of the student influences the results of the tests, this makes sense when reading related works, like [this one](https://finiterank.github.io/saber_notebooks/) that I mentioned at the beginning, where we see a correlation between poverty and math and reading results.
 
-
 # Internet to the rescue?
 
-{% include graph.html 
-    src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_30.html" 
+{% include graph.html
+    src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_30.html"
     orientation="left"
     text="Finally, it is interesting to ask whether having internet at home helps students obtain better scores. In Stratum 1, **71%** of students in the highest overall score range had internet at home, as did **54%** of those in the 200-300 point range. At the same time, **57%** of students in the lowest score range did not have internet. This could suggest that, in Stratum 1, having internet can make a difference and help improve results."  
 %}
 
-{% include graph.html 
-    src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_31.html" 
+{% include graph.html
+    src="/assets/notebooks/html_0ce1758d-900f-4b33-a252-049700540dad/figure_31.html"
     orientation="left"
     text="However, something counterintuitive happens in Strata 2 and 3. In the lowest score ranges, more than half of students had internet. So why, if most had internet at home, were their scores still low? There are many possible factors: maybe students did not use internet to study for the exam, or their connection quality was poor. Beyond knowing whether a student had internet at home, we should ask how they used it, and especially whether they used it to practice for Pruebas Saber 11 before taking it." %}
 
-
-# Thank you!
+# Thank you
 
 If you have reached this point, I only have to thank you for your time, the notebook with the visualization code can be accessed through [this link](https://colab.research.google.com/drive/1hxYrCXIEwsEeHUkDhqlcd7HrlSDTjKL4?usp=sharing). I have used Plotly for all these visualizations as I did in this [another article](https://carmoreno.com.co/data/2025/05/11/Data-storytelling-datos-hotel-ploty-python/) about hotel reservations, which if you haven't read it I encourage you to do so, it is by far much shorter than this one 🙃.
 
