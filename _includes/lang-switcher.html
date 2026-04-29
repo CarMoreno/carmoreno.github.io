@@ -27,8 +27,8 @@
       {% endif %}
     {% endif %}
 
-    <a {% static_href %}href="{{ es_url }}"{% endstatic_href %} class="toggle-option {% if site.active_lang == 'es' %}active{% endif %}">ES</a>
-    <a {% static_href %}href="{{ en_url }}"{% endstatic_href %} class="toggle-option {% if site.active_lang == 'en' %}active{% endif %}">EN</a>
+    <a href=" {{ es_url }}" class="toggle-option {% if site.active_lang == 'es' %}active{% endif %}">ES</a>
+    <a href=" {{ en_url }}" class="toggle-option {% if site.active_lang == 'en' %}active{% endif %}">EN</a>
     <div class="toggle-slider {% if site.active_lang == 'en' %}right{% endif %}"></div>
   </div>
 </div>
