@@ -28,6 +28,10 @@ es:
   post_read_more: "Leer más"
   post_continue_reading: "Continuar leyendo"
   post_published_on: "Publicado en"
+  not_found_page_title: "BOOM !!"
+  not_found_heading: "Houston, tenemos un problema"
+  not_found_message: "Vaya, parece que no hay nada que ver aquí, dejemos que la estación espacial lo solucione."
+  not_found_link_label: "Vámonos de acá"
   title_description: "“Lo que sabemos es una gota, lo que desconocemos es todo un océano.” -Isaac Newton."
   footer_left: 'Blog personal de  <i class="fa fa-coffee"></i> <a href="https://co.linkedin.com/in/carmoreno1" target="_blank">Carlos Andrés Moreno</a>'
   footer_right: '<i>"La belleza sin inteligencia es solamente geometría"</i> <i class="fa fa-heart"></i>'
@@ -61,6 +65,10 @@ en:
   post_read_more: "Read more"
   post_continue_reading: "Continue reading"
   post_published_on: "Published on"
+  not_found_page_title: "BOOM !!"
+  not_found_heading: "Houston, we have a problem"
+  not_found_message: "Looks like there is nothing to see here, let's let the space station solve it."
+  not_found_link_label: "Get me out of here"
   title_description: "“What we know is a drop, what we don't know is an ocean.” -Isaac Newton."
   footer_left: 'Personal blog by  <i class="fa fa-coffee"></i> <a href="https://co.linkedin.com/in/carmoreno1" target="_blank">Carlos Andrés Moreno</a>'
   footer_right: '<i>"Beauty without intelligence is only geometry"</i> <i class="fa fa-heart"></i>'

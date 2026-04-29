@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+{% assign default_404_lang = site.active_lang %}
+{% if default_404_lang != 'en' and default_404_lang != 'es' %}
+  {% assign default_404_lang = 'es' %}
+{% endif %}
+{% assign locale404 = site.data.locales[default_404_lang] %}
 <div class="container-fluid single">
   <div class="row">
 
@@ -15,10 +20,56 @@ layout: default
       </div>
       {% endif %}
 
-      <h1 class="header" itemprop="name">{{ page.title }}</h1>
+      <h1 class="header" itemprop="name" id="not-found-heading">{{ locale404.not_found_heading }}</h1>
       <div class="content-panel content">
-        <span itemprop="articleBody">{{ content }}</span>
+        <span itemprop="articleBody">
+          <p id="not-found-message">{{ locale404.not_found_message }}</p>
+          <p>
+            <a id="not-found-home-link" href="{{ site.baseurl }}/">{{ locale404.not_found_link_label }}</a>
+          </p>
+          <p>
+            <img src="{{ site.baseurl }}/images/404/houston.jpg" alt="Houston" />
+          </p>
+        </span>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  (function() {
+    var locales = {
+      es: {
+        pageTitle: {{ site.data.locales.es.not_found_page_title | jsonify }},
+        heading: {{ site.data.locales.es.not_found_heading | jsonify }},
+        message: {{ site.data.locales.es.not_found_message | jsonify }},
+        linkLabel: {{ site.data.locales.es.not_found_link_label | jsonify }},
+        homeUrl: {{ '/' | relative_url | jsonify }}
+      },
+      en: {
+        pageTitle: {{ site.data.locales.en.not_found_page_title | jsonify }},
+        heading: {{ site.data.locales.en.not_found_heading | jsonify }},
+        message: {{ site.data.locales.en.not_found_message | jsonify }},
+        linkLabel: {{ site.data.locales.en.not_found_link_label | jsonify }},
+        homeUrl: {{ '/en/' | relative_url | jsonify }}
+      }
+    };
+
+    var lang = window.location.pathname.indexOf("/en/") === 0 ? "en" : "{{ default_404_lang }}";
+    var selected = locales[lang] || locales.es;
+
+    var heading = document.getElementById("not-found-heading");
+    var message = document.getElementById("not-found-message");
+    var homeLink = document.getElementById("not-found-home-link");
+
+    if (heading) heading.textContent = selected.heading;
+    if (message) message.textContent = selected.message;
+    if (homeLink) {
+      homeLink.textContent = selected.linkLabel;
+      homeLink.setAttribute("href", selected.homeUrl);
+    }
+    if (selected.pageTitle && document.title) {
+      document.title = selected.pageTitle;
+    }
+  })();
+</script>

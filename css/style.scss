@@ -74,6 +74,8 @@ body.theme-light {
 			.highlight pre {
 				background-color: $light;
 				color: $dark;
+				border-left: 4px solid $light-blue;
+				box-shadow: inset 0 0 0 1px rgba($dark, 0.08);
 			}
 
 			p, ul, ol {
@@ -81,6 +83,41 @@ body.theme-light {
 					background-color: $light;
 					color: $dark;
 				}
+			}
+
+			.highlight,
+			.highlight code {
+				background-color: $light;
+				color: $dark;
+			}
+
+			.highlight .hljs {
+				color: $dark;
+			}
+
+			.highlight .hljs-comment {
+				color: $light-medium;
+				font-style: italic;
+			}
+
+			.highlight .hljs-keyword,
+			.highlight .hljs-function,
+			.highlight .hljs-title,
+			.highlight .hljs-built_in {
+				color: $dark-blue;
+			}
+
+			.highlight .hljs-string,
+			.highlight .hljs-number,
+			.highlight .hljs-literal,
+			.highlight .hljs-value {
+				color: $dark-red;
+			}
+
+			.highlight .hljs-variable,
+			.highlight .hljs-attribute,
+			.highlight .hljs-tag {
+				color: $medium;
 			}
 
 			.tags {
