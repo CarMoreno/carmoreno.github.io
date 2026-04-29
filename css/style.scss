@@ -51,6 +51,172 @@ body {
 	width: 100%
 }
 
+body.theme-light {
+	background-color: $light;
+	color: $medium;
+
+	.content-panel {
+		background-color: $white;
+	}
+
+	.menu-button {
+		background-color: $light;
+		color: $medium;
+	}
+
+	.single .article {
+		.content {
+			blockquote {
+				background-color: $light;
+				color: $medium;
+			}
+
+			.highlight pre {
+				background-color: $light;
+				color: $dark;
+			}
+
+			p, ul, ol {
+				code {
+					background-color: $light;
+					color: $dark;
+				}
+			}
+
+			.tags {
+				a, a:active {
+					color: $dark;
+				}
+			}
+		}
+
+		.related {
+			.related-header a {
+				background-color: $light;
+				color: $dark;
+			}
+
+			.title a {
+				color: $dark;
+			}
+
+			.previous-next a {
+				color: $dark;
+			}
+		}
+	}
+
+	.panel-heading,
+	.panel-footer,
+	.panel-default {
+		background-color: $light !important;
+		color: $medium;
+	}
+
+	.index {
+		.articles {
+			a, a:active {
+				color: $dark;
+			}
+		}
+
+		.links {
+			a, a:active {
+				color: $dark;
+			}
+		}
+
+		.menu {
+			a, a:active {
+				color: $dark;
+			}
+		}
+	}
+
+	.footer {
+		div {
+			color: $medium;
+		}
+	}
+}
+
+/* MMenu still uses its own dark skin class (mm-black); override it in light mode */
+html.theme-light {
+	#my-menu p,
+	#my-menu a,
+	#my-menu a:active {
+		color: $dark;
+	}
+
+	#my-menu a:hover {
+		color: $dark-blue;
+	}
+
+	#my-menu.mm-menu.mm-black,
+	.mm-menu.mm-black,
+	.mm-ismenu.mm-black {
+		background: $light !important;
+		color: $medium !important;
+	}
+
+	#my-menu.mm-menu.mm-black .mm-list > li:after,
+	.mm-menu.mm-black .mm-list > li:after {
+		border-color: rgba($dark, 0.18);
+	}
+
+	#my-menu.mm-menu.mm-black .mm-list > li > a,
+	#my-menu.mm-menu.mm-black .mm-list > li > span,
+	.mm-menu.mm-black .mm-list > li > a,
+	.mm-menu.mm-black .mm-list > li > span {
+		color: $dark;
+	}
+
+	#my-menu.mm-menu.mm-black .mm-list > li > a.mm-subclose,
+	.mm-menu.mm-black .mm-list > li > a.mm-subclose {
+		background: rgba($dark, 0.08);
+		color: $medium;
+	}
+
+	#my-menu.mm-menu.mm-black .mm-list > li > a.mm-subopen:after,
+	#my-menu.mm-menu.mm-black .mm-list > li > a.mm-subclose:before,
+	.mm-menu.mm-black .mm-list > li > a.mm-subopen:after,
+	.mm-menu.mm-black .mm-list > li > a.mm-subclose:before {
+		border-color: rgba($dark, 0.45);
+	}
+
+	#my-menu.mm-menu.mm-black .mm-list > li > a.mm-subopen:before,
+	.mm-menu.mm-black .mm-list > li > a.mm-subopen:before {
+		border-color: rgba($dark, 0.22);
+	}
+
+	#my-menu.mm-menu.mm-black .mm-list > li.mm-selected > a:not(.mm-subopen),
+	#my-menu.mm-menu.mm-black .mm-list > li.mm-selected > span,
+	.mm-menu.mm-black .mm-list > li.mm-selected > a:not(.mm-subopen),
+	.mm-menu.mm-black .mm-list > li.mm-selected > span {
+		background: rgba($dark, 0.08);
+	}
+
+	#my-menu.mm-menu.mm-black .mm-list > li.mm-label,
+	.mm-menu.mm-black .mm-list > li.mm-label,
+	#my-menu.mm-menu.mm-black.mm-vertical .mm-list li.mm-opened > a.mm-subopen,
+	#my-menu.mm-menu.mm-black.mm-vertical .mm-list li.mm-opened > ul,
+	.mm-menu.mm-black.mm-vertical .mm-list li.mm-opened > a.mm-subopen,
+	.mm-menu.mm-black.mm-vertical .mm-list li.mm-opened > ul {
+		background: rgba($dark, 0.06);
+	}
+
+	#my-menu.mm-menu.mm-black .mm-header,
+	.mm-menu.mm-black .mm-header {
+		border-color: rgba($dark, 0.15);
+		color: $medium;
+	}
+
+	#my-menu.mm-menu.mm-black .mm-header a:before,
+	.mm-menu.mm-black .mm-header a:before {
+		border-color: rgba($dark, 0.45);
+	}
+}
+
 a, a:active {
 	color: $light-blue;
 	text-decoration: none;

@@ -1,5 +1,5 @@
 <div class="lang-switcher">
-  <div class="toggle-container">
+  <div class="toggle-container lang-toggle">
     {% assign current_url = page.url %}
     {% assign es_fallback_url = current_url | replace_first: '/en/', '/' %}
     {% if es_fallback_url == '/en' %}
@@ -31,6 +31,15 @@
     <a href=" {{ en_url }}" class="toggle-option {% if site.active_lang == 'en' %}active{% endif %}">EN</a>
     <div class="toggle-slider {% if site.active_lang == 'en' %}right{% endif %}"></div>
   </div>
+  <div class="toggle-container theme-toggle" aria-label="Theme switcher">
+    <button type="button" class="toggle-option theme-option active" data-theme="dark" aria-label="Dark theme">
+      <i class="fa fa-moon-o" aria-hidden="true"></i>
+    </button>
+    <button type="button" class="toggle-option theme-option" data-theme="light" aria-label="Light theme">
+      <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+    </button>
+    <div class="toggle-slider"></div>
+  </div>
 </div>
 
 <style>
@@ -39,6 +48,15 @@
     top: 20px;
     right: 20px;
     z-index: 9999;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .lang-switcher {
+        top: 10px;
+        right: 10px;
+    }
 }
 .toggle-container {
     position: relative;
@@ -54,6 +72,8 @@
 .toggle-option {
     position: relative;
     z-index: 1;
+    border: 0;
+    background: transparent;
     padding: 5px 0;
     color: #aaa;
     font-weight: bold;
@@ -69,6 +89,9 @@
 .toggle-option:hover {
     color: #fff;
     text-decoration: none;
+}
+.theme-option {
+    cursor: pointer;
 }
 .toggle-slider {
     position: absolute;
@@ -88,8 +111,55 @@
 
 <script>
   (function() {
+    var THEME_KEY = "site_theme";
     var SCROLL_KEY = "lang_switch_scroll_state";
     var MAX_AGE_MS = 20000;
+    var allowedThemes = ["dark", "light"];
+
+    function readTheme() {
+      try {
+        var saved = localStorage.getItem(THEME_KEY);
+        if (allowedThemes.indexOf(saved) !== -1) {
+          return saved;
+        }
+      } catch (e) {}
+      return "dark";
+    }
+
+    function writeTheme(theme) {
+      try {
+        localStorage.setItem(THEME_KEY, theme);
+      } catch (e) {}
+    }
+
+    function applyTheme(theme) {
+      var mode = allowedThemes.indexOf(theme) !== -1 ? theme : "dark";
+      var isLight = mode === "light";
+      var menuNodes;
+
+      function syncMmenuSkin() {
+        menuNodes = document.querySelectorAll("#my-menu, .mm-menu, .mm-ismenu");
+        for (var i = 0; i < menuNodes.length; i++) {
+          menuNodes[i].classList.toggle("mm-white", isLight);
+          menuNodes[i].classList.toggle("mm-black", !isLight);
+        }
+        if (document.documentElement) {
+          document.documentElement.classList.toggle("mm-white", isLight);
+          document.documentElement.classList.toggle("mm-black", !isLight);
+        }
+      }
+
+      if (document.documentElement) {
+        document.documentElement.classList.toggle("theme-light", isLight);
+      }
+      if (document.body) {
+        document.body.classList.toggle("theme-light", isLight);
+      }
+      syncMmenuSkin();
+      setTimeout(syncMmenuSkin, 80);
+      setTimeout(syncMmenuSkin, 250);
+      setTimeout(syncMmenuSkin, 600);
+    }
 
     function normalizeUrl(rawHref) {
       try {
@@ -171,14 +241,45 @@
       }, { once: true });
     }
 
+    applyTheme(readTheme());
+
     document.addEventListener("DOMContentLoaded", function() {
-      var links = document.querySelectorAll(".lang-switcher .toggle-option");
+      var links = document.querySelectorAll(".lang-switcher .lang-toggle .toggle-option");
       links.forEach(function(link) {
         link.addEventListener("click", function() {
           if (link.classList.contains("active")) return;
           saveScrollState(link.getAttribute("href"));
         });
       });
+
+      var themeToggle = document.querySelector(".lang-switcher .theme-toggle");
+      var themeOptions = themeToggle ? themeToggle.querySelectorAll(".theme-option") : [];
+      var themeSlider = themeToggle ? themeToggle.querySelector(".toggle-slider") : null;
+
+      function syncThemeUi(theme) {
+        var mode = allowedThemes.indexOf(theme) !== -1 ? theme : "dark";
+        themeOptions.forEach(function(option) {
+          option.classList.toggle("active", option.getAttribute("data-theme") === mode);
+        });
+        if (themeSlider) {
+          themeSlider.classList.toggle("right", mode === "light");
+        }
+      }
+
+      var initialTheme = readTheme();
+      applyTheme(initialTheme);
+      syncThemeUi(initialTheme);
+
+      themeOptions.forEach(function(option) {
+        option.addEventListener("click", function() {
+          var selectedTheme = option.getAttribute("data-theme");
+          if (allowedThemes.indexOf(selectedTheme) === -1) return;
+          applyTheme(selectedTheme);
+          writeTheme(selectedTheme);
+          syncThemeUi(selectedTheme);
+        });
+      });
+
       restoreScrollIfNeeded();
     });
   })();
