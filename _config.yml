@@ -5,7 +5,7 @@ description: "Un espacio para compartir"
 baseurl: ""
 url: ""
 title_description: "“Lo que sabemos es una gota, lo que desconocemos es todo un océano.” -Isaac Newton."
-title_image: "images/avatar_5.jpeg"
+title_image: "images/avatar_6.jpeg"
 google_analytics: "G-HRLCXJMSKH"
 disqus_account: httpwwwcarmorenogithubio
 github_repository: https://github.com/CarMoreno/carmoreno.github.io
@@ -20,6 +20,7 @@ codepen_username: CarMoreno
 linkedin_link: https://co.linkedin.com/in/carmoreno1
 good_reads_link: https://www.goodreads.com/carmoreno
 stackoverflow_link: https://stackoverflow.com/users/4508767/carlos-moreno?tab=profile
+google_scholar_link: https://scholar.google.com/citations?user=ydARzv8AAAAJ&hl=en
 
 # Footer
 # footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
